@@ -9,23 +9,29 @@ from providers import fetch_snitches, fetch_newrelic, fetch_synthetics
 
 
 def handler(event, context):
-    github = login(config.USERNAME, config.PASSWORD)
-    repository = github.repository(config.GITHUB_ORG, config.GITHUB_REPOSITORY)
-
-    status_file = repository.file_contents(config.STATUS_FILE, ref='gh-pages')
-    if not status_file:
-        repository.create_file(
-            path=config.STATUS_FILE,
-            message='Create status file',
-            content='{}',
-            branch='gh-pages'
-        )['content']
+    if not config.DEBUG:
+        github = login(config.USERNAME, config.PASSWORD)
+        repository = github.repository(config.GITHUB_ORG, config.GITHUB_REPOSITORY)
         status_file = repository.file_contents(config.STATUS_FILE, ref='gh-pages')
+        if not status_file:
+            repository.create_file(
+                path=config.STATUS_FILE,
+                message='Create status file',
+                content='{}',
+                branch='gh-pages'
+            )['content']
+            status_file = repository.file_contents(config.STATUS_FILE, ref='gh-pages')
 
-    try:
-        content = yaml.load(status_file.decoded)
-    except ValueError:
-        content = dict()
+        try:
+            content = yaml.load(status_file.decoded)
+        except ValueError:
+            content = dict()
+    else:
+        try:
+            with open(config.STATUS_FILE) as f:
+                content = yaml.load(f.read())
+        except IOError:
+            content = dict()
 
     # Fetch components
     components = {}
@@ -36,6 +42,7 @@ def handler(event, context):
     for cid in components:
         if cid not in content:
             content[cid] = {
+                'id': cid,
                 'name': '{}'.format(components[cid]['name']),
                 'status': '{}'.format(components[cid]['status']),
                 'type': '{}'.format(components[cid]['type']),
@@ -59,8 +66,8 @@ def handler(event, context):
         if config.DMS_PING_URL:
             requests.get(config.DMS_PING_URL)
     else:
-        print('Update')
-        print (yaml.dump(content, default_flow_style=False))
+        with open(config.STATUS_FILE, 'w') as f:
+            f.write(yaml.dump(content, default_flow_style=False))
 
 
 if __name__ == '__main__':
