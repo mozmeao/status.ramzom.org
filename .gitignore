@@ -1,3 +1,4 @@
 .env*
 lambda.zip
 venv
+status.yml
