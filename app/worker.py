@@ -1,5 +1,3 @@
-from collections import namedtuple
-
 import requests
 import yaml
 from github3 import login
@@ -10,7 +8,7 @@ from providers import fetch_snitches, fetch_newrelic, fetch_synthetics
 
 def handler(event, context):
     if not config.DEBUG:
-        github = login(config.USERNAME, config.PASSWORD)
+        github = login(config.GITHUB_USERNAME, config.GITHUB_PASSWORD)
         repository = github.repository(config.GITHUB_ORG, config.GITHUB_REPOSITORY)
         status_file = repository.file_contents(config.STATUS_FILE, ref='gh-pages')
         if not status_file:

@@ -2,14 +2,14 @@ from decouple import config
 
 DEBUG = config('DEBUG', default=True, cast=bool)
 
-USERNAME = config('GITHUB_USERNAME')
-PASSWORD = config('GITHUB_PASSWORD')
+GITHUB_USERNAME = config('GITHUB_USERNAME')
+GITHUB_PASSWORD = config('GITHUB_PASSWORD')
 GITHUB_ORG = config('GITHUB_ORG')
 GITHUB_REPOSITORY = config('GITHUB_REPOSITORY')
 
 STATUS_FILE = 'status.yml'
 
-DMS_URL = config('DMS_URL')
+DMS_URL = 'https://api.deadmanssnitch.com/v1/snitches'
 DMS_API_KEY = config('DMS_API_KEY')
 
 NEW_RELIC_API_KEY = config('NEW_RELIC_API_KEY')
