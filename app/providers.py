@@ -6,13 +6,14 @@ import config
 
 
 def fetch_snitches():
+    snitches = {}
+
     response = requests.get(config.DMS_URL, auth=(config.DMS_API_KEY, ''))
     response.raise_for_status()
 
-    snitches = {}
     for snitch in response.json():
         id = 'dms-{}'.format(snitch['token'])
-        status = snitch['status']
+        status = config.STATUS_MAP[snitch['status']]['name']
         snitches[id] = {
             'name': snitch['name'],
             'status': status,
@@ -22,6 +23,13 @@ def fetch_snitches():
 
 
 def fetch_newrelic():
+    status_map = {
+        'red': config.STATUS_MAP['failed']['name'],
+        'orange': config.STATUS_MAP['warning']['name'],
+        'yellow': config.STATUS_MAP['warning']['name'],
+        'green': config.STATUS_MAP['healthy']['name'],
+        'gray': config.STATUS_MAP['pending']['name'],
+    }
     apps = {}
     response = requests.get('https://api.newrelic.com/v2/applications.json',
                             headers={'X-Api-Key': config.NEW_RELIC_API_KEY})
@@ -30,7 +38,7 @@ def fetch_newrelic():
         id = 'nr-{}'.format(application['id'])
         apps[id] = {
             'name': application['name'],
-            'status': application['health_status'],
+            'status': status_map[application['health_status']],
             'type': 'newrelic',
         }
 
@@ -61,13 +69,13 @@ def fetch_synthetics():
         second = second[0][0]
 
         if first == 'SUCCESS' and second == 'SUCCESS':
-            status = 'operational'
+            status = config.STATUS_MAP['healthy']['name']
         elif first == 'SUCCESS' and second == 'FAILED':
-            status = 'performance issues'
+            status = config.STATUS_MAP['warning']['name']
         elif first == 'FAILED' and second == 'SUCCESS':
-            status = 'partial outage'
+            status = config.STATUS_MAP['warning']['name']
         else:
-            status = 'major outage'
+            status = config.STATUS_MAP['failed']['name']
 
         monitors['synthetics-{}'.format(monitor_id)] = {
             'name': monitor_name[monitor_id],

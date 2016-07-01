@@ -58,14 +58,28 @@ def handler(event, context):
             content.pop(component)
             changed = True
 
+    status = sorted(components.values(),
+                    key=lambda x: config.STATUS_MAP[x['status']]['order'],
+                    reverse=True)[0]['status']
+
+    status_data = {
+        'status': {
+            'name': status,
+            'description': config.STATUS_MAP[status]['global_name'],
+        },
+        'components': content,
+    }
+
     if not config.DEBUG:
         if changed:
-            status_file.update('Status update', yaml.dump(content, default_flow_style=False), branch='gh-pages')
+            status_file.update(
+                'Status update',
+                yaml.dump(status_data, default_flow_style=False), branch='gh-pages')
         if config.DMS_PING_URL:
             requests.get(config.DMS_PING_URL)
     else:
         with open(config.STATUS_FILE, 'w') as f:
-            f.write(yaml.dump(content, default_flow_style=False))
+            f.write(yaml.dump(status_data, default_flow_style=False))
 
 
 if __name__ == '__main__':
