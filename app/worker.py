@@ -66,9 +66,9 @@ def handler(event, context):
             status = data['status']
 
     status_data = {
-        'status': {
-            'name': status,
-            'description': config.STATUS_MAP[status]['global_name'],
+        'globalStatus': {
+            'status': status,
+            'message': config.STATUS_MAP[status]['global_name'],
         },
         'components': current_components,
     }
