@@ -21,53 +21,56 @@ def handler(event, context):
             status_file = repository.file_contents(config.STATUS_FILE, ref='gh-pages')
 
         try:
-            content = yaml.load(status_file.decoded)
+            current_status = yaml.load(status_file.decoded)
         except ValueError:
-            content = dict()
+            current_status = dict()
     else:
         try:
             with open(config.STATUS_FILE) as f:
-                content = yaml.load(f.read())
+                current_status = yaml.load(f.read())
         except IOError:
-            content = dict()
+            current_status = dict()
+
+    current_components = current_status['components']
 
     # Fetch components
-    components = {}
+    updated_components = {}
     for f in [fetch_snitches, fetch_synthetics, fetch_newrelic]:
-        components.update(f())
+        updated_components.update(f())
 
     changed = False
-    for cid in components:
-        if cid not in content:
-            content[cid] = {
+    for cid, data in updated_components.items():
+        if cid not in current_components:
+            current_components[cid] = {
                 'id': cid,
-                'name': '{}'.format(components[cid]['name']),
-                'status': '{}'.format(components[cid]['status']),
-                'type': '{}'.format(components[cid]['type']),
+                'name': '{}'.format(data['name']),
+                'status': '{}'.format(data['status']),
+                'type': '{}'.format(data['type']),
                 'link': '',
                 'group': None,
                 'display': True,
             }
             changed = True
-        elif not content[cid].get('status', '') == components[cid]['status']:
-            content[cid]['status'] = '{}'.format(components[cid]['status'])
+        elif not current_components[cid].get('status', '') == data['status']:
+            current_components[cid]['status'] = data['status']
             changed = True
 
-    for component in content.keys():
-        if component not in components:
-            content.pop(component)
+    for cid in current_components.keys():
+        if cid not in updated_components:
+            current_components.pop(cid)
             changed = True
 
-    status = sorted(components.values(),
-                    key=lambda x: config.STATUS_MAP[x['status']]['order'],
-                    reverse=True)[0]['status']
+    status = config.STATUS_MAP['healthy']['name']
+    for data in (d for d in current_components.values() if d.get('display', True)):
+        if config.STATUS_MAP[status]['order'] < config.STATUS_MAP[data['status']]['order']:
+            status = data['status']
 
     status_data = {
         'status': {
             'name': status,
             'description': config.STATUS_MAP[status]['global_name'],
         },
-        'components': content,
+        'components': current_components,
     }
 
     if not config.DEBUG:
