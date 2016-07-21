@@ -46,7 +46,7 @@ def fetch_newrelic():
 
 
 def fetch_synthetics():
-    response = requests.get('https://insights-api.newrelic.com/v1/accounts/1299394/query?nrql=SELECT%20monitorId%2C%20monitorName%2C%20result%20%20FROM%20SyntheticCheck%20LIMIT%20200',
+    response = requests.get('https://insights-api.newrelic.com/v1/accounts/1299394/query?nrql=SELECT%20monitorId%2C%20monitorName%2C%20result%20FROM%20SyntheticCheck%20LIMIT%20400',
                             headers={'X-Query-Key': config.NEW_RELIC_QUERY_KEY})
     monitor_name = {}
     monitor_status = defaultdict(Counter)
