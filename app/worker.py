@@ -55,9 +55,10 @@ def handler(event, context):
             current_components[cid]['status'] = data['status']
             changed = True
 
+    # If components stop reporting set their status to warning.
     for cid in current_components.keys():
         if cid not in updated_components:
-            current_components.pop(cid)
+            current_components[cid]['status'] = config.STATUS_MAP['warning']['name']
             changed = True
 
     status = config.STATUS_MAP['healthy']['name']
