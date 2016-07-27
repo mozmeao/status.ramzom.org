@@ -10,6 +10,10 @@ def handler(event, context):
     if not config.DEBUG:
         github = login(config.GITHUB_USERNAME, config.GITHUB_PASSWORD)
         repository = github.repository(config.GITHUB_ORG, config.GITHUB_REPOSITORY)
+        if not repository:
+            raise Exception('Repository {}/{} does not exist'.format(config.GITHUB_ORG,
+                                                                     config.GITHUB_REPOSITORY))
+
         status_file = repository.file_contents(config.STATUS_FILE, ref='gh-pages')
         if not status_file:
             repository.create_file(
