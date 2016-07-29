@@ -42,7 +42,7 @@ def handler(event, context):
     for f in [fetch_snitches, fetch_synthetics, fetch_newrelic]:
         updated_components.update(f())
 
-    changed = False
+    changed = []
     for cid, data in updated_components.items():
         if cid not in current_components:
             current_components[cid] = {
@@ -54,16 +54,16 @@ def handler(event, context):
                 'group': None,
                 'display': True,
             }
-            changed = True
+            changed.append(data['name'])
         elif not current_components[cid].get('status', '') == data['status']:
             current_components[cid]['status'] = data['status']
-            changed = True
+            changed.append(current_components[cid]['name'])
 
     # If components stop reporting set their status to warning.
     for cid in current_components.keys():
         if cid not in updated_components:
             current_components[cid]['status'] = config.STATUS_MAP['warning']['name']
-            changed = True
+            changed.append(current_components[cid]['name'])
 
     status = config.STATUS_MAP['healthy']['name']
     for data in (d for d in current_components.values() if d.get('display', True)):
@@ -80,8 +80,13 @@ def handler(event, context):
 
     if not config.DEBUG:
         if changed:
+            commit_msg = 'Status update for ' + ', '.join(changed)
+            if len(commit_msg) > 80:
+                commit_msg = 'Status update for {} services\n\n'.format(len(changed))
+                commit_msg += ''.join([' * {}\n'.format(x) for x in changed])
+
             status_file.update(
-                'Status update',
+                commit_msg,
                 yaml.dump(status_data, default_flow_style=False), branch='gh-pages')
         if config.DMS_PING_URL:
             requests.get(config.DMS_PING_URL)
