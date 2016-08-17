@@ -18,6 +18,8 @@ NEW_RELIC_QUERY_KEY = config('NEW_RELIC_QUERY_KEY')
 
 DMS_PING_URL = config('DMS_PING_URL')
 
+SENTRY_DSN = config('SENTRY_DSN', default=None)
+
 STATUS_MAP = {
     'pending': {
         'name': 'pending',

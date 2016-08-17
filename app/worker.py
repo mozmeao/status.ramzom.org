@@ -1,9 +1,16 @@
 import requests
 import yaml
 from github3 import login
+from raven import Client
 
 import config
 from providers import fetch_snitches, fetch_newrelic, fetch_synthetics
+
+sentry_client = Client(config.SENTRY_DSN,
+                       install_sys_hook=False,
+                       ignore_exceptions=['KeyboardInterrupt', 'SystemExit'],
+                       processors=['raven.processors.SanitizePasswordsProcessor'],
+                       release=config.VERSION)
 
 
 def handler(event, context):
@@ -40,7 +47,11 @@ def handler(event, context):
     # Fetch components
     updated_components = {}
     for f in [fetch_snitches, fetch_synthetics, fetch_newrelic]:
-        updated_components.update(f())
+        try:
+            updated_components.update(f())
+        except:
+            sentry_client.captureException()
+            raise
 
     changed = []
     for cid, data in updated_components.items():
