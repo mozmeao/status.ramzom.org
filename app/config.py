@@ -1,6 +1,7 @@
 from decouple import config
 
 DEBUG = config('DEBUG', default=True, cast=bool)
+VERSION = config('GIT_SHA', default='')
 
 GITHUB_USERNAME = config('GITHUB_USERNAME')
 GITHUB_PASSWORD = config('GITHUB_PASSWORD')
