@@ -21,6 +21,12 @@ STATUS_MAP = {
     'pending': {
         'name': 'pending',
         'order': 10,
+        'global_name': 'Awaiting status for all systems',
+    },
+    'paused': {
+        'name': 'paused',
+        'order': 15,
+        'global_name': 'Some systems are paused',
     },
     'healthy': {
         'name': 'healthy',
