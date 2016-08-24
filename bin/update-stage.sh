@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 if [[ -z "${DEVELOP_REPOSITORY}" ]]; then
     echo "Set DEVELOP_REPOSITORY"
@@ -21,8 +22,9 @@ find . -maxdepth 1  -not -path './.git' -not -path '.' -exec cp -r {} ~/develop 
 pushd ~/develop
 
 # Add CNAME file for GitHub pages.
+CNAME_PATH=${CNAME_PATH:-./docs/CNAME}
 mkdir -p $(dirname ${CNAME_PATH})
-echo ${CNAME} > ${CNAME_PATH:-./docs/CNAME}
+echo ${CNAME} > ${CNAME_PATH}
 
 git config --global user.email "statusbot@mozmar.org"
 git config --global user.name "mozmar-statusbot"
