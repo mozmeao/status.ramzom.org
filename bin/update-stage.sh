@@ -20,6 +20,10 @@ popd
 find . -maxdepth 1  -not -path './.git' -not -path '.' -exec cp -r {} ~/develop \;
 pushd ~/develop
 
+# Add CNAME file for GitHub pages.
+mkdir -p $(dirname ${CNAME_PATH})
+echo ${CNAME} > ${CNAME_PATH:-./docs/CNAME}
+
 git config --global user.email "statusbot@mozmar.org"
 git config --global user.name "mozmar-statusbot"
 git add .
