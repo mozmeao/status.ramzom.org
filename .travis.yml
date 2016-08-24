@@ -1,0 +1,8 @@
+language: python
+env:
+  global:
+    - DEVELOP_REPOSITORY=mozmar/status.ramzom.org
+install:
+  - echo
+script:
+  - if [[ ${TRAVIS_BRANCH} == "develop" ]]; then ./bin/update-stage.sh; fi
