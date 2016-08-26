@@ -17,7 +17,7 @@ DMS_API_KEY = config('DMS_API_KEY')
 NEW_RELIC_API_KEY = config('NEW_RELIC_API_KEY')
 NEW_RELIC_QUERY_KEY = config('NEW_RELIC_QUERY_KEY')
 
-DMS_PING_URL = config('DMS_PING_URL')
+DMS_PING_URL = config('DMS_PING_URL', default=None)
 
 SENTRY_DSN = config('SENTRY_DSN', default=None)
 
