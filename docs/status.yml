@@ -55,14 +55,6 @@ components:
     name: Status Board Update (Stage)
     status: pending
     type: deadmanssnitch
-  dms-4a84f9a9d9:
-    display: true
-    group: null
-    id: dms-4a84f9a9d9
-    link: ''
-    name: Status Board - NewRelic App Fetch
-    status: warning
-    type: deadmanssnitch
   dms-6eb44fe994:
     display: true
     group: null
