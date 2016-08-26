@@ -50,10 +50,10 @@ components:
     type: deadmanssnitch
   dms-3ea402d1d7:
     display: true
-    group: null
+    group: Infrastructure
     id: dms-3ea402d1d7
     link: ''
-    name: Status Board Update (Stage)
+    name: Status Board Update
     status: healthy
     type: deadmanssnitch
   dms-6eb44fe994:
@@ -447,14 +447,6 @@ components:
     name: Website
     order: 600
     status: healthy
-    type: synthetics
-  synthetics-4860ea0f-a985-425d-bb2b-c75c34c90d54:
-    display: false
-    group: null
-    id: synthetics-4860ea0f-a985-425d-bb2b-c75c34c90d54
-    link: ''
-    name: Test
-    status: warning
     type: synthetics
   synthetics-51f2ccb1-ac06-46df-b0ec-c4435c7f6124:
     display: false
