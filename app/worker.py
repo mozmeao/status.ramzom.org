@@ -42,7 +42,7 @@ def handler(event, context):
         except IOError:
             current_status = dict()
 
-    current_components = current_status['components']
+    current_components = current_status.get('components', {})
 
     # Fetch components
     updated_components = {}
