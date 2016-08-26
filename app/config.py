@@ -3,8 +3,7 @@ from decouple import config
 DEBUG = config('DEBUG', default=True, cast=bool)
 VERSION = config('GIT_SHA', default='')
 
-GITHUB_USERNAME = config('GITHUB_USERNAME')
-GITHUB_PASSWORD = config('GITHUB_PASSWORD')
+GITHUB_TOKEN = config('GITHUB_TOKEN')
 GITHUB_ORG = config('GITHUB_ORG')
 GITHUB_REPOSITORY = config('GITHUB_REPOSITORY')
 

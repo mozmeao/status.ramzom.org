@@ -15,7 +15,7 @@ sentry_client = Client(config.SENTRY_DSN,
 
 def handler(event, context):
     if not config.DEBUG:
-        github = login(config.GITHUB_USERNAME, config.GITHUB_PASSWORD)
+        github = login(token=config.GITHUB_TOKEN)
         repository = github.repository(config.GITHUB_ORG, config.GITHUB_REPOSITORY)
         if not repository:
             raise Exception('Repository {}/{} does not exist'.format(config.GITHUB_ORG,
