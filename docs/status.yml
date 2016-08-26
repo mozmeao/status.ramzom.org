@@ -47,13 +47,21 @@ components:
     name: Docker Cleanup Service - US West
     status: healthy
     type: deadmanssnitch
+  dms-3ea402d1d7:
+    display: true
+    group: null
+    id: dms-3ea402d1d7
+    link: ''
+    name: Status Board Update (Stage)
+    status: pending
+    type: deadmanssnitch
   dms-4a84f9a9d9:
     display: true
     group: null
     id: dms-4a84f9a9d9
     link: ''
     name: Status Board - NewRelic App Fetch
-    status: pending
+    status: warning
     type: deadmanssnitch
   dms-6eb44fe994:
     display: true
@@ -301,7 +309,7 @@ components:
     id: nr-13698376
     link: ''
     name: basket-admin-stage-us-west
-    status: healthy
+    status: pending
     type: newrelic
   nr-13701297:
     display: true
@@ -568,5 +576,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: All systems healthy
-  status: healthy
+  message: Some systems are experiencing issues
+  status: warning
