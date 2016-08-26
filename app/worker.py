@@ -21,15 +21,15 @@ def handler(event, context):
             raise Exception('Repository {}/{} does not exist'.format(config.GITHUB_ORG,
                                                                      config.GITHUB_REPOSITORY))
 
-        status_file = repository.file_contents(config.STATUS_FILE, ref='gh-pages')
+        status_file = repository.file_contents(config.STATUS_FILE, ref=config.BRANCH)
         if not status_file:
             repository.create_file(
                 path=config.STATUS_FILE,
                 message='Create status file',
                 content='{}',
-                branch='gh-pages'
+                branch=config.BRANCH,
             )['content']
-            status_file = repository.file_contents(config.STATUS_FILE, ref='gh-pages')
+            status_file = repository.file_contents(config.STATUS_FILE, ref=config.BRANCH)
 
         try:
             current_status = yaml.load(status_file.decoded)
@@ -98,7 +98,7 @@ def handler(event, context):
 
             status_file.update(
                 commit_msg,
-                yaml.dump(status_data, default_flow_style=False), branch='gh-pages')
+                yaml.dump(status_data, default_flow_style=False), branch=config.BRANCH)
         if config.DMS_PING_URL:
             requests.get(config.DMS_PING_URL)
     else:

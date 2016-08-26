@@ -8,7 +8,8 @@ GITHUB_PASSWORD = config('GITHUB_PASSWORD')
 GITHUB_ORG = config('GITHUB_ORG')
 GITHUB_REPOSITORY = config('GITHUB_REPOSITORY')
 
-STATUS_FILE = 'status.yml'
+BRANCH = config('BRANCH', default='master')
+STATUS_FILE = config('STATUS_FILE', default='docs/status.yml')
 
 DMS_URL = 'https://api.deadmanssnitch.com/v1/snitches'
 DMS_API_KEY = config('DMS_API_KEY')
