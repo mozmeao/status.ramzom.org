@@ -70,11 +70,14 @@ def handler(event, context):
             current_components[cid]['status'] = data['status']
             changed.append(current_components[cid]['name'])
 
-    # If components stop reporting set their status to warning.
-    for cid in current_components.keys():
+    # If components stop reporting set their status to warning if not already
+    # set.
+    for cid in current_components:
         if cid not in updated_components:
-            current_components[cid]['status'] = config.STATUS_MAP['warning']['name']
-            changed.append(current_components[cid]['name'])
+            warning_status = config.STATUS_MAP['warning']['name']
+            if current_components[cid]['status'] != warning_status:
+                changed.append(current_components[cid]['name'])
+                current_components[cid]['status'] = warning_status
 
     status = config.STATUS_MAP['healthy']['name']
     for data in (d for d in current_components.values() if d.get('display', True)):
