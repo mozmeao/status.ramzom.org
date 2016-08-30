@@ -124,7 +124,7 @@ components:
     link: ''
     name: Periodic Tasks - US-West
     order: 120
-    status: paused
+    status: healthy
     type: deadmanssnitch
   nr-13674646:
     display: false
