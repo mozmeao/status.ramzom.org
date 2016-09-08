@@ -72,7 +72,7 @@ components:
     link: ''
     name: Queue EU-West
     order: 420
-    status: failed
+    status: paused
     type: deadmanssnitch
   dms-8166cac951:
     display: false
@@ -106,7 +106,7 @@ components:
     id: dms-d46cd45930
     link: ''
     name: Queue US-West
-    status: failed
+    status: paused
     type: deadmanssnitch
   dms-e7b32a3078:
     display: false
@@ -610,5 +610,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: All systems healthy
+  status: healthy
