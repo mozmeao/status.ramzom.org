@@ -199,8 +199,10 @@ class StatusBoard extends Component {
         this.state = {
             globalStatusMessage: 'Fetching data.',
             globalStatus: 'pending',
+            oldGlobalStatus: null,
             services: [],
-            lastUpdate: null
+            lastUpdate: null,
+            desktopNotify: false
         };
     }
 
@@ -226,6 +228,7 @@ class StatusBoard extends Component {
         });
 
         this.setState({
+            oldGlobalStatus: this.state.globalStatus,
             globalStatus: statusData.globalStatus.status,
             globalStatusMessage: statusData.globalStatus.message,
             services: services,
@@ -236,6 +239,26 @@ class StatusBoard extends Component {
     componentDidMount() {
         this.updateStatus();
         setInterval(this.updateStatus.bind(this), 60000);
+        this.getDesktopNotifyPermission();
+    }
+
+    getDesktopNotifyPermission(message, icon) {
+        if (!('Notification' in window)) {
+            return;
+        }
+        // Let's check whether notification permissions have already been granted
+        else if (Notification.permission === 'granted') {
+            this.setState({desktopNotify: true});
+        }
+        // Otherwise, we need to ask the user for permission
+        else if (Notification.permission !== 'denied') {
+            Notification.requestPermission(permission => {
+                // If the user accepts, let's create a notification
+                if (permission === 'granted') {
+                    this.setState({desktopNotify: true});
+                }
+            });
+        }
     }
 
     render() {
@@ -247,7 +270,9 @@ class StatusBoard extends Component {
             <div id="status-board">
                 <GlobalStatus
                     message={this.state.globalStatusMessage}
-                    status={this.state.globalStatus}/>
+                    status={this.state.globalStatus}
+                    oldStatus={this.state.oldGlobalStatus}
+                    desktopNotify={this.state.desktopNotify} />
                 <Header />
                 <ServiceList services={this.state.services} />
             </div>
