@@ -207,7 +207,7 @@ class StatusBoard extends Component {
     }
 
     updateStatus() {
-        fetch('./status.yml').then(response => {
+        fetch('./status.yml?date=' + Date.now()).then(response => {
             if (response.ok) {
                 response.text().then(text => {
                     this.updateStateFromYaml(text);
