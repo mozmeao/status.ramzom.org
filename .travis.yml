@@ -1,8 +1,19 @@
-language: python
+language: node_js
+node_js:
+  - "6"
 env:
   global:
-    - DEVELOP_REPOSITORY=mozmar/status.ramzom.org
+    - STAGING_REPOSITORY=mozmar/status.ramzom.org
+before_install:
+  - cd ./local-dev/
 install:
-  - echo
+  - npm install
 script:
-  - if [[ ${TRAVIS_BRANCH} == "develop" ]]; then ./bin/update-stage.sh; fi
+  - npm test
+deploy:
+  - provider: script
+    script: cd ${TRAVIS_BUILD_DIR} && ./bin/update-stage.sh
+    skip_cleanup: true
+    on:
+      branch: develop-test
+      repo: mozmar/status.mozmar.org

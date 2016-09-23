@@ -13,7 +13,13 @@ fi
 
 PRESERVE_FILES="./docs/CNAME ./docs/status.yml"
 
-git clone https://github.com/${STAGING_REPOSITORY} ~/develop
+# Build site
+pushd ./local-dev
+npm run build
+npm run finalize
+popd
+
+git clone https://github.com/${STAGING_REPOSITORY}.git ~/develop
 
 # Delete all files from develop repo except from the git dir
 pushd ~/develop
@@ -38,5 +44,8 @@ git config --global user.email "statusbot@mozmar.org"
 git config --global user.name "mozmar-statusbot"
 git add .
 git commit -m "Site update"
-git remote add origin-rw https://${GITHUB_AUTH_TOKEN}@github.com/${STAGING_REPOSITORY}
-git push -f origin-rw master
+if [[ $? == 0 ]];
+then
+    git remote add status-ramzom-org-rw https://${GITHUB_AUTH_TOKEN}@github.com/${STAGING_REPOSITORY}.git
+    git push -f status-ramzom-org-rw master
+fi
