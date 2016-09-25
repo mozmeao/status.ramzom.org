@@ -473,7 +473,7 @@ components:
     link: ''
     name: Website US-West
     order: 500
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
     display: false
@@ -553,7 +553,7 @@ components:
     link: ''
     name: Website US-West
     order: 300
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-c88c9131-1412-4687-bd01-05193089dfce:
     display: false
