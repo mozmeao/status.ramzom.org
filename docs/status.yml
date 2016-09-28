@@ -598,7 +598,7 @@ components:
     link: ''
     name: Admin Website US-West
     order: 400
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80:
     display: false
