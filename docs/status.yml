@@ -544,7 +544,7 @@ components:
     link: ''
     name: Website
     order: 200
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3:
     display: false
@@ -607,7 +607,7 @@ components:
     link: ''
     name: Website
     order: 800
-    status: healthy
+    status: warning
     type: synthetics
 globalStatus:
   message: All systems healthy
