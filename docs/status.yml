@@ -436,7 +436,7 @@ components:
     id: nr-18375214
     link: ''
     name: standup-stage
-    status: healthy
+    status: pending
     type: newrelic
   nr-18380313:
     display: true
