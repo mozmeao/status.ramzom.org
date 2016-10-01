@@ -444,7 +444,7 @@ components:
     id: nr-18380313
     link: ''
     name: standup-prod
-    status: failed
+    status: warning
     type: newrelic
   synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
     display: false
@@ -626,5 +626,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
