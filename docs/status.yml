@@ -404,7 +404,7 @@ components:
     link: ''
     name: Application
     order: 610
-    status: healthy
+    status: failed
     type: newrelic
   nr-13851870:
     display: false
