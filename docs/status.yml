@@ -623,7 +623,7 @@ components:
     link: ''
     name: Website
     order: 800
-    status: warning
+    status: healthy
     type: synthetics
 globalStatus:
   message: All systems healthy
