@@ -226,7 +226,7 @@ components:
     id: nr-13687960
     link: ''
     name: Application US-West
-    status: healthy
+    status: pending
     type: newrelic
   nr-13687969:
     display: true
@@ -311,7 +311,7 @@ components:
     link: ''
     name: Admin Application US-West
     order: 410
-    status: healthy
+    status: pending
     type: newrelic
   nr-13698376:
     display: true
