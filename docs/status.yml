@@ -480,7 +480,7 @@ components:
     link: ''
     name: Website EU-West
     order: 501
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-615be5db-81f3-462b-903f-a19afdfc19bf:
     display: false
