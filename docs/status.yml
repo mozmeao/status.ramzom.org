@@ -578,7 +578,7 @@ components:
     link: ''
     name: Website
     order: 400
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-c8c2dd43-5f4f-40da-a012-c450d42fc32e:
     display: false
@@ -614,7 +614,7 @@ components:
     link: ''
     name: Admin Website US-West
     order: 400
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80:
     display: false
