@@ -285,7 +285,7 @@ components:
     id: nr-13688046
     link: ''
     name: masterfirefoxos_dev
-    status: healthy
+    status: pending
     type: newrelic
   nr-13688073:
     display: false
