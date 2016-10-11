@@ -311,7 +311,7 @@ components:
     link: ''
     name: Admin Application US-West
     order: 410
-    status: healthy
+    status: pending
     type: newrelic
   nr-13698376:
     display: true
@@ -319,7 +319,7 @@ components:
     id: nr-13698376
     link: ''
     name: Admin Application US-West
-    status: healthy
+    status: pending
     type: newrelic
   nr-13701297:
     display: false
@@ -498,7 +498,7 @@ components:
     link: ''
     name: Website
     order: 500
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
     display: false
