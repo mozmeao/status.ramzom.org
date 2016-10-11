@@ -191,7 +191,7 @@ components:
     link: ''
     name: Application EU-West
     order: 310
-    status: healthy
+    status: pending
     type: newrelic
   nr-13687785:
     display: false
@@ -251,7 +251,7 @@ components:
     link: ''
     name: Application US-West
     order: 310
-    status: failed
+    status: pending
     type: newrelic
   nr-13688011:
     display: false
