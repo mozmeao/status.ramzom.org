@@ -13,7 +13,7 @@ components:
     id: dms-078f7f5a2f
     link: ''
     name: CloudFlare to Datadog Sync
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-16e219cc55:
     display: false
@@ -200,7 +200,7 @@ components:
     link: ''
     name: Application EU-West
     order: 110
-    status: healthy
+    status: failed
     type: newrelic
   nr-13687900:
     display: false
@@ -294,7 +294,7 @@ components:
     link: ''
     name: Application US-West
     order: 110
-    status: healthy
+    status: failed
     type: newrelic
   nr-13688101:
     display: true
@@ -596,7 +596,7 @@ components:
     link: ''
     name: Website EU-West
     order: 100
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-e6d31da8-fc7d-419b-a7b4-1905e890201d:
     display: false
@@ -614,7 +614,7 @@ components:
     link: ''
     name: Admin Website US-West
     order: 400
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80:
     display: false
