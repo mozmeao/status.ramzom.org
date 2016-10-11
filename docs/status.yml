@@ -63,7 +63,7 @@ components:
     link: ''
     name: Queue US-West
     order: 420
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-7311a3e4db:
     display: true
@@ -498,7 +498,7 @@ components:
     link: ''
     name: Website
     order: 500
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
     display: false
