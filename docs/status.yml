@@ -191,7 +191,7 @@ components:
     link: ''
     name: Application EU-West
     order: 310
-    status: failed
+    status: warning
     type: newrelic
   nr-13687785:
     display: false
