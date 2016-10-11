@@ -294,7 +294,7 @@ components:
     link: ''
     name: Application US-West
     order: 110
-    status: healthy
+    status: failed
     type: newrelic
   nr-13688101:
     display: true
@@ -587,7 +587,7 @@ components:
     link: https://snippets-stats.eu-west.moz.works
     name: Website Snippets Stats EU-West
     order: 305
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
     display: false
