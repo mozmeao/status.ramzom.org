@@ -327,7 +327,7 @@ components:
     id: nr-13701297
     link: ''
     name: bedrock-dev-us-west
-    status: pending
+    status: healthy
     type: newrelic
   nr-13701320:
     display: false
