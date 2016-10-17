@@ -182,7 +182,7 @@ components:
     link: ''
     name: Application EU-West
     order: 410
-    status: healthy
+    status: failed
     type: newrelic
   nr-13687704:
     display: false
