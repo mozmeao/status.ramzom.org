@@ -15,5 +15,6 @@ deploy:
     script: cd ${TRAVIS_BUILD_DIR} && ./bin/update-stage.sh
     skip_cleanup: true
     on:
-      branch: develop
-      repo: mozmar/status.mozmar.org
+      branch: develop-test
+      # repo: mozmar/status.mozmar.org
+      repo: glogiotatidis/status.mozmar.org

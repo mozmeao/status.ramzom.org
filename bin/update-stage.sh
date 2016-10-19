@@ -19,10 +19,10 @@ npm run build
 npm run finalize
 popd
 
-git clone https://github.com/${STAGING_REPOSITORY}.git ~/develop
+TMPDIR=$(mktemp -d)
+pushd ${TMPDIR}
+git clone https://github.com/${STAGING_REPOSITORY}.git .
 
-# Delete all files from develop repo except from the git dir
-pushd ~/develop
 TMP=$(mktemp)
 
 # Tar the files to be preserved
@@ -33,8 +33,8 @@ find . -maxdepth 1 -not -path "./.git" -not -path '.' -exec rm -rf {} \;
 popd
 
 # Copy everything except git directory
-find . -maxdepth 1  -not -path './.git' -not -path '.' -exec cp -r {} ~/develop \;
-pushd ~/develop
+find . -maxdepth 1  -not -path './.git' -not -path '.' -exec cp -r {} ${TMPDIR} \;
+pushd ${TMPDIR}
 
 # Restore preserved files
 tar xf ${TMP}
@@ -44,6 +44,8 @@ git config --global user.email "statusbot@mozmar.org"
 git config --global user.name "mozmar-statusbot"
 git add .
 git commit -m "Site update"
+
+# Push to staging only if there are commit changes.
 if [[ $? == 0 ]];
 then
     git remote add status-ramzom-org-rw https://${GITHUB_AUTH_TOKEN}@github.com/${STAGING_REPOSITORY}.git
