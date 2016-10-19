@@ -5,7 +5,7 @@ var buildPath = path.join(__dirname, '../build');
 var deployPath = __dirname.replace('/local-dev/scripts', '/docs');
 
 // files to be ignored when finalizing build into /docs directory
-var blessedFiles = ['.gitignore', 'CNAME', 'status.yml'];
+var blessedFiles = ['.gitignore', '.gitkeep', 'CNAME', 'status.yml'];
 
 // make sure /build directory exists
 fs.exists(buildPath, (exists) => {

@@ -13,11 +13,26 @@ fi
 
 PRESERVE_FILES="./docs/CNAME ./docs/status.yml"
 
+# Git configuration
+git config --global user.email "statusbot@mozmar.org"
+git config --global user.name "mozmar-statusbot"
+
+
 # Build site
 pushd ./local-dev
 npm run build
 npm run finalize
 popd
+
+git add -f docs
+git commit -m "Automatic npm build."
+
+# Push to develop only if there are commit changes.
+if [[ $? == 0 ]];
+then
+    git remote add develop-rw https://${GITHUB_AUTH_TOKEN}@github.com/${DEVELOP_REPOSITORY}.git
+    git push -f develop-rw develop 2> /dev/null
+fi
 
 TMPDIR=$(mktemp -d)
 pushd ${TMPDIR}
@@ -40,14 +55,14 @@ pushd ${TMPDIR}
 tar xf ${TMP}
 
 # Commit to staging repository
-git config --global user.email "statusbot@mozmar.org"
-git config --global user.name "mozmar-statusbot"
 git add .
 git commit -m "Site update"
+
+
 
 # Push to staging only if there are commit changes.
 if [[ $? == 0 ]];
 then
-    git remote add status-ramzom-org-rw https://${GITHUB_AUTH_TOKEN}@github.com/${STAGING_REPOSITORY}.git
-    git push -f status-ramzom-org-rw master 2> /dev/null
+    git remote add staging-rw https://${GITHUB_AUTH_TOKEN}@github.com/${STAGING_REPOSITORY}.git
+    git push -f staging-rw master 2> /dev/null
 fi

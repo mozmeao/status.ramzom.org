@@ -4,6 +4,7 @@ node_js:
 env:
   global:
     - STAGING_REPOSITORY=mozmar/status.ramzom.org
+    - DEVELOP_REPOSITORY=mozmar/status.mozmar.org
 before_install:
   - cd ./local-dev/
 install:
@@ -15,6 +16,5 @@ deploy:
     script: cd ${TRAVIS_BUILD_DIR} && ./bin/update-stage.sh
     skip_cleanup: true
     on:
-      branch: develop-test
-      # repo: mozmar/status.mozmar.org
-      repo: glogiotatidis/status.mozmar.org
+      branch: develop
+      repo: mozmar/status.mozmar.org
