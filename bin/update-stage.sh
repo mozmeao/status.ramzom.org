@@ -47,5 +47,5 @@ git commit -m "Site update"
 if [[ $? == 0 ]];
 then
     git remote add status-ramzom-org-rw https://${GITHUB_AUTH_TOKEN}@github.com/${STAGING_REPOSITORY}.git
-    git push -f status-ramzom-org-rw master
+    git push -f status-ramzom-org-rw master 2> /dev/null
 fi
