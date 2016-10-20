@@ -368,7 +368,7 @@ components:
     link: ''
     name: Application (Heroku)
     order: 700
-    status: healthy
+    status: pending
     type: newrelic
   nr-13782058:
     display: false
