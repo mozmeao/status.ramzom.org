@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import fetch from 'isomorphic-fetch';
-import jsyaml from 'js-yaml';
 
 import Header from './Header';
 import GlobalStatus from './GlobalStatus';
@@ -29,7 +27,7 @@ class Service extends Component {
         return (
             <li className="list-group-item">
                 {this.getBadge()}
-                {/* soon... <Link to={`/service/${this.props.id}`}>{this.props.name}</Link>*/}
+                {/* soon...seriously <Link to={`/service/${this.props.id}`}>{this.props.name}</Link> */}
                 {this.props.name}
                 &nbsp;
                 {this.getLink()}
@@ -137,8 +135,8 @@ class ServiceList extends Component {
     }
 
     /**
-     *  Group order is defined by the component in the group with the minimum
-     *  order value.
+     * Group order is defined by the component in the group with the minimum
+     * order value.
      *
      * Default is DEFAULT_ORDER_VALUE.
      */
@@ -193,88 +191,21 @@ class ServiceList extends Component {
 }
 
 class StatusBoard extends Component {
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            globalStatusMessage: 'Fetching data.',
-            globalStatus: 'pending',
-            oldGlobalStatus: null,
-            services: [],
-            lastUpdate: null,
-            desktopNotify: false
-        };
-    }
-
-    updateStatus() {
-        fetch('./status.yml?date=' + Date.now()).then(response => {
-            if (response.ok) {
-                response.text().then(text => {
-                    this.updateStateFromYaml(text);
-                });
-            } else {
-                console.error('status.yml response not ok :(');
-            }
-        }).catch((err) => {
-            console.error('fetch error!');
-            console.error(err);
-        });
-    }
-
-    updateStateFromYaml(yaml) {
-        var statusData = jsyaml.load(yaml);
-        var services = Object.keys(statusData.components).map(key => {
-            return statusData.components[key];
-        });
-
-        this.setState({
-            oldGlobalStatus: this.state.globalStatus,
-            globalStatus: statusData.globalStatus.status,
-            globalStatusMessage: statusData.globalStatus.message,
-            services: services,
-            lastUpdate: new Date()
-        });
-    }
-
-    componentDidMount() {
-        this.updateStatus();
-        setInterval(this.updateStatus.bind(this), 60000);
-        this.getDesktopNotifyPermission();
-    }
-
-    getDesktopNotifyPermission(message, icon) {
-        if (!('Notification' in window)) {
-            return;
-        }
-        // Let's check whether notification permissions have already been granted
-        else if (Notification.permission === 'granted') {
-            this.setState({desktopNotify: true});
-        }
-        // Otherwise, we need to ask the user for permission
-        else if (Notification.permission !== 'denied') {
-            Notification.requestPermission(permission => {
-                // If the user accepts, let's create a notification
-                if (permission === 'granted') {
-                    this.setState({desktopNotify: true});
-                }
-            });
-        }
-    }
-
     render() {
         // update last updated timestamp
         var lastUpdate = document.getElementById('last-update');
-        lastUpdate.textContent = 'Last Update: ' + this.state.lastUpdate;
+        lastUpdate.textContent = 'Last Update: ' + this.props.global.lastUpdate;
 
         return (
             <div id="status-board">
                 <GlobalStatus
-                    message={this.state.globalStatusMessage}
-                    status={this.state.globalStatus}
-                    oldStatus={this.state.oldGlobalStatus}
-                    desktopNotify={this.state.desktopNotify} />
+                    desktopNotify={this.props.global.desktopNotify}
+                    message={this.props.global.message}
+                    notifyMessage={this.props.global.notifyMessage}
+                    status={this.props.global.status}
+                    clearDesktopNotify={this.props.clearDesktopNotify}/>
                 <Header />
-                <ServiceList services={this.state.services} />
+                <ServiceList services={this.props.global.services} />
             </div>
         );
     }

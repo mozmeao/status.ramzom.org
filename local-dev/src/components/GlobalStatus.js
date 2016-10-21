@@ -28,6 +28,7 @@ class GlobalStatus extends Component {
 
         return result;
     }
+
     statusToIcon(status) {
         var img;
 
@@ -45,10 +46,11 @@ class GlobalStatus extends Component {
             default:
                 break;
         }
+
         return img;
     }
+
     setFavicon(status) {
-        // update favicon
         var favicon = document.getElementById('favicon');
         var img = this.statusToIcon(status);
 
@@ -56,23 +58,28 @@ class GlobalStatus extends Component {
             favicon.href = img;
         }
     }
+
     sendDesktopNotification(message, icon) {
         var options = {
             body: 'Mozilla Engagement Engineering Status Board',
             icon: icon
         };
+
         new Notification(message, options);
+
+        // Make sure notification isn't duplicated if view changes before next
+        // global status request.
+        this.props.clearDesktopNotify();
     }
+
     render() {
         this.setFavicon(this.props.status);
 
-        if (this.props.desktopNotify &&
-            this.props.oldStatus && this.props.oldStatus !== 'pending' &&
-            this.props.status !== this.props.oldStatus) {
-                this.sendDesktopNotification(this.props.message, this.statusToIcon(this.props.status));
-        }
-
         var className = 'alert alert-' + this.statusToColor(this.props.status);
+
+        if (this.props.desktopNotify === true && this.props.notifyMessage === true) {
+            this.sendDesktopNotification(this.props.message, this.statusToIcon(this.props.status));
+        }
 
         return (
             <div className={className} role="alert">
