@@ -1,6 +1,4 @@
 #!/bin/bash
-set -xe
-
 if [[ -z "${STAGING_REPOSITORY}" ]]; then
     echo "Set STAGING_REPOSITORY"
     exit 1;
@@ -27,7 +25,7 @@ npm run build
 npm run finalize
 popd
 
-git add -f docs
+git add -f --all docs
 git commit -m "Automatic npm build."
 
 # Push to develop only if there are commit changes.
@@ -59,7 +57,7 @@ pushd ${TMPDIR}
 tar xf ${TMP}
 
 # Commit to staging repository
-git add .
+git add --all .
 git commit -m "Site update"
 
 
