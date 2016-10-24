@@ -17,6 +17,9 @@ PRESERVE_FILES="./docs/CNAME ./docs/status.yml"
 git config --global user.email "statusbot@mozmar.org"
 git config --global user.name "mozmar-statusbot"
 
+# Checkout to develop branch first. This should be OK since the script only
+# executes on develop branch.
+git checkout develop
 
 # Build site
 pushd ./local-dev
@@ -32,7 +35,7 @@ if [[ $? == 0 ]];
 then
     echo "Pushing to ${DEVELOP_REPOSITORY}"
     git remote add develop-rw https://${GITHUB_AUTH_TOKEN}@github.com/${DEVELOP_REPOSITORY}.git
-    git push -f develop-rw develop
+    git push develop-rw develop
 fi
 
 TMPDIR=$(mktemp -d)
