@@ -30,6 +30,7 @@ git commit -m "Automatic npm build."
 # Push to develop only if there are commit changes.
 if [[ $? == 0 ]];
 then
+    echo "Pushing to ${DEVELOP_REPOSITORY}"
     git remote add develop-rw https://${GITHUB_AUTH_TOKEN}@github.com/${DEVELOP_REPOSITORY}.git
     git push -f develop-rw develop 2> /dev/null
 fi
@@ -63,6 +64,7 @@ git commit -m "Site update"
 # Push to staging only if there are commit changes.
 if [[ $? == 0 ]];
 then
+    echo "Pushing to ${STAGING_REPOSITORY}"
     git remote add staging-rw https://${GITHUB_AUTH_TOKEN}@github.com/${STAGING_REPOSITORY}.git
     git push -f staging-rw master 2> /dev/null
 fi
