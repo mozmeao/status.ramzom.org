@@ -33,7 +33,7 @@ if [[ $? == 0 ]];
 then
     echo "Pushing to ${DEVELOP_REPOSITORY}"
     git remote add develop-rw https://${GITHUB_AUTH_TOKEN}@github.com/${DEVELOP_REPOSITORY}.git
-    git push develop-rw develop
+    git push develop-rw develop 2> /dev/null
 fi
 
 TMPDIR=$(mktemp -d)
@@ -57,10 +57,8 @@ pushd ${TMPDIR}
 tar xf ${TMP}
 
 # Commit to staging repository
-git add --all .
+git add -f --all .
 git commit -m "Site update"
-
-
 
 # Push to staging only if there are commit changes.
 if [[ $? == 0 ]];
