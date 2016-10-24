@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -xe
 
 if [[ -z "${STAGING_REPOSITORY}" ]]; then
     echo "Set STAGING_REPOSITORY"
@@ -32,7 +32,7 @@ if [[ $? == 0 ]];
 then
     echo "Pushing to ${DEVELOP_REPOSITORY}"
     git remote add develop-rw https://${GITHUB_AUTH_TOKEN}@github.com/${DEVELOP_REPOSITORY}.git
-    git push -f develop-rw develop 2> /dev/null
+    git push -f develop-rw develop
 fi
 
 TMPDIR=$(mktemp -d)
