@@ -542,7 +542,7 @@ components:
     link: ''
     name: MozMar Status Board
     order: 1500
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-ac74913d-4bb5-4ed5-8585-89065027764f:
     display: false
