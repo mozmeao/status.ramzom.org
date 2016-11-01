@@ -471,7 +471,7 @@ components:
     link: https://snippets-stats.us-west.moz.works
     name: Website Snippets Stats US-West
     order: 305
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce:
     display: false
@@ -516,7 +516,7 @@ components:
     link: ''
     name: Website CDN
     order: 100
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762:
     display: false
@@ -587,7 +587,7 @@ components:
     link: https://snippets-stats.eu-west.moz.works
     name: Website Snippets Stats EU-West
     order: 305
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
     display: false
@@ -596,7 +596,7 @@ components:
     link: ''
     name: Website EU-West
     order: 100
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-e6d31da8-fc7d-419b-a7b4-1905e890201d:
     display: false
@@ -605,7 +605,7 @@ components:
     link: https://snippets-stats.mozilla.org
     name: Website Snippets Stats
     order: 305
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-f339b62e-8e17-4674-8027-0b3019f8a788:
     display: false
