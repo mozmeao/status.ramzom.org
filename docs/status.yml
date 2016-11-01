@@ -98,7 +98,7 @@ components:
     id: dms-a79f0023f0
     link: ''
     name: ci.usw
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-b6a8280917:
     display: false
