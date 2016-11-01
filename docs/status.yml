@@ -489,7 +489,7 @@ components:
     link: ''
     name: Website US-West
     order: 500
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
     display: false
@@ -533,7 +533,7 @@ components:
     id: synthetics-9340449f-adc3-4e14-bbb4-20c20caff847
     link: ''
     name: Nucleus Prod
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d:
     display: false
@@ -569,7 +569,7 @@ components:
     link: ''
     name: Website US-West
     order: 300
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-c88c9131-1412-4687-bd01-05193089dfce:
     display: false
@@ -614,7 +614,7 @@ components:
     link: ''
     name: Admin Website US-West
     order: 400
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80:
     display: false
