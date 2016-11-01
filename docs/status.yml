@@ -542,7 +542,7 @@ components:
     link: ''
     name: MozMar Status Board
     order: 1500
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-ac74913d-4bb5-4ed5-8585-89065027764f:
     display: false
@@ -551,7 +551,7 @@ components:
     link: ''
     name: Admin Website
     order: 301
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8:
     display: false
@@ -569,7 +569,7 @@ components:
     link: ''
     name: Website US-West
     order: 300
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-c88c9131-1412-4687-bd01-05193089dfce:
     display: false
