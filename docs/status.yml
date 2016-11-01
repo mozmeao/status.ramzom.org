@@ -92,6 +92,14 @@ components:
     order: 520
     status: healthy
     type: deadmanssnitch
+  dms-a79f0023f0:
+    display: true
+    group: null
+    id: dms-a79f0023f0
+    link: ''
+    name: ci.usw
+    status: pending
+    type: deadmanssnitch
   dms-b6a8280917:
     display: false
     group: Infrastructure
