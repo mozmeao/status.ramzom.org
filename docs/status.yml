@@ -453,7 +453,7 @@ components:
     link: ''
     name: Website CDN
     order: 300
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-2d10819d-cbcc-4ec3-b67d-8e71f1406128:
     display: false
@@ -462,7 +462,7 @@ components:
     link: ''
     name: Website
     order: 600
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-51f2ccb1-ac06-46df-b0ec-c4435c7f6124:
     display: false
@@ -480,7 +480,7 @@ components:
     link: ''
     name: Website EU-West
     order: 501
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-615be5db-81f3-462b-903f-a19afdfc19bf:
     display: false
@@ -489,7 +489,7 @@ components:
     link: ''
     name: Website US-West
     order: 500
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
     display: false
@@ -525,7 +525,7 @@ components:
     link: ''
     name: Website US-west
     order: 100
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-9340449f-adc3-4e14-bbb4-20c20caff847:
     display: false
@@ -560,7 +560,7 @@ components:
     link: ''
     name: Website
     order: 200
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3:
     display: false
@@ -569,7 +569,7 @@ components:
     link: ''
     name: Website US-West
     order: 300
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-c88c9131-1412-4687-bd01-05193089dfce:
     display: false
