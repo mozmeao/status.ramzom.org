@@ -1,10 +1,10 @@
 {
-  "name": "status",
-  "version": "0.0.1",
+  "name": "status.mozilla.org",
+  "version": "1.0.0",
   "private": true,
   "devDependencies": {
     "fs-extra": "^0.30.0",
-    "react-scripts": "0.1.0"
+    "react-scripts": "0.7.0"
   },
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",

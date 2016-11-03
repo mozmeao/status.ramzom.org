@@ -1,18 +1,19 @@
 #!/usr/bin/env node
-var path = require('path');
 var spawn = require('cross-spawn');
 var script = process.argv[2];
 var args = process.argv.slice(3);
 
 switch (script) {
 case 'build':
-case 'start':
 case 'eject':
-  spawn(
+case 'start':
+case 'test':
+  var result = spawn.sync(
     'node',
-    [path.resolve(__dirname, '..', 'scripts', script)].concat(args),
+    [require.resolve('../scripts/' + script)].concat(args),
     {stdio: 'inherit'}
   );
+  process.exit(result.status);
   break;
 default:
   console.log('Unknown script "' + script + '".');

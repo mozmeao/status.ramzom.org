@@ -32,7 +32,7 @@ export function fetchGlobalStatus() {
         dispatch(requestGlobalStatus());
 
         // Make an AJAX request to status.yml.
-        return fetch('/status.yml?date=' + Date.now()).then(response => {
+        return fetch(process.env.PUBLIC_URL + '/status.yml?date=' + Date.now()).then(response => {
             if (response.ok) {
                 response.text().then(text => {
                     // Convert YAML formatted text to JS object.
