@@ -13,7 +13,7 @@ components:
     id: dms-078f7f5a2f
     link: ''
     name: CloudFlare to Datadog Sync
-    status: failed
+    status: paused
     type: deadmanssnitch
   dms-16e219cc55:
     display: false
