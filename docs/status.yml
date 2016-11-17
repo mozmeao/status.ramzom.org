@@ -285,7 +285,7 @@ components:
     link: ''
     name: Application US-West
     order: 410
-    status: warning
+    status: healthy
     type: newrelic
   nr-13688046:
     display: false
