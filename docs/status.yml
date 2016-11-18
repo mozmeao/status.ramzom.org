@@ -234,7 +234,7 @@ components:
     id: nr-13687960
     link: ''
     name: Application US-West
-    status: healthy
+    status: pending
     type: newrelic
   nr-13687969:
     display: true
