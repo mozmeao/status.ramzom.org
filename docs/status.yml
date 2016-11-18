@@ -302,7 +302,7 @@ components:
     link: ''
     name: Application US-West
     order: 110
-    status: failed
+    status: healthy
     type: newrelic
   nr-13688101:
     display: true
@@ -604,7 +604,7 @@ components:
     link: ''
     name: Website EU-West
     order: 100
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-e6d31da8-fc7d-419b-a7b4-1905e890201d:
     display: false
