@@ -208,7 +208,7 @@ components:
     link: ''
     name: Application EU-West
     order: 110
-    status: healthy
+    status: failed
     type: newrelic
   nr-13687900:
     display: false
@@ -327,7 +327,7 @@ components:
     id: nr-13698376
     link: ''
     name: Admin Application US-West
-    status: healthy
+    status: pending
     type: newrelic
   nr-13701297:
     display: false
@@ -461,7 +461,7 @@ components:
     link: ''
     name: Website CDN
     order: 300
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-2d10819d-cbcc-4ec3-b67d-8e71f1406128:
     display: false
