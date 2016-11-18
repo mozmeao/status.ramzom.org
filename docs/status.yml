@@ -63,7 +63,7 @@ components:
     link: ''
     name: Queue US-West
     order: 420
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-7311a3e4db:
     display: true
@@ -114,7 +114,7 @@ components:
     id: dms-d46cd45930
     link: ''
     name: Queue US-West
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-e7b32a3078:
     display: false
@@ -634,5 +634,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: All systems healthy
+  status: healthy
