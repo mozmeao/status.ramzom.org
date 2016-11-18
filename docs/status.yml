@@ -259,7 +259,7 @@ components:
     link: ''
     name: Application US-West
     order: 310
-    status: pending
+    status: failed
     type: newrelic
   nr-13688011:
     display: false
