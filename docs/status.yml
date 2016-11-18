@@ -22,7 +22,7 @@ components:
     link: ''
     name: Queue EU-West
     order: 420
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-2b20aff8d3:
     display: true
@@ -63,7 +63,7 @@ components:
     link: ''
     name: Queue US-West
     order: 420
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-7311a3e4db:
     display: true
