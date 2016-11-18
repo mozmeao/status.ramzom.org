@@ -13,7 +13,7 @@ components:
     id: dms-078f7f5a2f
     link: ''
     name: CloudFlare to Datadog Sync
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-16e219cc55:
     display: false
@@ -63,7 +63,7 @@ components:
     link: ''
     name: Queue US-West
     order: 420
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-7311a3e4db:
     display: true
@@ -114,7 +114,7 @@ components:
     id: dms-d46cd45930
     link: ''
     name: Queue US-West
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-e7b32a3078:
     display: false
@@ -208,7 +208,7 @@ components:
     link: ''
     name: Application EU-West
     order: 110
-    status: failed
+    status: healthy
     type: newrelic
   nr-13687900:
     display: false
@@ -293,7 +293,7 @@ components:
     id: nr-13688046
     link: ''
     name: masterfirefoxos_dev
-    status: healthy
+    status: pending
     type: newrelic
   nr-13688073:
     display: false
@@ -533,7 +533,7 @@ components:
     link: ''
     name: Website US-west
     order: 100
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-9340449f-adc3-4e14-bbb4-20c20caff847:
     display: false
@@ -634,5 +634,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: All systems healthy
-  status: healthy
+  message: Some systems are in trouble
+  status: failed
