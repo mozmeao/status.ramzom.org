@@ -505,7 +505,7 @@ components:
     link: ''
     name: Website US-West
     order: 500
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
     display: false
@@ -532,7 +532,7 @@ components:
     link: ''
     name: Website CDN
     order: 100
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762:
     display: false
@@ -558,7 +558,7 @@ components:
     link: ''
     name: MozMar Status Board
     order: 1500
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-ac74913d-4bb5-4ed5-8585-89065027764f:
     display: false
@@ -585,7 +585,7 @@ components:
     link: ''
     name: Website US-West
     order: 300
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-c88c9131-1412-4687-bd01-05193089dfce:
     display: false
@@ -594,7 +594,7 @@ components:
     link: ''
     name: Website
     order: 400
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-c8c2dd43-5f4f-40da-a012-c450d42fc32e:
     display: false
@@ -639,7 +639,7 @@ components:
     link: ''
     name: Website
     order: 800
-    status: warning
+    status: healthy
     type: synthetics
 globalStatus:
   message: All systems healthy
