@@ -639,7 +639,7 @@ components:
     link: ''
     name: Website
     order: 800
-    status: healthy
+    status: warning
     type: synthetics
 globalStatus:
   message: All systems healthy
