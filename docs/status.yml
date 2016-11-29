@@ -603,7 +603,7 @@ components:
     link: https://snippets-stats.eu-west.moz.works
     name: Website Snippets Stats EU-West
     order: 305
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
     display: false
