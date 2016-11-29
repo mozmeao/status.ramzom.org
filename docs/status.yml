@@ -496,7 +496,7 @@ components:
     link: ''
     name: Website EU-West
     order: 501
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-615be5db-81f3-462b-903f-a19afdfc19bf:
     display: false
@@ -514,7 +514,7 @@ components:
     link: ''
     name: Website
     order: 500
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
     display: false
