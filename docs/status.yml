@@ -505,7 +505,7 @@ components:
     link: ''
     name: Website US-West
     order: 500
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
     display: false
@@ -621,7 +621,7 @@ components:
     link: https://snippets-stats.mozilla.org
     name: Website Snippets Stats
     order: 305
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-f339b62e-8e17-4674-8027-0b3019f8a788:
     display: false
