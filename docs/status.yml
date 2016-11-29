@@ -478,7 +478,7 @@ components:
     link: ''
     name: Website
     order: 600
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-51f2ccb1-ac06-46df-b0ec-c4435c7f6124:
     display: false
@@ -496,7 +496,7 @@ components:
     link: ''
     name: Website EU-West
     order: 501
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-615be5db-81f3-462b-903f-a19afdfc19bf:
     display: false
@@ -514,7 +514,7 @@ components:
     link: ''
     name: Website
     order: 500
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
     display: false
@@ -523,7 +523,7 @@ components:
     link: ''
     name: Website EU-West
     order: 301
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2:
     display: false
@@ -558,7 +558,7 @@ components:
     link: ''
     name: MozMar Status Board
     order: 1500
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-ac74913d-4bb5-4ed5-8585-89065027764f:
     display: false
@@ -567,7 +567,7 @@ components:
     link: ''
     name: Admin Website
     order: 301
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8:
     display: false
@@ -621,7 +621,7 @@ components:
     link: https://snippets-stats.mozilla.org
     name: Website Snippets Stats
     order: 305
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-f339b62e-8e17-4674-8027-0b3019f8a788:
     display: false
