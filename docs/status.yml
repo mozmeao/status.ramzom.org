@@ -208,7 +208,7 @@ components:
     link: ''
     name: Application EU-West
     order: 110
-    status: healthy
+    status: failed
     type: newrelic
   nr-13687900:
     display: false
@@ -293,7 +293,7 @@ components:
     id: nr-13688046
     link: ''
     name: masterfirefoxos_dev
-    status: healthy
+    status: pending
     type: newrelic
   nr-13688073:
     display: false
