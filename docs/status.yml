@@ -208,7 +208,7 @@ components:
     link: ''
     name: Application EU-West
     order: 110
-    status: failed
+    status: healthy
     type: newrelic
   nr-13687900:
     display: false
@@ -302,7 +302,7 @@ components:
     link: ''
     name: Application US-West
     order: 110
-    status: healthy
+    status: failed
     type: newrelic
   nr-13688101:
     display: true
