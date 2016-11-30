@@ -123,7 +123,7 @@ components:
     link: ''
     name: Periodic Tasks - EU-West
     order: 120
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-ed6363a1ed:
     display: false
@@ -302,7 +302,7 @@ components:
     link: ''
     name: Application US-West
     order: 110
-    status: healthy
+    status: failed
     type: newrelic
   nr-13688101:
     display: true
