@@ -487,7 +487,7 @@ components:
     link: https://snippets-stats.us-west.moz.works
     name: Website Snippets Stats US-West
     order: 305
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce:
     display: false
@@ -523,7 +523,7 @@ components:
     link: ''
     name: Website EU-West
     order: 301
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2:
     display: false
@@ -594,7 +594,7 @@ components:
     link: ''
     name: Website
     order: 400
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-c8c2dd43-5f4f-40da-a012-c450d42fc32e:
     display: false
@@ -603,7 +603,7 @@ components:
     link: https://snippets-stats.eu-west.moz.works
     name: Website Snippets Stats EU-West
     order: 305
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
     display: false
@@ -612,7 +612,7 @@ components:
     link: ''
     name: Website EU-West
     order: 100
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-e6d31da8-fc7d-419b-a7b4-1905e890201d:
     display: false
