@@ -630,7 +630,7 @@ components:
     link: ''
     name: Admin Website US-West
     order: 400
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80:
     display: false
@@ -639,7 +639,7 @@ components:
     link: ''
     name: Website
     order: 800
-    status: warning
+    status: healthy
     type: synthetics
 globalStatus:
   message: All systems healthy
