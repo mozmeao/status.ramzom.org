@@ -259,7 +259,7 @@ components:
     link: ''
     name: Application US-West
     order: 310
-    status: healthy
+    status: failed
     type: newrelic
   nr-13688011:
     display: false
@@ -630,7 +630,7 @@ components:
     link: ''
     name: Admin Website US-West
     order: 400
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80:
     display: false
