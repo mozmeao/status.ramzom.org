@@ -402,7 +402,7 @@ components:
     link: ''
     name: Kumascript Application
     order: 210
-    status: healthy
+    status: failed
     type: newrelic
   nr-13792729:
     display: false
