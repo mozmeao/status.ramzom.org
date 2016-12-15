@@ -647,7 +647,7 @@ components:
     link: ''
     name: Website
     order: 800
-    status: failed
+    status: healthy
     type: synthetics
 globalStatus:
   message: All systems healthy
