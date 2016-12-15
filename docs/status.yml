@@ -80,7 +80,7 @@ components:
     link: ''
     name: Queue EU-West
     order: 420
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-8166cac951:
     display: false
@@ -216,7 +216,7 @@ components:
     link: ''
     name: Application EU-West
     order: 110
-    status: healthy
+    status: failed
     type: newrelic
   nr-13687900:
     display: false
@@ -647,8 +647,8 @@ components:
     link: ''
     name: Website
     order: 800
-    status: failed
+    status: healthy
     type: synthetics
 globalStatus:
-  message: All systems healthy
-  status: healthy
+  message: Some systems are in trouble
+  status: failed
