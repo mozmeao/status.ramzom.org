@@ -575,7 +575,7 @@ components:
     link: ''
     name: Admin Website
     order: 301
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8:
     display: false
