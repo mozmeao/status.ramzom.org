@@ -531,7 +531,7 @@ components:
     link: ''
     name: Website EU-West
     order: 301
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2:
     display: false
