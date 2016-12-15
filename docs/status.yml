@@ -80,7 +80,7 @@ components:
     link: ''
     name: Queue EU-West
     order: 420
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-8166cac951:
     display: false
@@ -650,5 +650,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: All systems healthy
+  status: healthy
