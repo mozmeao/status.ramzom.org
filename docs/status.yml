@@ -477,7 +477,7 @@ components:
     link: ''
     name: Website CDN
     order: 300
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-2d10819d-cbcc-4ec3-b67d-8e71f1406128:
     display: false
@@ -593,7 +593,7 @@ components:
     link: ''
     name: Website US-West
     order: 300
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-c88c9131-1412-4687-bd01-05193089dfce:
     display: false
