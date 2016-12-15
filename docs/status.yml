@@ -207,7 +207,7 @@ components:
     link: ''
     name: Application EU-West
     order: 310
-    status: failed
+    status: warning
     type: newrelic
   nr-13687785:
     display: false
@@ -504,7 +504,7 @@ components:
     link: ''
     name: Website EU-West
     order: 501
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-615be5db-81f3-462b-903f-a19afdfc19bf:
     display: false
@@ -531,7 +531,7 @@ components:
     link: ''
     name: Website EU-West
     order: 301
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2:
     display: false
