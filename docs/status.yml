@@ -477,7 +477,7 @@ components:
     link: ''
     name: Website CDN
     order: 300
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-2d10819d-cbcc-4ec3-b67d-8e71f1406128:
     display: false
