@@ -593,7 +593,7 @@ components:
     link: ''
     name: Website US-West
     order: 300
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-c88c9131-1412-4687-bd01-05193089dfce:
     display: false
