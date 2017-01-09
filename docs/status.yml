@@ -227,15 +227,6 @@ components:
     order: 510
     status: healthy
     type: newrelic
-  nr-13687919:
-    display: false
-    group: Master Firefox OS
-    id: nr-13687919
-    link: ''
-    name: Application
-    order: 810
-    status: warning
-    type: newrelic
   nr-13687960:
     display: true
     group: Mozilla Careers
@@ -294,14 +285,6 @@ components:
     name: Application US-West
     order: 410
     status: healthy
-    type: newrelic
-  nr-13688046:
-    display: false
-    group: null
-    id: nr-13688046
-    link: ''
-    name: masterfirefoxos_dev
-    status: warning
     type: newrelic
   nr-13688073:
     display: false
@@ -639,15 +622,6 @@ components:
     name: Admin Website US-West
     order: 400
     status: healthy
-    type: synthetics
-  synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80:
-    display: false
-    group: Master Firefox OS
-    id: synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80
-    link: ''
-    name: Website
-    order: 800
-    status: warning
     type: synthetics
 globalStatus:
   message: All systems healthy
