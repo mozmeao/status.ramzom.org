@@ -276,7 +276,7 @@ components:
     link: ''
     name: Admin Application US-West
     order: 310
-    status: healthy
+    status: warning
     type: newrelic
   nr-13688024:
     display: false
