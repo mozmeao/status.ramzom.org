@@ -1,1 +1,588 @@
-{}
+components:
+  dms-033e342441:
+    display: true
+    group: null
+    id: dms-033e342441
+    link: ''
+    name: Snippets Stage Update Product Details
+    status: healthy
+    type: deadmanssnitch
+  dms-078f7f5a2f:
+    display: true
+    group: null
+    id: dms-078f7f5a2f
+    link: ''
+    name: CloudFlare to Datadog Sync
+    status: healthy
+    type: deadmanssnitch
+  dms-16e219cc55:
+    display: true
+    group: null
+    id: dms-16e219cc55
+    link: ''
+    name: Basket Prod Queue - EU West
+    status: healthy
+    type: deadmanssnitch
+  dms-2b20aff8d3:
+    display: true
+    group: null
+    id: dms-2b20aff8d3
+    link: ''
+    name: Careers Sync Greenhouse Stage
+    status: healthy
+    type: deadmanssnitch
+  dms-2f4d809f94:
+    display: true
+    group: null
+    id: dms-2f4d809f94
+    link: ''
+    name: Docker Cleanup Service - EU West
+    status: healthy
+    type: deadmanssnitch
+  dms-3026bce6d3:
+    display: true
+    group: null
+    id: dms-3026bce6d3
+    link: ''
+    name: Docker Cleanup Service - US West
+    status: healthy
+    type: deadmanssnitch
+  dms-3ea402d1d7:
+    display: true
+    group: null
+    id: dms-3ea402d1d7
+    link: ''
+    name: Status Board Update (Stage)
+    status: healthy
+    type: deadmanssnitch
+  dms-6b7c1eb19f:
+    display: true
+    group: null
+    id: dms-6b7c1eb19f
+    link: ''
+    name: Basket Prod Donate Queue
+    status: healthy
+    type: deadmanssnitch
+  dms-6eb44fe994:
+    display: true
+    group: null
+    id: dms-6eb44fe994
+    link: ''
+    name: Basket Prod Queue - US West
+    status: healthy
+    type: deadmanssnitch
+  dms-7311a3e4db:
+    display: true
+    group: null
+    id: dms-7311a3e4db
+    link: ''
+    name: Basket Stage Queue - EU West
+    status: healthy
+    type: deadmanssnitch
+  dms-8166cac951:
+    display: true
+    group: null
+    id: dms-8166cac951
+    link: ''
+    name: Snippets Prod Update Product Details
+    status: healthy
+    type: deadmanssnitch
+  dms-943d73ab83:
+    display: true
+    group: null
+    id: dms-943d73ab83
+    link: ''
+    name: Careers Sync Greenhouse Prod
+    status: healthy
+    type: deadmanssnitch
+  dms-a79f0023f0:
+    display: true
+    group: null
+    id: dms-a79f0023f0
+    link: ''
+    name: Docker cleanup @ ci.usw
+    status: healthy
+    type: deadmanssnitch
+  dms-b6a8280917:
+    display: true
+    group: null
+    id: dms-b6a8280917
+    link: ''
+    name: Status Board Update (Prod)
+    status: healthy
+    type: deadmanssnitch
+  dms-d46cd45930:
+    display: true
+    group: null
+    id: dms-d46cd45930
+    link: ''
+    name: Basket Stage Queue - US West
+    status: healthy
+    type: deadmanssnitch
+  dms-e7b32a3078:
+    display: true
+    group: null
+    id: dms-e7b32a3078
+    link: ''
+    name: Run Periodic Tasks - EU West
+    status: healthy
+    type: deadmanssnitch
+  dms-ed6363a1ed:
+    display: true
+    group: null
+    id: dms-ed6363a1ed
+    link: ''
+    name: Run Periodic Tasks - US West
+    status: healthy
+    type: deadmanssnitch
+  nr-13674646:
+    display: true
+    group: null
+    id: nr-13674646
+    link: ''
+    name: support-dev.allizom.org
+    status: healthy
+    type: newrelic
+  nr-13687503:
+    display: true
+    group: null
+    id: nr-13687503
+    link: ''
+    name: bedrock-stage-eu-west
+    status: healthy
+    type: newrelic
+  nr-13687560:
+    display: true
+    group: null
+    id: nr-13687560
+    link: ''
+    name: snippets-stage-eu-west
+    status: healthy
+    type: newrelic
+  nr-13687580:
+    display: true
+    group: null
+    id: nr-13687580
+    link: ''
+    name: careers-prod-eu-west
+    status: healthy
+    type: newrelic
+  nr-13687607:
+    display: true
+    group: null
+    id: nr-13687607
+    link: ''
+    name: basket-dev-eu-west
+    status: healthy
+    type: newrelic
+  nr-13687628:
+    display: true
+    group: null
+    id: nr-13687628
+    link: ''
+    name: basket-stage-eu-west
+    status: healthy
+    type: newrelic
+  nr-13687653:
+    display: true
+    group: null
+    id: nr-13687653
+    link: ''
+    name: basket-prod-eu-west
+    status: healthy
+    type: newrelic
+  nr-13687704:
+    display: true
+    group: null
+    id: nr-13687704
+    link: ''
+    name: snippets-prod-eu-west
+    status: healthy
+    type: newrelic
+  nr-13687785:
+    display: true
+    group: null
+    id: nr-13687785
+    link: ''
+    name: bedrock-prod-eu-west
+    status: healthy
+    type: newrelic
+  nr-13687900:
+    display: true
+    group: null
+    id: nr-13687900
+    link: ''
+    name: careers-prod-us-west
+    status: healthy
+    type: newrelic
+  nr-13687960:
+    display: true
+    group: null
+    id: nr-13687960
+    link: ''
+    name: careers-stage-us-west
+    status: healthy
+    type: newrelic
+  nr-13687969:
+    display: true
+    group: null
+    id: nr-13687969
+    link: ''
+    name: snippets-stage-us-west
+    status: healthy
+    type: newrelic
+  nr-13687975:
+    display: true
+    group: null
+    id: nr-13687975
+    link: ''
+    name: basket-stage-us-west
+    status: healthy
+    type: newrelic
+  nr-13687987:
+    display: true
+    group: null
+    id: nr-13687987
+    link: ''
+    name: snippets-prod-us-west
+    status: healthy
+    type: newrelic
+  nr-13688011:
+    display: true
+    group: null
+    id: nr-13688011
+    link: ''
+    name: snippets-admin-us-west
+    status: healthy
+    type: newrelic
+  nr-13688024:
+    display: true
+    group: null
+    id: nr-13688024
+    link: ''
+    name: basket-dev-us-west
+    status: healthy
+    type: newrelic
+  nr-13688032:
+    display: true
+    group: null
+    id: nr-13688032
+    link: ''
+    name: basket-prod-us-west
+    status: healthy
+    type: newrelic
+  nr-13688073:
+    display: true
+    group: null
+    id: nr-13688073
+    link: ''
+    name: bedrock-prod-us-west
+    status: healthy
+    type: newrelic
+  nr-13688101:
+    display: true
+    group: null
+    id: nr-13688101
+    link: ''
+    name: bedrock-stage-us-west
+    status: healthy
+    type: newrelic
+  nr-13688108:
+    display: true
+    group: null
+    id: nr-13688108
+    link: ''
+    name: basket-admin-us-west
+    status: healthy
+    type: newrelic
+  nr-13698376:
+    display: true
+    group: null
+    id: nr-13698376
+    link: ''
+    name: basket-admin-stage-us-west
+    status: healthy
+    type: newrelic
+  nr-13701297:
+    display: true
+    group: null
+    id: nr-13701297
+    link: ''
+    name: bedrock-dev-us-west
+    status: healthy
+    type: newrelic
+  nr-13701320:
+    display: true
+    group: null
+    id: nr-13701320
+    link: ''
+    name: bedrock-dev-eu-west
+    status: healthy
+    type: newrelic
+  nr-13708399:
+    display: true
+    group: null
+    id: nr-13708399
+    link: ''
+    name: developer.allizom.org-kumascript
+    status: healthy
+    type: newrelic
+  nr-13708738:
+    display: true
+    group: null
+    id: nr-13708738
+    link: ''
+    name: developer.allizom.org
+    status: healthy
+    type: newrelic
+  nr-13710560:
+    display: true
+    group: null
+    id: nr-13710560
+    link: ''
+    name: support.allizom.org
+    status: healthy
+    type: newrelic
+  nr-13778280:
+    display: true
+    group: null
+    id: nr-13778280
+    link: ''
+    name: browsercompat.herokuapp.com
+    status: pending
+    type: newrelic
+  nr-13782058:
+    display: true
+    group: null
+    id: nr-13782058
+    link: ''
+    name: developer.mozilla.org
+    status: healthy
+    type: newrelic
+  nr-13786029:
+    display: true
+    group: null
+    id: nr-13786029
+    link: ''
+    name: developer.mozilla.org-kumascript
+    status: healthy
+    type: newrelic
+  nr-13792729:
+    display: true
+    group: null
+    id: nr-13792729
+    link: ''
+    name: nucleus-sugar-us-west
+    status: pending
+    type: newrelic
+  nr-13801074:
+    display: true
+    group: null
+    id: nr-13801074
+    link: ''
+    name: support.mozilla.org
+    status: healthy
+    type: newrelic
+  nr-13851870:
+    display: true
+    group: null
+    id: nr-13851870
+    link: ''
+    name: developer-dev.allizom.org
+    status: healthy
+    type: newrelic
+  nr-16405643:
+    display: true
+    group: null
+    id: nr-16405643
+    link: ''
+    name: Python Application
+    status: pending
+    type: newrelic
+  nr-16486292:
+    display: true
+    group: null
+    id: nr-16486292
+    link: ''
+    name: nucleus-prod-us-west
+    status: healthy
+    type: newrelic
+  nr-18375214:
+    display: true
+    group: null
+    id: nr-18375214
+    link: ''
+    name: standup-stage
+    status: pending
+    type: newrelic
+  nr-18380313:
+    display: true
+    group: null
+    id: nr-18380313
+    link: ''
+    name: standup-prod
+    status: healthy
+    type: newrelic
+  nr-20955446:
+    display: true
+    group: null
+    id: nr-20955446
+    link: ''
+    name: nucleus-stage-us-west
+    status: healthy
+    type: newrelic
+  synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
+    display: true
+    group: null
+    id: synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f
+    link: ''
+    name: Snippets CDN
+    status: healthy
+    type: synthetics
+  synthetics-2d10819d-cbcc-4ec3-b67d-8e71f1406128:
+    display: true
+    group: null
+    id: synthetics-2d10819d-cbcc-4ec3-b67d-8e71f1406128
+    link: ''
+    name: support.mozilla.org
+    status: healthy
+    type: synthetics
+  synthetics-51f2ccb1-ac06-46df-b0ec-c4435c7f6124:
+    display: true
+    group: null
+    id: synthetics-51f2ccb1-ac06-46df-b0ec-c4435c7f6124
+    link: ''
+    name: Snippets Stats US-West
+    status: healthy
+    type: synthetics
+  synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce:
+    display: true
+    group: null
+    id: synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce
+    link: ''
+    name: Careers EU-West
+    status: healthy
+    type: synthetics
+  synthetics-615be5db-81f3-462b-903f-a19afdfc19bf:
+    display: true
+    group: null
+    id: synthetics-615be5db-81f3-462b-903f-a19afdfc19bf
+    link: ''
+    name: Careers US-West
+    status: healthy
+    type: synthetics
+  synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
+    display: true
+    group: null
+    id: synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1
+    link: ''
+    name: careers.mozilla.org
+    status: healthy
+    type: synthetics
+  synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
+    display: true
+    group: null
+    id: synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679
+    link: ''
+    name: Snippets Prod EU-West
+    status: healthy
+    type: synthetics
+  synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2:
+    display: true
+    group: null
+    id: synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2
+    link: ''
+    name: www.mozilla.org
+    status: healthy
+    type: synthetics
+  synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762:
+    display: true
+    group: null
+    id: synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762
+    link: ''
+    name: Bedrock Prod US-west
+    status: healthy
+    type: synthetics
+  synthetics-9340449f-adc3-4e14-bbb4-20c20caff847:
+    display: true
+    group: null
+    id: synthetics-9340449f-adc3-4e14-bbb4-20c20caff847
+    link: ''
+    name: Nucleus Prod
+    status: healthy
+    type: synthetics
+  synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d:
+    display: true
+    group: null
+    id: synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d
+    link: ''
+    name: MozMar Status Board
+    status: healthy
+    type: synthetics
+  synthetics-ac74913d-4bb5-4ed5-8585-89065027764f:
+    display: true
+    group: null
+    id: synthetics-ac74913d-4bb5-4ed5-8585-89065027764f
+    link: ''
+    name: Snippets Admin
+    status: healthy
+    type: synthetics
+  synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8:
+    display: true
+    group: null
+    id: synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8
+    link: ''
+    name: MDN
+    status: healthy
+    type: synthetics
+  synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3:
+    display: true
+    group: null
+    id: synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3
+    link: ''
+    name: Snippets Prod US-West
+    status: healthy
+    type: synthetics
+  synthetics-c88c9131-1412-4687-bd01-05193089dfce:
+    display: true
+    group: null
+    id: synthetics-c88c9131-1412-4687-bd01-05193089dfce
+    link: ''
+    name: Basket Prod
+    status: healthy
+    type: synthetics
+  synthetics-c8c2dd43-5f4f-40da-a012-c450d42fc32e:
+    display: true
+    group: null
+    id: synthetics-c8c2dd43-5f4f-40da-a012-c450d42fc32e
+    link: ''
+    name: Snippets Stats EU-West
+    status: healthy
+    type: synthetics
+  synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
+    display: true
+    group: null
+    id: synthetics-e1226346-99fa-4de3-bafd-9a8700852896
+    link: ''
+    name: Bedrock Prod EU-west
+    status: healthy
+    type: synthetics
+  synthetics-e6d31da8-fc7d-419b-a7b4-1905e890201d:
+    display: true
+    group: null
+    id: synthetics-e6d31da8-fc7d-419b-a7b4-1905e890201d
+    link: ''
+    name: Snippets Stats Server
+    status: healthy
+    type: synthetics
+  synthetics-f339b62e-8e17-4674-8027-0b3019f8a788:
+    display: true
+    group: null
+    id: synthetics-f339b62e-8e17-4674-8027-0b3019f8a788
+    link: ''
+    name: Basket admin us-west
+    status: healthy
+    type: synthetics
+globalStatus:
+  message: All systems healthy
+  status: healthy
