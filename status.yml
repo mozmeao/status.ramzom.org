@@ -114,7 +114,7 @@ components:
     id: dms-b6a8280917
     link: ''
     name: Status Board Update
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-d46cd45930:
     display: true
