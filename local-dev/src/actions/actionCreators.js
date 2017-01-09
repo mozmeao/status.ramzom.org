@@ -6,6 +6,8 @@ are consumed by reducers.
 import fetch from 'isomorphic-fetch';
 import jsyaml from 'js-yaml';
 
+import { buildNewGlobalStatusObject } from '../helpers';
+
 export const REQUEST_GLOBAL_STATUS = 'REQUEST_GLOBAL_STATUS';
 // Dispatched from fetchGlobalStatus.
 // Nicety to inform app that request to status.yml is in progress.
@@ -26,8 +28,8 @@ export function receiveGlobalStatus(newGlobalStatus) {
 
 // Returns a function that performs async action, then dispatches another
 // action (requires thunk middleware).
-export function fetchGlobalStatus() {
-    return function(dispatch) {
+export function fetchGlobalStatus(dateStamp = new Date()) {
+    return dispatch => {
         // Inform app that we are looking for updates to status.yml.
         dispatch(requestGlobalStatus());
 
@@ -38,19 +40,9 @@ export function fetchGlobalStatus() {
                     // Convert YAML formatted text to JS object.
                     const statusData = jsyaml.load(text);
 
-                    // Build services array.
-                    const services = Object.keys(statusData.components).map(key => {
-                        return statusData.components[key];
-                    });
-
                     // Build an object of new data to be sent to
                     // receiveGlobalStatus.
-                    const newGlobalStatus = {
-                        status: statusData.globalStatus.status,
-                        message: statusData.globalStatus.message,
-                        services: services,
-                        lastUpdate: new Date()
-                    };
+                    const newGlobalStatus = buildNewGlobalStatusObject(statusData, dateStamp);
 
                     // Dispatch receiveGlobalStatus action, passing in new data.
                     dispatch(receiveGlobalStatus(newGlobalStatus));
@@ -58,7 +50,7 @@ export function fetchGlobalStatus() {
             } else {
                 console.error('status.yml response not ok :(');
             }
-        }).catch((err) => {
+        }).catch(err => {
             console.error('fetch error!');
             console.error(err);
         });
@@ -77,7 +69,7 @@ export function receiveDesktopNotify(newDesktopNotify) {
 // Returns a function that performs async action, then dispatches another
 // action (requires thunk middleware).
 export function requestDesktopNotify() {
-    return function(dispatch) {
+    return dispatch => {
         // If browser doesn't support notifications, we're done here.
         if (!('Notification' in window)) {
             dispatch(receiveDesktopNotify(false));
@@ -88,13 +80,16 @@ export function requestDesktopNotify() {
         }
         // Otherwise, we need to ask the user for permission.
         else if (Notification.permission !== 'denied') {
-            Notification.requestPermission(permission => {
+            return Notification.requestPermission().then(permission => {
                 if (permission === 'granted') {
                     dispatch(receiveDesktopNotify(true));
                 } else {
                     dispatch(receiveDesktopNotify(false));
                 }
             });
+        // Permission was previously denied.
+        } else {
+            dispatch(receiveDesktopNotify(false));
         }
     }
 }

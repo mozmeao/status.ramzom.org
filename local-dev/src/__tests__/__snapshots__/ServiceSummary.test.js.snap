@@ -1,0 +1,10 @@
+exports[`test service summary 1`] = `
+<li
+  className="list-group-item">
+  <span
+    className="status healthy">
+    healthy
+  </span>
+  police cops
+</li>
+`;

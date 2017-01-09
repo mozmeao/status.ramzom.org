@@ -54,7 +54,7 @@ class GlobalStatus extends Component {
         var favicon = document.getElementById('favicon');
         var img = this.statusToIcon(status);
 
-        if (img) {
+        if (favicon && img) {
             favicon.href = img;
         }
     }

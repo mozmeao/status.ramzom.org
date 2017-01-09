@@ -1,0 +1,23 @@
+exports[`test failed global status 1`] = `
+<div
+  className="alert alert-danger"
+  role="alert" />
+`;
+
+exports[`test healthy global status 1`] = `
+<div
+  className="alert alert-success"
+  role="alert" />
+`;
+
+exports[`test pending global status 1`] = `
+<div
+  className="alert alert-info"
+  role="alert" />
+`;
+
+exports[`test warning global status 1`] = `
+<div
+  className="alert alert-warning"
+  role="alert" />
+`;

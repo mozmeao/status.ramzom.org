@@ -20,7 +20,6 @@ function global(globalState = {}, action) {
             // object. Then overwrite that with values provided last - namely
             // changing 'isUpdating' to true.
             newGlobalState = Object.assign({}, globalState, {
-                //notifyMessage: false, // prevent duplicating notifications
                 isUpdating: true
             });
 
@@ -37,9 +36,9 @@ function global(globalState = {}, action) {
 
             newGlobalState = Object.assign({}, globalState, {
                 isUpdating: false,
+                lastUpdate: action.data.lastUpdate,
                 message: action.data.message,
                 notifyMessage,
-                lastUpdate: action.data.lastUpdate,
                 services: action.data.services,
                 status: action.data.status
             });
