@@ -394,7 +394,7 @@ components:
     link: ''
     name: Nucleus Application US-West
     order: 110
-    status: pending
+    status: healthy
     type: newrelic
   nr-13801074:
     display: false
