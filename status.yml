@@ -32,6 +32,14 @@ components:
     name: Greenhouse Syncing
     status: healthy
     type: deadmanssnitch
+  dms-2c31a2545a:
+    display: true
+    group: null
+    id: dms-2c31a2545a
+    link: ''
+    name: Jenkins Periodic Backup
+    status: pending
+    type: deadmanssnitch
   dms-2f4d809f94:
     display: false
     group: Infrastructure
