@@ -38,7 +38,7 @@ components:
     id: dms-2c31a2545a
     link: ''
     name: Jenkins Periodic Backup
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-2f4d809f94:
     display: false
