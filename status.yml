@@ -106,7 +106,7 @@ components:
     link: ''
     name: Jobvite Syncing
     order: 520
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-a79f0023f0:
     display: true
