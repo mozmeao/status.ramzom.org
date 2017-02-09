@@ -435,7 +435,7 @@ components:
     id: nr-16486292
     link: ''
     name: nucleus-prod-us-west
-    status: warning
+    status: healthy
     type: newrelic
   nr-18375214:
     display: true
