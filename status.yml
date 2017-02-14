@@ -70,7 +70,7 @@ components:
     id: dms-6b7c1eb19f
     link: ''
     name: Basket Prod Donate Queue
-    status: failed
+    status: paused
     type: deadmanssnitch
   dms-6eb44fe994:
     display: false
@@ -632,5 +632,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: All systems healthy
+  status: healthy
