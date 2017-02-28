@@ -451,7 +451,7 @@ components:
     id: nr-18380313
     link: ''
     name: standup-prod
-    status: healthy
+    status: pending
     type: newrelic
   nr-20955446:
     display: true
