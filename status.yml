@@ -594,6 +594,14 @@ components:
     order: 300
     status: healthy
     type: synthetics
+  synthetics-c522e6af-3fa1-4aa4-9382-943ddf79c46d:
+    display: true
+    group: null
+    id: synthetics-c522e6af-3fa1-4aa4-9382-943ddf79c46d
+    link: ''
+    name: Snippets Prod US-East
+    status: healthy
+    type: synthetics
   synthetics-c88c9131-1412-4687-bd01-05193089dfce:
     display: false
     group: Basket
