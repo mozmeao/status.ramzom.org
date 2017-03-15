@@ -467,7 +467,7 @@ components:
     id: nr-23656273
     link: ''
     name: snippets-prod-virginia
-    status: failed
+    status: healthy
     type: newrelic
   nr-24376039:
     display: true
@@ -656,5 +656,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: All systems healthy
+  status: healthy
