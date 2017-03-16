@@ -342,7 +342,7 @@ components:
     id: nr-13701320
     link: ''
     name: bedrock-dev-eu-west
-    status: healthy
+    status: pending
     type: newrelic
   nr-13708399:
     display: true
