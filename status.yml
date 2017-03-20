@@ -224,7 +224,7 @@ components:
     link: ''
     name: Application EU-West
     order: 110
-    status: healthy
+    status: warning
     type: newrelic
   nr-13687900:
     display: false
