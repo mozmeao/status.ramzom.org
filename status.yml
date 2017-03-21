@@ -493,7 +493,7 @@ components:
     link: ''
     name: Website
     order: 600
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-51f2ccb1-ac06-46df-b0ec-c4435c7f6124:
     display: false
