@@ -608,7 +608,7 @@ components:
     id: synthetics-c522e6af-3fa1-4aa4-9382-943ddf79c46d
     link: ''
     name: Snippets Prod US-East
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-c88c9131-1412-4687-bd01-05193089dfce:
     display: false
@@ -656,5 +656,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
