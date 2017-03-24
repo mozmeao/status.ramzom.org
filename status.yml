@@ -484,7 +484,7 @@ components:
     link: ''
     name: Website CDN
     order: 300
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-2d10819d-cbcc-4ec3-b67d-8e71f1406128:
     display: false
@@ -502,7 +502,7 @@ components:
     link: https://snippets-stats.us-west.moz.works
     name: Website Snippets Stats US-West
     order: 305
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce:
     display: false
@@ -511,7 +511,7 @@ components:
     link: ''
     name: Website EU-West
     order: 501
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-615be5db-81f3-462b-903f-a19afdfc19bf:
     display: false
@@ -520,7 +520,7 @@ components:
     link: ''
     name: Website US-West
     order: 500
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
     display: false
@@ -529,7 +529,7 @@ components:
     link: ''
     name: Website
     order: 500
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
     display: false
@@ -538,7 +538,7 @@ components:
     link: ''
     name: Website EU-West
     order: 301
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2:
     display: false
@@ -547,7 +547,7 @@ components:
     link: ''
     name: Website CDN
     order: 100
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762:
     display: false
@@ -556,7 +556,7 @@ components:
     link: ''
     name: Website US-west
     order: 100
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-9340449f-adc3-4e14-bbb4-20c20caff847:
     display: false
@@ -564,7 +564,7 @@ components:
     id: synthetics-9340449f-adc3-4e14-bbb4-20c20caff847
     link: ''
     name: Nucleus Prod
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d:
     display: false
@@ -573,7 +573,7 @@ components:
     link: ''
     name: MozMar Status Board
     order: 1500
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-ac74913d-4bb5-4ed5-8585-89065027764f:
     display: false
@@ -582,7 +582,7 @@ components:
     link: ''
     name: Admin Website
     order: 301
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8:
     display: false
@@ -591,7 +591,7 @@ components:
     link: ''
     name: Website
     order: 200
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3:
     display: false
@@ -600,7 +600,7 @@ components:
     link: ''
     name: Website US-West
     order: 300
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-c522e6af-3fa1-4aa4-9382-943ddf79c46d:
     display: true
@@ -608,7 +608,7 @@ components:
     id: synthetics-c522e6af-3fa1-4aa4-9382-943ddf79c46d
     link: ''
     name: Snippets Prod US-East
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-c88c9131-1412-4687-bd01-05193089dfce:
     display: false
@@ -617,7 +617,7 @@ components:
     link: ''
     name: Website
     order: 400
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-c8c2dd43-5f4f-40da-a012-c450d42fc32e:
     display: false
@@ -626,7 +626,7 @@ components:
     link: https://snippets-stats.eu-west.moz.works
     name: Website Snippets Stats EU-West
     order: 305
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
     display: false
@@ -635,7 +635,7 @@ components:
     link: ''
     name: Website EU-West
     order: 100
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-e6d31da8-fc7d-419b-a7b4-1905e890201d:
     display: false
@@ -644,7 +644,7 @@ components:
     link: https://snippets-stats.mozilla.org
     name: Website Snippets Stats
     order: 305
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-f339b62e-8e17-4674-8027-0b3019f8a788:
     display: false
@@ -653,7 +653,7 @@ components:
     link: ''
     name: Admin Website US-West
     order: 400
-    status: warning
+    status: healthy
     type: synthetics
 globalStatus:
   message: Some systems are experiencing issues
