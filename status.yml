@@ -493,6 +493,14 @@ components:
     name: careers-prod-virginia
     status: healthy
     type: newrelic
+  nr-25359551:
+    display: true
+    group: null
+    id: nr-25359551
+    link: ''
+    name: careers-prod-tokyo
+    status: healthy
+    type: newrelic
   synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
     display: false
     group: Snippets Service
