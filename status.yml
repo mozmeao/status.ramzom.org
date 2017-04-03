@@ -668,6 +668,14 @@ components:
     order: 305
     status: healthy
     type: synthetics
+  synthetics-ce6d2674-186d-48a2-be1d-fd0066997ef1:
+    display: true
+    group: null
+    id: synthetics-ce6d2674-186d-48a2-be1d-fd0066997ef1
+    link: ''
+    name: Careers Virginia
+    status: healthy
+    type: synthetics
   synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
     display: false
     group: mozilla.org
