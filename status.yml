@@ -459,7 +459,7 @@ components:
     id: nr-20955446
     link: ''
     name: nucleus-stage-us-west
-    status: pending
+    status: healthy
     type: newrelic
   nr-23656273:
     display: true
