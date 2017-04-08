@@ -79,7 +79,7 @@ components:
     link: ''
     name: Queue US-West
     order: 420
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-7311a3e4db:
     display: true
