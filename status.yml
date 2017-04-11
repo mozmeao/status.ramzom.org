@@ -233,7 +233,7 @@ components:
     link: ''
     name: Application US-West
     order: 510
-    status: healthy
+    status: failed
     type: newrelic
   nr-13687960:
     display: true
