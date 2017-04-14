@@ -483,7 +483,7 @@ components:
     id: nr-24982923
     link: ''
     name: snippets-prod-tokyo
-    status: warning
+    status: healthy
     type: newrelic
   nr-25359421:
     display: true
