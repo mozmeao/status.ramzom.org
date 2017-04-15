@@ -46,7 +46,7 @@ components:
     id: dms-2f4d809f94
     link: ''
     name: Docker Cleanup Service - EU-West
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-3026bce6d3:
     display: false
