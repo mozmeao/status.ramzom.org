@@ -21,7 +21,7 @@ components:
     id: dms-0d4f26fa1b
     link: ''
     name: Basket Prod FxA Activity
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-16e219cc55:
     display: false
