@@ -15,6 +15,14 @@ components:
     name: CloudFlare to Datadog Sync
     status: healthy
     type: deadmanssnitch
+  dms-0d4f26fa1b:
+    display: true
+    group: null
+    id: dms-0d4f26fa1b
+    link: ''
+    name: Basket Prod FxA Activity
+    status: pending
+    type: deadmanssnitch
   dms-16e219cc55:
     display: false
     group: Basket
