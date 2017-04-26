@@ -656,7 +656,7 @@ components:
     link: ''
     name: Website US-West
     order: 300
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-c522e6af-3fa1-4aa4-9382-943ddf79c46d:
     display: true
