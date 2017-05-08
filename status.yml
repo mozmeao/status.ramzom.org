@@ -197,7 +197,7 @@ components:
     id: nr-13687607
     link: ''
     name: basket-dev-eu-west
-    status: failed
+    status: healthy
     type: newrelic
   nr-13687628:
     display: true
