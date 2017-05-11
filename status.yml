@@ -515,7 +515,7 @@ components:
     id: nr-27934018
     link: ''
     name: bedrock-dev-virginia
-    status: warning
+    status: healthy
     type: newrelic
   synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
     display: false
