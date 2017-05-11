@@ -533,6 +533,14 @@ components:
     name: bedrock-dev-tokyo
     status: healthy
     type: newrelic
+  nr-27945604:
+    display: true
+    group: null
+    id: nr-27945604
+    link: ''
+    name: bedrock-prod-virginia
+    status: healthy
+    type: newrelic
   synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
     display: false
     group: Snippets Service
