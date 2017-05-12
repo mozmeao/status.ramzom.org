@@ -781,7 +781,7 @@ components:
     link: ''
     name: Admin Website US-West
     order: 400
-    status: healthy
+    status: warning
     type: synthetics
 globalStatus:
   message: Some systems are experiencing issues
