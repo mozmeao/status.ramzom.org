@@ -608,7 +608,7 @@ components:
     link: ''
     name: Website US-West
     order: 500
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-69a2b577-62e0-4c82-8aaa-8c0c19bca209:
     display: true
