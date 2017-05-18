@@ -590,7 +590,7 @@ components:
     link: https://snippets-stats.us-west.moz.works
     name: Website Snippets Stats US-West
     order: 305
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce:
     display: false
@@ -651,7 +651,7 @@ components:
     id: synthetics-84a8a110-0fb6-48b2-bd0c-caf07ba65dfe
     link: ''
     name: Snippets Stats Tokyo
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762:
     display: false
@@ -704,7 +704,7 @@ components:
     link: ''
     name: Website US-West
     order: 300
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-c522e6af-3fa1-4aa4-9382-943ddf79c46d:
     display: true
