@@ -581,7 +581,7 @@ components:
     id: synthetics-2d3b85bd-2d3b-439b-bf0f-9d0390008add
     link: ''
     name: Careers Tokyo
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-51f2ccb1-ac06-46df-b0ec-c4435c7f6124:
     display: false
@@ -608,7 +608,7 @@ components:
     link: ''
     name: Website US-West
     order: 500
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-69a2b577-62e0-4c82-8aaa-8c0c19bca209:
     display: true
@@ -660,7 +660,7 @@ components:
     link: ''
     name: Website US-west
     order: 100
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-9340449f-adc3-4e14-bbb4-20c20caff847:
     display: false
@@ -668,7 +668,7 @@ components:
     id: synthetics-9340449f-adc3-4e14-bbb4-20c20caff847
     link: ''
     name: Nucleus Prod
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d:
     display: false
@@ -677,7 +677,7 @@ components:
     link: ''
     name: MozMar Status Board
     order: 1500
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-ac74913d-4bb5-4ed5-8585-89065027764f:
     display: false
@@ -695,7 +695,7 @@ components:
     link: ''
     name: Website
     order: 200
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3:
     display: false
@@ -730,7 +730,7 @@ components:
     link: https://snippets-stats.eu-west.moz.works
     name: Website Snippets Stats EU-West
     order: 305
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-ce6d2674-186d-48a2-be1d-fd0066997ef1:
     display: true
@@ -764,7 +764,7 @@ components:
     link: https://snippets-stats.mozilla.org
     name: Website Snippets Stats
     order: 305
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-f2be7279-1d21-481d-b747-e33f4c13b539:
     display: true
@@ -772,7 +772,7 @@ components:
     id: synthetics-f2be7279-1d21-481d-b747-e33f4c13b539
     link: ''
     name: SUMO
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-f339b62e-8e17-4674-8027-0b3019f8a788:
     display: false
@@ -781,7 +781,7 @@ components:
     link: ''
     name: Admin Website US-West
     order: 400
-    status: healthy
+    status: warning
     type: synthetics
 globalStatus:
   message: Some systems are experiencing issues
