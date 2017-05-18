@@ -643,7 +643,7 @@ components:
     link: ''
     name: Website CDN
     order: 100
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-84a8a110-0fb6-48b2-bd0c-caf07ba65dfe:
     display: true
@@ -686,7 +686,7 @@ components:
     link: ''
     name: Admin Website
     order: 301
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8:
     display: false
@@ -704,7 +704,7 @@ components:
     link: ''
     name: Website US-West
     order: 300
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-c522e6af-3fa1-4aa4-9382-943ddf79c46d:
     display: true
@@ -730,7 +730,7 @@ components:
     link: https://snippets-stats.eu-west.moz.works
     name: Website Snippets Stats EU-West
     order: 305
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-ce6d2674-186d-48a2-be1d-fd0066997ef1:
     display: true
@@ -764,7 +764,7 @@ components:
     link: https://snippets-stats.mozilla.org
     name: Website Snippets Stats
     order: 305
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-f2be7279-1d21-481d-b747-e33f4c13b539:
     display: true
@@ -772,7 +772,7 @@ components:
     id: synthetics-f2be7279-1d21-481d-b747-e33f4c13b539
     link: ''
     name: SUMO
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-f339b62e-8e17-4674-8027-0b3019f8a788:
     display: false
