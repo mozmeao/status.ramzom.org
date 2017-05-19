@@ -443,7 +443,7 @@ components:
     id: nr-16486292
     link: ''
     name: nucleus-prod-us-west
-    status: warning
+    status: failed
     type: newrelic
   nr-18375214:
     display: true
