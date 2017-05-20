@@ -214,7 +214,7 @@ components:
     link: ''
     name: Application EU-West
     order: 410
-    status: failed
+    status: warning
     type: newrelic
   nr-13687704:
     display: false
