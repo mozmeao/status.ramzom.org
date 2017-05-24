@@ -557,6 +557,14 @@ components:
     name: bedrock-stage-tokyo
     status: healthy
     type: newrelic
+  nr-28424813:
+    display: true
+    group: null
+    id: nr-28424813
+    link: ''
+    name: nucleus-prod-virginia
+    status: healthy
+    type: newrelic
   synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
     display: false
     group: Snippets Service
