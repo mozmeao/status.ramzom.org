@@ -618,6 +618,14 @@ components:
     order: 500
     status: healthy
     type: synthetics
+  synthetics-636e6f27-1e1b-4430-9ad2-c368c868b3a9:
+    display: true
+    group: null
+    id: synthetics-636e6f27-1e1b-4430-9ad2-c368c868b3a9
+    link: ''
+    name: Bedrock Prod Tokyo
+    status: healthy
+    type: synthetics
   synthetics-69a2b577-62e0-4c82-8aaa-8c0c19bca209:
     display: true
     group: null
