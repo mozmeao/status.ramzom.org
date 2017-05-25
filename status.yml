@@ -687,6 +687,14 @@ components:
     order: 1500
     status: healthy
     type: synthetics
+  synthetics-9bdfee59-5c8a-4e90-9644-1f03e2a0b5b4:
+    display: true
+    group: null
+    id: synthetics-9bdfee59-5c8a-4e90-9644-1f03e2a0b5b4
+    link: ''
+    name: Bedrock Prod Virginia
+    status: healthy
+    type: synthetics
   synthetics-ac74913d-4bb5-4ed5-8585-89065027764f:
     display: false
     group: Snippets Service
