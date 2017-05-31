@@ -515,7 +515,7 @@ components:
     id: nr-27934018
     link: ''
     name: bedrock-dev-virginia
-    status: pending
+    status: healthy
     type: newrelic
   nr-27936573:
     display: true
