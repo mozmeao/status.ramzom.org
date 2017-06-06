@@ -595,7 +595,15 @@ components:
     id: nr-28891406
     link: ''
     name: basket-prod-virginia
-    status: pending
+    status: healthy
+    type: newrelic
+  nr-28891417:
+    display: true
+    group: null
+    id: nr-28891417
+    link: ''
+    name: basket-prod-tokyo
+    status: healthy
     type: newrelic
   synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
     display: false
