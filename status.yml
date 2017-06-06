@@ -571,7 +571,7 @@ components:
     id: nr-28878242
     link: ''
     name: basket-dev-virginia
-    status: healthy
+    status: pending
     type: newrelic
   nr-28878248:
     display: true
