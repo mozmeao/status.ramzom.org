@@ -587,7 +587,7 @@ components:
     id: nr-28890703
     link: ''
     name: basket-stage-tokyo
-    status: healthy
+    status: pending
     type: newrelic
   nr-28891406:
     display: true
