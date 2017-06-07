@@ -48,6 +48,14 @@ components:
     name: Jenkins Periodic Backup
     status: healthy
     type: deadmanssnitch
+  dms-2da78c2335:
+    display: true
+    group: null
+    id: dms-2da78c2335
+    link: ''
+    name: Basket Prod Queue - Virginia
+    status: pending
+    type: deadmanssnitch
   dms-2f4d809f94:
     display: false
     group: Infrastructure
