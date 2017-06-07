@@ -115,6 +115,14 @@ components:
     order: 320
     status: healthy
     type: deadmanssnitch
+  dms-8bf805acc6:
+    display: true
+    group: null
+    id: dms-8bf805acc6
+    link: ''
+    name: Basket Prod Queue - Tokyo
+    status: pending
+    type: deadmanssnitch
   dms-943d73ab83:
     display: false
     group: Mozilla Careers
