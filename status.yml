@@ -611,7 +611,7 @@ components:
     id: nr-28891406
     link: ''
     name: basket-prod-virginia
-    status: failed
+    status: warning
     type: newrelic
   nr-28891417:
     display: true
