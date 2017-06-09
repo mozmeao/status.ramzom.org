@@ -611,7 +611,7 @@ components:
     id: nr-28891406
     link: ''
     name: basket-prod-virginia
-    status: warning
+    status: failed
     type: newrelic
   nr-28891417:
     display: true
@@ -627,7 +627,7 @@ components:
     id: nr-28920779
     link: ''
     name: basket-stage-virginia
-    status: warning
+    status: failed
     type: newrelic
   synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
     display: false
@@ -872,5 +872,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: Some systems are experiencing issues
-  status: warning
+  message: Some systems are in trouble
+  status: failed
