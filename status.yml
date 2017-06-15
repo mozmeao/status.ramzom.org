@@ -705,7 +705,7 @@ components:
     link: ''
     name: Website
     order: 500
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
     display: false
@@ -826,7 +826,7 @@ components:
     id: synthetics-ce6d2674-186d-48a2-be1d-fd0066997ef1
     link: ''
     name: Careers Virginia
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
     display: false
@@ -872,5 +872,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: Some systems are experiencing issues
-  status: warning
+  message: Some systems are in trouble
+  status: failed
