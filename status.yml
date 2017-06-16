@@ -739,7 +739,7 @@ components:
     id: synthetics-84a8a110-0fb6-48b2-bd0c-caf07ba65dfe
     link: ''
     name: Snippets Stats Tokyo
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762:
     display: false
@@ -880,5 +880,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
