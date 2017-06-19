@@ -104,7 +104,7 @@ components:
     link: ''
     name: Queue EU-West
     order: 420
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-8166cac951:
     display: false
