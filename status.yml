@@ -54,7 +54,7 @@ components:
     id: dms-2da78c2335
     link: ''
     name: Basket Prod Queue - Virginia
-    status: failed
+    status: warning
     type: deadmanssnitch
   dms-2f4d809f94:
     display: false
@@ -880,5 +880,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
