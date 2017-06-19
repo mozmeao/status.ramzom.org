@@ -154,7 +154,7 @@ components:
     id: dms-d46cd45930
     link: ''
     name: Queue US-West
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-e7b32a3078:
     display: false
