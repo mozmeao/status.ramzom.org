@@ -121,7 +121,7 @@ components:
     id: dms-8bf805acc6
     link: ''
     name: Basket Prod Queue - Tokyo
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-943d73ab83:
     display: false
@@ -880,5 +880,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
