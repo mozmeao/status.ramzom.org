@@ -515,7 +515,7 @@ components:
     id: nr-25359421
     link: ''
     name: careers-prod-virginia
-    status: healthy
+    status: failed
     type: newrelic
   nr-25359551:
     display: true
@@ -896,5 +896,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: Some systems are experiencing issues
-  status: warning
+  message: Some systems are in trouble
+  status: failed
