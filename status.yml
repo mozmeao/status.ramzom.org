@@ -893,7 +893,7 @@ components:
     link: ''
     name: Admin Website US-West
     order: 400
-    status: failed
+    status: healthy
     type: synthetics
 globalStatus:
   message: Some systems are in trouble
