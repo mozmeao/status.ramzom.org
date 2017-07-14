@@ -653,6 +653,22 @@ components:
     name: snippets-prod-frankfurt
     status: healthy
     type: newrelic
+  nr-30264751:
+    display: true
+    group: null
+    id: nr-30264751
+    link: ''
+    name: basket-prod-frankfurt
+    status: healthy
+    type: newrelic
+  nr-30264760:
+    display: true
+    group: null
+    id: nr-30264760
+    link: ''
+    name: basket-stage-frankfurt
+    status: healthy
+    type: newrelic
   synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
     display: false
     group: Snippets Service
