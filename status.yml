@@ -736,7 +736,7 @@ components:
     id: synthetics-69a2b577-62e0-4c82-8aaa-8c0c19bca209
     link: ''
     name: Snippets Prod Tokyo
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-6ad3a20a-d95a-401a-9f54-23b9f9c96370:
     display: true
@@ -928,5 +928,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
