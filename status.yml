@@ -736,6 +736,14 @@ components:
     order: 305
     status: healthy
     type: synthetics
+  synthetics-556986df-78ac-42cf-9edc-8890a21176db:
+    display: true
+    group: null
+    id: synthetics-556986df-78ac-42cf-9edc-8890a21176db
+    link: ''
+    name: Snippets Stats Frankfurt
+    status: healthy
+    type: synthetics
   synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce:
     display: false
     group: Mozilla Careers
