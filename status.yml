@@ -959,6 +959,14 @@ components:
     order: 400
     status: healthy
     type: synthetics
+  synthetics-f6f327d9-daed-4330-b459-3cc50b58c41c:
+    display: true
+    group: null
+    id: synthetics-f6f327d9-daed-4330-b459-3cc50b58c41c
+    link: ''
+    name: Snippets Stats Frankfurt
+    status: healthy
+    type: synthetics
 globalStatus:
   message: Some systems are in trouble
   status: failed
