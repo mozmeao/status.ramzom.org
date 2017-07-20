@@ -930,7 +930,7 @@ components:
     id: synthetics-dc9154bc-3991-4e9a-8f0e-b1e69afe419f
     link: ''
     name: Snippets Prod Frankfurt
-    status: failed
+    status: warning
     type: synthetics
   synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
     display: false
