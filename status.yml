@@ -922,7 +922,7 @@ components:
     id: synthetics-ce6d2674-186d-48a2-be1d-fd0066997ef1
     link: ''
     name: Careers Virginia
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-dc9154bc-3991-4e9a-8f0e-b1e69afe419f:
     display: true
