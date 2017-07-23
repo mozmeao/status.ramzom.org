@@ -619,7 +619,7 @@ components:
     id: nr-28891417
     link: ''
     name: basket-prod-tokyo
-    status: warning
+    status: healthy
     type: newrelic
   nr-28920779:
     display: true
