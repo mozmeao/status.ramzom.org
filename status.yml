@@ -922,7 +922,7 @@ components:
     id: synthetics-ce6d2674-186d-48a2-be1d-fd0066997ef1
     link: ''
     name: Careers Virginia
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-dc9154bc-3991-4e9a-8f0e-b1e69afe419f:
     display: true
@@ -947,7 +947,7 @@ components:
     id: synthetics-e5fd4c88-4ccd-45af-b0d9-065026f089cd
     link: ''
     name: Snippets Stats Virginia
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-e6d31da8-fc7d-419b-a7b4-1905e890201d:
     display: false
