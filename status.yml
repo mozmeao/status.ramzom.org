@@ -230,7 +230,7 @@ components:
     link: ''
     name: Application EU-West
     order: 410
-    status: healthy
+    status: warning
     type: newrelic
   nr-13687704:
     display: false
