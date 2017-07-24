@@ -491,7 +491,7 @@ components:
     id: nr-23656273
     link: ''
     name: snippets-prod-virginia
-    status: healthy
+    status: pending
     type: newrelic
   nr-24376039:
     display: true
