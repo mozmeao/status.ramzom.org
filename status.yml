@@ -793,7 +793,7 @@ components:
     link: ''
     name: Website
     order: 500
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-7daf4668-8346-496e-9ad7-0de6ffcf2831:
     display: true
