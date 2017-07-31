@@ -579,7 +579,7 @@ components:
     id: nr-28424813
     link: ''
     name: nucleus-prod-virginia
-    status: healthy
+    status: pending
     type: newrelic
   nr-28878242:
     display: true
