@@ -196,7 +196,7 @@ components:
     id: nr-13687503
     link: ''
     name: Application EU-West
-    status: healthy
+    status: pending
     type: newrelic
   nr-13687560:
     display: true
@@ -213,7 +213,7 @@ components:
     link: ''
     name: Application EU-West
     order: 510
-    status: healthy
+    status: pending
     type: newrelic
   nr-13687607:
     display: false
@@ -247,7 +247,7 @@ components:
     link: ''
     name: Application EU-West
     order: 310
-    status: healthy
+    status: pending
     type: newrelic
   nr-13687785:
     display: false
@@ -256,7 +256,7 @@ components:
     link: ''
     name: Application EU-West
     order: 110
-    status: healthy
+    status: pending
     type: newrelic
   nr-13687900:
     display: false
