@@ -38,7 +38,7 @@ components:
     link: ''
     name: Queue EU-West
     order: 420
-    status: failed
+    status: warning
     type: deadmanssnitch
   dms-2b20aff8d3:
     display: true
@@ -112,7 +112,7 @@ components:
     link: ''
     name: Queue EU-West
     order: 420
-    status: failed
+    status: warning
     type: deadmanssnitch
   dms-8166cac951:
     display: false
@@ -1008,5 +1008,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
