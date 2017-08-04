@@ -64,6 +64,14 @@ components:
     name: Basket Prod Queue - Virginia
     status: warning
     type: deadmanssnitch
+  dms-2ef7bb15d6:
+    display: true
+    group: null
+    id: dms-2ef7bb15d6
+    link: ''
+    name: Bedrock Periodic Tasks - Tokyo
+    status: pending
+    type: deadmanssnitch
   dms-2f4d809f94:
     display: false
     group: Infrastructure
