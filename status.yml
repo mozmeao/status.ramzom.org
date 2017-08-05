@@ -635,7 +635,7 @@ components:
     id: nr-28891417
     link: ''
     name: basket-prod-tokyo
-    status: healthy
+    status: failed
     type: newrelic
   nr-28920779:
     display: true
@@ -1016,5 +1016,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are experiencing issues
-  status: warning
+  message: Some systems are in trouble
+  status: failed
