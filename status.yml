@@ -179,7 +179,7 @@ components:
     link: ''
     name: Periodic Tasks - EU-West
     order: 120
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-ed6363a1ed:
     display: false
