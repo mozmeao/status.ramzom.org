@@ -651,7 +651,7 @@ components:
     id: nr-29313714
     link: ''
     name: bedrock-prod-frankfurt
-    status: failed
+    status: warning
     type: newrelic
   nr-30140034:
     display: true
@@ -1016,5 +1016,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
