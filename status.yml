@@ -341,7 +341,7 @@ components:
     link: ''
     name: Application US-West
     order: 110
-    status: pending
+    status: healthy
     type: newrelic
   nr-13688101:
     display: true
@@ -539,7 +539,7 @@ components:
     id: nr-25359551
     link: ''
     name: careers-prod-tokyo
-    status: pending
+    status: healthy
     type: newrelic
   nr-27934018:
     display: true
