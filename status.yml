@@ -289,7 +289,7 @@ components:
     id: nr-13687969
     link: ''
     name: Application US-West
-    status: healthy
+    status: pending
     type: newrelic
   nr-13687975:
     display: true
@@ -323,7 +323,7 @@ components:
     id: nr-13688024
     link: ''
     name: basket-dev-us-west
-    status: healthy
+    status: pending
     type: newrelic
   nr-13688032:
     display: false
@@ -341,7 +341,7 @@ components:
     link: ''
     name: Application US-West
     order: 110
-    status: healthy
+    status: pending
     type: newrelic
   nr-13688101:
     display: true
@@ -349,7 +349,7 @@ components:
     id: nr-13688101
     link: ''
     name: Application US-West
-    status: healthy
+    status: pending
     type: newrelic
   nr-13688108:
     display: false
@@ -433,7 +433,7 @@ components:
     link: ''
     name: Kumascript Application
     order: 210
-    status: healthy
+    status: pending
     type: newrelic
   nr-13792729:
     display: false
@@ -499,7 +499,7 @@ components:
     id: nr-20955446
     link: ''
     name: nucleus-stage-us-west
-    status: healthy
+    status: pending
     type: newrelic
   nr-23656273:
     display: true
