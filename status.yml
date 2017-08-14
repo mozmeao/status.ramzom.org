@@ -315,7 +315,7 @@ components:
     link: ''
     name: Admin Application US-West
     order: 310
-    status: pending
+    status: healthy
     type: newrelic
   nr-13688024:
     display: false
@@ -358,7 +358,7 @@ components:
     link: ''
     name: Admin Application US-West
     order: 410
-    status: pending
+    status: healthy
     type: newrelic
   nr-13698376:
     display: true
@@ -699,7 +699,7 @@ components:
     id: nr-30862774
     link: ''
     name: nucleus-prod-frankfurt
-    status: pending
+    status: healthy
     type: newrelic
   synthetics-0bc5585c-c952-4526-97d9-542663b1f075:
     display: true
