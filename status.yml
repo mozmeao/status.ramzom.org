@@ -390,7 +390,7 @@ components:
     id: nr-13708399
     link: ''
     name: Kumascript Application
-    status: pending
+    status: healthy
     type: newrelic
   nr-13708738:
     display: true
@@ -499,7 +499,7 @@ components:
     id: nr-20955446
     link: ''
     name: nucleus-stage-us-west
-    status: pending
+    status: healthy
     type: newrelic
   nr-23656273:
     display: true
