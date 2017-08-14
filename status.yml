@@ -297,7 +297,7 @@ components:
     id: nr-13687975
     link: ''
     name: Application US-West
-    status: healthy
+    status: pending
     type: newrelic
   nr-13687987:
     display: false
@@ -306,7 +306,7 @@ components:
     link: ''
     name: Application US-West
     order: 310
-    status: healthy
+    status: pending
     type: newrelic
   nr-13688011:
     display: false
@@ -398,7 +398,7 @@ components:
     id: nr-13708738
     link: ''
     name: Application
-    status: healthy
+    status: pending
     type: newrelic
   nr-13710560:
     display: true
@@ -619,7 +619,7 @@ components:
     id: nr-28890703
     link: ''
     name: basket-stage-tokyo
-    status: healthy
+    status: pending
     type: newrelic
   nr-28891406:
     display: true
@@ -635,7 +635,7 @@ components:
     id: nr-28891417
     link: ''
     name: basket-prod-tokyo
-    status: healthy
+    status: pending
     type: newrelic
   nr-28920779:
     display: true
@@ -659,7 +659,7 @@ components:
     id: nr-30140034
     link: ''
     name: bedrock-stage-frankfurt
-    status: healthy
+    status: pending
     type: newrelic
   nr-30227071:
     display: true
@@ -675,7 +675,7 @@ components:
     id: nr-30264751
     link: ''
     name: basket-prod-frankfurt
-    status: healthy
+    status: pending
     type: newrelic
   nr-30264760:
     display: true
