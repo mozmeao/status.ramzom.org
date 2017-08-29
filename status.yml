@@ -70,7 +70,7 @@ components:
     id: dms-2ef7bb15d6
     link: ''
     name: Bedrock Periodic Tasks - Tokyo
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-2f4d809f94:
     display: false
@@ -179,7 +179,7 @@ components:
     link: ''
     name: Periodic Tasks - EU-West
     order: 120
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-ed6363a1ed:
     display: false
@@ -188,7 +188,7 @@ components:
     link: ''
     name: Periodic Tasks - US-West
     order: 120
-    status: healthy
+    status: failed
     type: deadmanssnitch
   nr-13674646:
     display: false
@@ -1024,5 +1024,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are experiencing issues
-  status: warning
+  message: Some systems are in trouble
+  status: failed
