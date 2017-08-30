@@ -179,7 +179,7 @@ components:
     link: ''
     name: Periodic Tasks - EU-West
     order: 120
-    status: failed
+    status: paused
     type: deadmanssnitch
   dms-ed6363a1ed:
     display: false
@@ -188,7 +188,7 @@ components:
     link: ''
     name: Periodic Tasks - US-West
     order: 120
-    status: failed
+    status: paused
     type: deadmanssnitch
   nr-13674646:
     display: false
