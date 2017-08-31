@@ -867,7 +867,7 @@ components:
     id: synthetics-8710f802-1e22-47c0-84b6-61db403ce7e0
     link: ''
     name: Snippets Stats Traffic Policy
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762:
     display: false
@@ -1032,5 +1032,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
