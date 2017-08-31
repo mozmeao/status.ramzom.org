@@ -979,7 +979,7 @@ components:
     link: ''
     name: Website EU-West
     order: 100
-    status: failed
+    status: warning
     type: synthetics
   synthetics-e5fd4c88-4ccd-45af-b0d9-065026f089cd:
     display: true
