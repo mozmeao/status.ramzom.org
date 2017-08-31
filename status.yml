@@ -783,7 +783,7 @@ components:
     link: ''
     name: Website EU-West
     order: 501
-    status: failed
+    status: warning
     type: synthetics
   synthetics-615be5db-81f3-462b-903f-a19afdfc19bf:
     display: false
@@ -842,7 +842,7 @@ components:
     link: ''
     name: Website EU-West
     order: 301
-    status: failed
+    status: warning
     type: synthetics
   synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2:
     display: false
@@ -954,7 +954,7 @@ components:
     link: https://snippets-stats.eu-west.moz.works
     name: Website Snippets Stats EU-West
     order: 305
-    status: failed
+    status: warning
     type: synthetics
   synthetics-ce6d2674-186d-48a2-be1d-fd0066997ef1:
     display: true
