@@ -910,7 +910,7 @@ components:
     link: ''
     name: Admin Website
     order: 301
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8:
     display: false
@@ -928,7 +928,7 @@ components:
     link: ''
     name: Website US-West
     order: 300
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-c522e6af-3fa1-4aa4-9382-943ddf79c46d:
     display: true
