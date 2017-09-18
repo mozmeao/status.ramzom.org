@@ -523,7 +523,7 @@ components:
     id: nr-24982923
     link: ''
     name: snippets-prod-tokyo
-    status: failed
+    status: warning
     type: newrelic
   nr-25359421:
     display: true
