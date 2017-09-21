@@ -212,7 +212,7 @@ components:
     id: nr-13687560
     link: ''
     name: Application EU-West
-    status: pending
+    status: warning
     type: newrelic
   nr-13687580:
     display: false
@@ -255,7 +255,7 @@ components:
     link: ''
     name: Application EU-West
     order: 310
-    status: pending
+    status: warning
     type: newrelic
   nr-13687785:
     display: false
