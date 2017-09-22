@@ -715,7 +715,7 @@ components:
     id: nr-34026072
     link: ''
     name: nucleus-dev-frankfurt
-    status: pending
+    status: healthy
     type: newrelic
   synthetics-0bc5585c-c952-4526-97d9-542663b1f075:
     display: true
