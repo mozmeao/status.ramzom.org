@@ -1037,7 +1037,7 @@ components:
     link: ''
     name: Admin Website US-West
     order: 400
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-f6f327d9-daed-4330-b459-3cc50b58c41c:
     display: true
