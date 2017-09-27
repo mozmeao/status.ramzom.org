@@ -808,6 +808,14 @@ components:
     name: Snippets Stats Frankfurt
     status: healthy
     type: synthetics
+  synthetics-5bbf26e7-79cd-45c0-9a91-50b71ad14b0d:
+    display: true
+    group: null
+    id: synthetics-5bbf26e7-79cd-45c0-9a91-50b71ad14b0d
+    link: ''
+    name: Careers Portland
+    status: healthy
+    type: synthetics
   synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce:
     display: false
     group: Mozilla Careers
