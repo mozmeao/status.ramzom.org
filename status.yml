@@ -651,7 +651,7 @@ components:
     id: nr-29313714
     link: ''
     name: bedrock-prod-frankfurt
-    status: healthy
+    status: warning
     type: newrelic
   nr-30140034:
     display: true
