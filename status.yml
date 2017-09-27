@@ -579,7 +579,7 @@ components:
     id: nr-27945751
     link: ''
     name: bedrock-prod-tokyo
-    status: failed
+    status: warning
     type: newrelic
   nr-27945762:
     display: true
@@ -1048,5 +1048,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
