@@ -579,7 +579,7 @@ components:
     id: nr-27945751
     link: ''
     name: bedrock-prod-tokyo
-    status: healthy
+    status: warning
     type: newrelic
   nr-27945762:
     display: true
