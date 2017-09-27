@@ -741,6 +741,14 @@ components:
     name: careers-prod-portland
     status: healthy
     type: newrelic
+  nr-34335963:
+    display: true
+    group: null
+    id: nr-34335963
+    link: ''
+    name: snippets-prod-portland
+    status: healthy
+    type: newrelic
   synthetics-0bc5585c-c952-4526-97d9-542663b1f075:
     display: true
     group: null
