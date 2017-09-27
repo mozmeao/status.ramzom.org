@@ -733,6 +733,14 @@ components:
     name: careers-stage-portland
     status: healthy
     type: newrelic
+  nr-34327330:
+    display: true
+    group: null
+    id: nr-34327330
+    link: ''
+    name: careers-prod-portland
+    status: healthy
+    type: newrelic
   synthetics-0bc5585c-c952-4526-97d9-542663b1f075:
     display: true
     group: null
