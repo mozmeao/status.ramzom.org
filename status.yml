@@ -1,4 +1,12 @@
 components:
+  dms-00391e6f00:
+    display: true
+    group: null
+    id: dms-00391e6f00
+    link: ''
+    name: (testing) MDN Prod S3 backup cron
+    status: pending
+    type: deadmanssnitch
   dms-033e342441:
     display: true
     group: Snippets Service
