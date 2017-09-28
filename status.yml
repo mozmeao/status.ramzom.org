@@ -186,7 +186,7 @@ components:
     id: dms-dd376aa03e
     link: ''
     name: Release Notes Git Update
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-e7b32a3078:
     display: false
