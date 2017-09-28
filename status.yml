@@ -773,6 +773,14 @@ components:
     name: snippets-admin-portland
     status: healthy
     type: newrelic
+  synthetics-0565c931-ee65-4f89-a125-1b61eb27a10e:
+    display: true
+    group: null
+    id: synthetics-0565c931-ee65-4f89-a125-1b61eb27a10e
+    link: ''
+    name: Snippets Stats Portland
+    status: healthy
+    type: synthetics
   synthetics-0bc5585c-c952-4526-97d9-542663b1f075:
     display: true
     group: null
