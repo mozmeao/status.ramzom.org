@@ -763,7 +763,7 @@ components:
     id: nr-34335963
     link: ''
     name: snippets-prod-portland
-    status: pending
+    status: healthy
     type: newrelic
   nr-34336247:
     display: true
