@@ -739,7 +739,7 @@ components:
     id: nr-34256843
     link: ''
     name: snippets-stage-portland
-    status: healthy
+    status: pending
     type: newrelic
   nr-34326669:
     display: true
