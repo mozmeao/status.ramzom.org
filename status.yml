@@ -779,7 +779,7 @@ components:
     id: nr-34419451
     link: ''
     name: kuma-celery-prod-portland
-    status: pending
+    status: healthy
     type: newrelic
   nr-34419452:
     display: true
@@ -787,7 +787,7 @@ components:
     id: nr-34419452
     link: ''
     name: kuma-prod-portland
-    status: pending
+    status: healthy
     type: newrelic
   nr-34459612:
     display: true
@@ -795,7 +795,7 @@ components:
     id: nr-34459612
     link: ''
     name: kuma-web-prod-portland
-    status: pending
+    status: healthy
     type: newrelic
   nr-34459625:
     display: true
@@ -803,7 +803,7 @@ components:
     id: nr-34459625
     link: ''
     name: kuma-api-prod-portland
-    status: pending
+    status: healthy
     type: newrelic
   synthetics-0565c931-ee65-4f89-a125-1b61eb27a10e:
     display: true
