@@ -821,6 +821,54 @@ components:
     name: kuma-prod-portland (Node.js)
     status: healthy
     type: newrelic
+  nr-34476931:
+    display: true
+    group: null
+    id: nr-34476931
+    link: ''
+    name: kuma-celery-stage-portland
+    status: pending
+    type: newrelic
+  nr-34476932:
+    display: true
+    group: null
+    id: nr-34476932
+    link: ''
+    name: kuma-stage-portland
+    status: healthy
+    type: newrelic
+  nr-34476937:
+    display: true
+    group: null
+    id: nr-34476937
+    link: ''
+    name: kuma-kumascript-stage-portland
+    status: pending
+    type: newrelic
+  nr-34476938:
+    display: true
+    group: null
+    id: nr-34476938
+    link: ''
+    name: kuma-stage-portland (Node.js)
+    status: pending
+    type: newrelic
+  nr-34476941:
+    display: true
+    group: null
+    id: nr-34476941
+    link: ''
+    name: kuma-web-stage-portland
+    status: pending
+    type: newrelic
+  nr-34476949:
+    display: true
+    group: null
+    id: nr-34476949
+    link: ''
+    name: kuma-api-stage-portland
+    status: healthy
+    type: newrelic
   synthetics-0565c931-ee65-4f89-a125-1b61eb27a10e:
     display: true
     group: null
