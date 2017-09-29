@@ -805,6 +805,22 @@ components:
     name: kuma-api-prod-portland
     status: healthy
     type: newrelic
+  nr-34476242:
+    display: true
+    group: null
+    id: nr-34476242
+    link: ''
+    name: kuma-kumascript-prod-portland
+    status: healthy
+    type: newrelic
+  nr-34476243:
+    display: true
+    group: null
+    id: nr-34476243
+    link: ''
+    name: kuma-prod-portland (Node.js)
+    status: healthy
+    type: newrelic
   synthetics-0565c931-ee65-4f89-a125-1b61eb27a10e:
     display: true
     group: null
