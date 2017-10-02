@@ -803,7 +803,7 @@ components:
     id: nr-34459625
     link: ''
     name: kuma-api-prod-portland
-    status: healthy
+    status: pending
     type: newrelic
   nr-34476242:
     display: true
@@ -811,7 +811,7 @@ components:
     id: nr-34476242
     link: ''
     name: kuma-kumascript-prod-portland
-    status: healthy
+    status: pending
     type: newrelic
   nr-34476243:
     display: true
@@ -819,7 +819,7 @@ components:
     id: nr-34476243
     link: ''
     name: kuma-prod-portland (Node.js)
-    status: healthy
+    status: pending
     type: newrelic
   nr-34476931:
     display: true
