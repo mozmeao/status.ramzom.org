@@ -803,7 +803,7 @@ components:
     id: nr-34459625
     link: ''
     name: kuma-api-prod-portland
-    status: healthy
+    status: pending
     type: newrelic
   nr-34476242:
     display: true
