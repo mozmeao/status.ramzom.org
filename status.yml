@@ -827,7 +827,7 @@ components:
     id: nr-34476931
     link: ''
     name: kuma-celery-stage-portland
-    status: healthy
+    status: pending
     type: newrelic
   nr-34476932:
     display: true
@@ -867,7 +867,7 @@ components:
     id: nr-34476949
     link: ''
     name: kuma-api-stage-portland
-    status: healthy
+    status: pending
     type: newrelic
   nr-34593864:
     display: true
