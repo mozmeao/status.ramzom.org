@@ -811,7 +811,7 @@ components:
     id: nr-34476242
     link: ''
     name: kuma-kumascript-prod-portland
-    status: pending
+    status: warning
     type: newrelic
   nr-34476243:
     display: true
@@ -843,7 +843,7 @@ components:
     id: nr-34476937
     link: ''
     name: kuma-kumascript-stage-portland
-    status: pending
+    status: warning
     type: newrelic
   nr-34476938:
     display: true
