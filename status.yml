@@ -779,7 +779,7 @@ components:
     id: nr-34419451
     link: ''
     name: kuma-celery-prod-portland
-    status: pending
+    status: warning
     type: newrelic
   nr-34419452:
     display: true
@@ -803,7 +803,7 @@ components:
     id: nr-34459625
     link: ''
     name: kuma-api-prod-portland
-    status: pending
+    status: warning
     type: newrelic
   nr-34476242:
     display: true
@@ -819,7 +819,7 @@ components:
     id: nr-34476243
     link: ''
     name: kuma-prod-portland (Node.js)
-    status: pending
+    status: warning
     type: newrelic
   nr-34476931:
     display: true
@@ -827,7 +827,7 @@ components:
     id: nr-34476931
     link: ''
     name: kuma-celery-stage-portland
-    status: pending
+    status: warning
     type: newrelic
   nr-34476932:
     display: true
@@ -851,7 +851,7 @@ components:
     id: nr-34476938
     link: ''
     name: kuma-stage-portland (Node.js)
-    status: pending
+    status: warning
     type: newrelic
   nr-34476941:
     display: true
@@ -867,7 +867,7 @@ components:
     id: nr-34476949
     link: ''
     name: kuma-api-stage-portland
-    status: pending
+    status: warning
     type: newrelic
   nr-34593864:
     display: true
