@@ -539,7 +539,7 @@ components:
     id: nr-24982923
     link: ''
     name: snippets-prod-tokyo
-    status: failed
+    status: healthy
     type: newrelic
   nr-25359421:
     display: true
@@ -1248,5 +1248,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
