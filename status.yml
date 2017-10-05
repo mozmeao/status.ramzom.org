@@ -102,7 +102,7 @@ components:
     id: dms-3ea402d1d7
     link: ''
     name: Status Board Update
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-6b7c1eb19f:
     display: true
@@ -1248,5 +1248,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
