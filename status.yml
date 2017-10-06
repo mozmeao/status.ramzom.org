@@ -747,7 +747,7 @@ components:
     id: nr-34326669
     link: ''
     name: careers-stage-portland
-    status: pending
+    status: healthy
     type: newrelic
   nr-34327330:
     display: true
