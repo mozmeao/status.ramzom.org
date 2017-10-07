@@ -21,7 +21,7 @@ components:
     id: dms-04ba5fae00
     link: ''
     name: Basket Prod Queue - Frankfurt
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-078f7f5a2f:
     display: false
@@ -145,7 +145,7 @@ components:
     id: dms-8bf805acc6
     link: ''
     name: Basket Prod Queue - Tokyo
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-943d73ab83:
     display: false
@@ -1248,5 +1248,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are experiencing issues
-  status: warning
+  message: Some systems are in trouble
+  status: failed
