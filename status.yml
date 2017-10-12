@@ -483,7 +483,7 @@ components:
     id: nr-16405643
     link: ''
     name: Python Application
-    status: healthy
+    status: pending
     type: newrelic
   nr-16486292:
     display: false
