@@ -579,7 +579,7 @@ components:
     id: nr-27937483
     link: ''
     name: bedrock-dev-tokyo
-    status: healthy
+    status: pending
     type: newrelic
   nr-27945604:
     display: true
