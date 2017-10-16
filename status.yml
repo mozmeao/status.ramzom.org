@@ -156,6 +156,14 @@ components:
     order: 520
     status: healthy
     type: deadmanssnitch
+  dms-954702c307:
+    display: true
+    group: null
+    id: dms-954702c307
+    link: ''
+    name: MDN Frankfurt sync from S3
+    status: healthy
+    type: deadmanssnitch
   dms-a79f0023f0:
     display: true
     group: null
