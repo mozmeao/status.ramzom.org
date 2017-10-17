@@ -923,7 +923,7 @@ components:
     id: nr-35339380
     link: ''
     name: kumascript-prod-frankfurt
-    status: pending
+    status: healthy
     type: newrelic
   nr-35339383:
     display: true
@@ -931,7 +931,7 @@ components:
     id: nr-35339383
     link: ''
     name: kuma-backend-prod-frankfurt
-    status: pending
+    status: healthy
     type: newrelic
   nr-35339385:
     display: true
