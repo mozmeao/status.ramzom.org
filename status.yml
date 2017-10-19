@@ -963,7 +963,7 @@ components:
     id: synthetics-0bc5585c-c952-4526-97d9-542663b1f075
     link: ''
     name: Snippets Prod Frankfurt
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
     display: false
@@ -1005,7 +1005,7 @@ components:
     id: synthetics-44cd9ed6-29a6-4efd-a89e-1ff461b2991e
     link: ''
     name: Bedrock Prod Frankfurt
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-51f2ccb1-ac06-46df-b0ec-c4435c7f6124:
     display: false
@@ -1132,7 +1132,7 @@ components:
     link: ''
     name: Website US-west
     order: 100
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-9340449f-adc3-4e14-bbb4-20c20caff847:
     display: false
@@ -1268,7 +1268,7 @@ components:
     id: synthetics-f2be7279-1d21-481d-b747-e33f4c13b539
     link: ''
     name: SUMO
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-f339b62e-8e17-4674-8027-0b3019f8a788:
     display: false
