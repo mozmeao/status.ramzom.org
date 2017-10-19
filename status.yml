@@ -194,7 +194,7 @@ components:
     id: dms-dd376aa03e
     link: ''
     name: Release Notes Git Update
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-e7b32a3078:
     display: false
@@ -1288,5 +1288,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
