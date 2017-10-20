@@ -955,7 +955,7 @@ components:
     id: nr-35599138
     link: ''
     name: kumascript-stage-oregon-b
-    status: healthy
+    status: pending
     type: newrelic
   synthetics-0565c931-ee65-4f89-a125-1b61eb27a10e:
     display: true
