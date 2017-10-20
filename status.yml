@@ -949,6 +949,14 @@ components:
     name: kuma-web-prod-frankfurt
     status: healthy
     type: newrelic
+  nr-35599138:
+    display: true
+    group: null
+    id: nr-35599138
+    link: ''
+    name: kumascript-stage-oregon-b
+    status: healthy
+    type: newrelic
   synthetics-0565c931-ee65-4f89-a125-1b61eb27a10e:
     display: true
     group: null
