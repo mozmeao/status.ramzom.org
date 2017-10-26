@@ -164,6 +164,14 @@ components:
     name: MDN Frankfurt sync from S3
     status: healthy
     type: deadmanssnitch
+  dms-a4b6a2c25f:
+    display: true
+    group: null
+    id: dms-a4b6a2c25f
+    link: ''
+    name: Snippets Prod Disabled Past Publish Date
+    status: pending
+    type: deadmanssnitch
   dms-a79f0023f0:
     display: true
     group: null
