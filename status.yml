@@ -39,6 +39,14 @@ components:
     name: Basket Prod FxA Activity
     status: healthy
     type: deadmanssnitch
+  dms-16868e094e:
+    display: true
+    group: null
+    id: dms-16868e094e
+    link: ''
+    name: Snippets Stage Disabled Past Publish Date
+    status: pending
+    type: deadmanssnitch
   dms-16e219cc55:
     display: false
     group: Basket
