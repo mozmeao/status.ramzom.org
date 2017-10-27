@@ -45,7 +45,7 @@ components:
     id: dms-16868e094e
     link: ''
     name: Snippets Stage Disabled Past Publish Date
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-16e219cc55:
     display: false
@@ -178,7 +178,7 @@ components:
     id: dms-a4b6a2c25f
     link: ''
     name: Snippets Prod Disabled Past Publish Date
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-a79f0023f0:
     display: true
