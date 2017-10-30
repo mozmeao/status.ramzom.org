@@ -795,7 +795,7 @@ components:
     id: nr-34336247
     link: ''
     name: snippets-admin-portland
-    status: healthy
+    status: pending
     type: newrelic
   nr-34419451:
     display: true
