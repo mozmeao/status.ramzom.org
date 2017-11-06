@@ -62,7 +62,7 @@ components:
     id: dms-2b20aff8d3
     link: ''
     name: Greenhouse Syncing
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-2c31a2545a:
     display: true
