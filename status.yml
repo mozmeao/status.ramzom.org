@@ -979,7 +979,7 @@ components:
     id: synthetics-0565c931-ee65-4f89-a125-1b61eb27a10e
     link: ''
     name: Snippets Stats Portland
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-0bc5585c-c952-4526-97d9-542663b1f075:
     display: true
@@ -1312,5 +1312,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are experiencing issues
-  status: warning
+  message: Some systems are in trouble
+  status: failed
