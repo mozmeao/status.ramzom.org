@@ -811,7 +811,7 @@ components:
     id: nr-34419452
     link: ''
     name: kuma-prod-portland
-    status: failed
+    status: healthy
     type: newrelic
   nr-34459612:
     display: true
