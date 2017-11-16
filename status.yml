@@ -939,7 +939,7 @@ components:
     id: nr-35339380
     link: ''
     name: kumascript-prod-frankfurt
-    status: failed
+    status: warning
     type: newrelic
   nr-35339383:
     display: true
