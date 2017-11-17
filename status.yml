@@ -979,7 +979,7 @@ components:
     id: synthetics-0565c931-ee65-4f89-a125-1b61eb27a10e
     link: ''
     name: Snippets Stats Portland
-    status: failed
+    status: warning
     type: synthetics
   synthetics-0bc5585c-c952-4526-97d9-542663b1f075:
     display: true
@@ -1054,7 +1054,7 @@ components:
     id: synthetics-5bbf26e7-79cd-45c0-9a91-50b71ad14b0d
     link: ''
     name: Careers Portland
-    status: failed
+    status: warning
     type: synthetics
   synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce:
     display: false
@@ -1312,5 +1312,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
