@@ -56,6 +56,14 @@ components:
     order: 420
     status: warning
     type: deadmanssnitch
+  dms-243ce92a4e:
+    display: true
+    group: null
+    id: dms-243ce92a4e
+    link: ''
+    name: SUMO Collect Tweets
+    status: pending
+    type: deadmanssnitch
   dms-2b20aff8d3:
     display: true
     group: Mozilla Careers
