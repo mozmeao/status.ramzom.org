@@ -56,6 +56,14 @@ components:
     order: 420
     status: warning
     type: deadmanssnitch
+  dms-205affd0f2:
+    display: true
+    group: null
+    id: dms-205affd0f2
+    link: ''
+    name: '[dev] SUMO Collect Tweets'
+    status: pending
+    type: deadmanssnitch
   dms-243ce92a4e:
     display: true
     group: null
@@ -126,7 +134,7 @@ components:
     id: dms-5f1982f38a
     link: ''
     name: '[dev] SUMO Collect Tweets'
-    status: pending
+    status: warning
     type: deadmanssnitch
   dms-6b7c1eb19f:
     display: true
