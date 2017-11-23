@@ -62,7 +62,7 @@ components:
     id: dms-243ce92a4e
     link: ''
     name: SUMO Collect Tweets
-    status: pending
+    status: warning
     type: deadmanssnitch
   dms-2b20aff8d3:
     display: true
