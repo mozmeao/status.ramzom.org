@@ -120,6 +120,14 @@ components:
     name: Status Board Update
     status: healthy
     type: deadmanssnitch
+  dms-5f1982f38a:
+    display: true
+    group: null
+    id: dms-5f1982f38a
+    link: ''
+    name: '[dev] SUMO Collect Tweets'
+    status: pending
+    type: deadmanssnitch
   dms-6b7c1eb19f:
     display: true
     group: null
