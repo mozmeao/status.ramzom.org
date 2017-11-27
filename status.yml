@@ -13,7 +13,7 @@ components:
     id: dms-033e342441
     link: ''
     name: Update Product Details
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-04ba5fae00:
     display: true
@@ -169,7 +169,7 @@ components:
     link: ''
     name: Update Product Details
     order: 320
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-8bf805acc6:
     display: true
@@ -1336,5 +1336,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are experiencing issues
-  status: warning
+  message: Some systems are in trouble
+  status: failed
