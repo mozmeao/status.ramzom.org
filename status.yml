@@ -723,7 +723,7 @@ components:
     id: nr-30140034
     link: ''
     name: bedrock-stage-frankfurt
-    status: healthy
+    status: pending
     type: newrelic
   nr-30227071:
     display: true
