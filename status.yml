@@ -523,7 +523,7 @@ components:
     id: nr-13851870
     link: ''
     name: developer-dev.allizom.org
-    status: healthy
+    status: pending
     type: newrelic
   nr-16405643:
     display: false
