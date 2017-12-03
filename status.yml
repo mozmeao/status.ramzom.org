@@ -1188,7 +1188,7 @@ components:
     id: synthetics-9340449f-adc3-4e14-bbb4-20c20caff847
     link: ''
     name: Nucleus Prod
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d:
     display: false
