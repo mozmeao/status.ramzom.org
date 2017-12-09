@@ -169,7 +169,7 @@ components:
     link: ''
     name: Update Product Details
     order: 320
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-8bf805acc6:
     display: true
