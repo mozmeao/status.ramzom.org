@@ -413,7 +413,7 @@ components:
     id: nr-13688101
     link: ''
     name: Application US-West
-    status: healthy
+    status: warning
     type: newrelic
   nr-13688108:
     display: false
