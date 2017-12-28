@@ -1099,7 +1099,7 @@ components:
     id: synthetics-0bc5585c-c952-4526-97d9-542663b1f075
     link: ''
     name: Snippets Prod Frankfurt
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
     display: false
@@ -1108,7 +1108,7 @@ components:
     link: ''
     name: Website CDN
     order: 300
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-153f9c3a-7cad-47eb-9388-e771b8bd27e3:
     display: true
@@ -1133,7 +1133,7 @@ components:
     id: synthetics-2d3b85bd-2d3b-439b-bf0f-9d0390008add
     link: ''
     name: Careers Tokyo
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-44cd9ed6-29a6-4efd-a89e-1ff461b2991e:
     display: true
@@ -1141,7 +1141,7 @@ components:
     id: synthetics-44cd9ed6-29a6-4efd-a89e-1ff461b2991e
     link: ''
     name: Bedrock Prod Frankfurt
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-51f2ccb1-ac06-46df-b0ec-c4435c7f6124:
     display: false
@@ -1150,7 +1150,7 @@ components:
     link: https://snippets-stats.us-west.moz.works
     name: Website Snippets Stats US-West
     order: 305
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-556986df-78ac-42cf-9edc-8890a21176db:
     display: true
@@ -1158,7 +1158,7 @@ components:
     id: synthetics-556986df-78ac-42cf-9edc-8890a21176db
     link: ''
     name: Snippets Stats Frankfurt
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-5bbf26e7-79cd-45c0-9a91-50b71ad14b0d:
     display: true
@@ -1184,7 +1184,7 @@ components:
     link: ''
     name: Website US-West
     order: 500
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-636e6f27-1e1b-4430-9ad2-c368c868b3a9:
     display: true
@@ -1192,7 +1192,7 @@ components:
     id: synthetics-636e6f27-1e1b-4430-9ad2-c368c868b3a9
     link: ''
     name: Bedrock Prod Tokyo
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-69a2b577-62e0-4c82-8aaa-8c0c19bca209:
     display: true
@@ -1200,7 +1200,7 @@ components:
     id: synthetics-69a2b577-62e0-4c82-8aaa-8c0c19bca209
     link: ''
     name: Snippets Prod Tokyo
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-6ad3a20a-d95a-401a-9f54-23b9f9c96370:
     display: true
@@ -1208,7 +1208,7 @@ components:
     id: synthetics-6ad3a20a-d95a-401a-9f54-23b9f9c96370
     link: ''
     name: irlpodcast prod
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
     display: false
@@ -1225,7 +1225,7 @@ components:
     id: synthetics-7daf4668-8346-496e-9ad7-0de6ffcf2831
     link: ''
     name: Viewsourceconf prod
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
     display: false
@@ -1243,7 +1243,7 @@ components:
     link: ''
     name: Website CDN
     order: 100
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-84a8a110-0fb6-48b2-bd0c-caf07ba65dfe:
     display: true
@@ -1251,7 +1251,7 @@ components:
     id: synthetics-84a8a110-0fb6-48b2-bd0c-caf07ba65dfe
     link: ''
     name: Snippets Stats Tokyo
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-8710f802-1e22-47c0-84b6-61db403ce7e0:
     display: true
@@ -1259,7 +1259,7 @@ components:
     id: synthetics-8710f802-1e22-47c0-84b6-61db403ce7e0
     link: ''
     name: Snippets Stats Traffic Policy
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762:
     display: false
@@ -1268,7 +1268,7 @@ components:
     link: ''
     name: Website US-west
     order: 100
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-9340449f-adc3-4e14-bbb4-20c20caff847:
     display: false
@@ -1276,7 +1276,7 @@ components:
     id: synthetics-9340449f-adc3-4e14-bbb4-20c20caff847
     link: ''
     name: Nucleus Prod
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d:
     display: false
@@ -1285,7 +1285,7 @@ components:
     link: ''
     name: MozMar Status Board
     order: 1500
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-9bdfee59-5c8a-4e90-9644-1f03e2a0b5b4:
     display: true
@@ -1302,7 +1302,7 @@ components:
     link: ''
     name: Admin Website
     order: 301
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8:
     display: false
@@ -1311,7 +1311,7 @@ components:
     link: ''
     name: Website
     order: 200
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3:
     display: false
@@ -1320,7 +1320,7 @@ components:
     link: ''
     name: Website US-West
     order: 300
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-c522e6af-3fa1-4aa4-9382-943ddf79c46d:
     display: true
@@ -1337,7 +1337,7 @@ components:
     link: ''
     name: Website
     order: 400
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-c8c2dd43-5f4f-40da-a012-c450d42fc32e:
     display: false
@@ -1388,7 +1388,7 @@ components:
     link: https://snippets-stats.mozilla.org
     name: Website Snippets Stats
     order: 305
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-e7dd1e11-8753-446e-ac45-8405ae0763ad:
     display: true
@@ -1396,7 +1396,7 @@ components:
     id: synthetics-e7dd1e11-8753-446e-ac45-8405ae0763ad
     link: ''
     name: Careers Frankfurt
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-f2be7279-1d21-481d-b747-e33f4c13b539:
     display: true
@@ -1404,7 +1404,7 @@ components:
     id: synthetics-f2be7279-1d21-481d-b747-e33f4c13b539
     link: ''
     name: SUMO
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-f339b62e-8e17-4674-8027-0b3019f8a788:
     display: false
@@ -1413,7 +1413,7 @@ components:
     link: ''
     name: Admin Website US-West
     order: 400
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-f6f327d9-daed-4330-b459-3cc50b58c41c:
     display: true
