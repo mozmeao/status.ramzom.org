@@ -843,7 +843,7 @@ components:
     id: nr-34459612
     link: ''
     name: kuma-web-prod-portland
-    status: failed
+    status: healthy
     type: newrelic
   nr-34459625:
     display: true
@@ -1424,5 +1424,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
