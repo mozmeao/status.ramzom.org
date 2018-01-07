@@ -462,7 +462,7 @@ components:
     id: nr-13708738
     link: ''
     name: Application
-    status: pending
+    status: healthy
     type: newrelic
   nr-13710560:
     display: true
