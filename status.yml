@@ -771,7 +771,7 @@ components:
     id: nr-32344104
     link: ''
     name: bedrock-dev-frankfurt
-    status: healthy
+    status: pending
     type: newrelic
   nr-34026072:
     display: true
