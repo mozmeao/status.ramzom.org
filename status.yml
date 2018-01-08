@@ -454,7 +454,7 @@ components:
     id: nr-13708399
     link: ''
     name: Kumascript Application
-    status: healthy
+    status: pending
     type: newrelic
   nr-13708738:
     display: true
@@ -462,7 +462,7 @@ components:
     id: nr-13708738
     link: ''
     name: Application
-    status: healthy
+    status: pending
     type: newrelic
   nr-13710560:
     display: true
