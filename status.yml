@@ -488,7 +488,7 @@ components:
     link: ''
     name: Application
     order: 210
-    status: healthy
+    status: pending
     type: newrelic
   nr-13786029:
     display: false
@@ -497,7 +497,7 @@ components:
     link: ''
     name: Kumascript Application
     order: 210
-    status: healthy
+    status: pending
     type: newrelic
   nr-13792729:
     display: false
