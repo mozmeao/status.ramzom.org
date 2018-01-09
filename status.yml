@@ -803,7 +803,7 @@ components:
     id: nr-34327330
     link: ''
     name: careers-prod-portland
-    status: pending
+    status: healthy
     type: newrelic
   nr-34335963:
     display: true
