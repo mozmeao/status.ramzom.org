@@ -835,7 +835,7 @@ components:
     id: nr-34419452
     link: ''
     name: kuma-prod-portland
-    status: healthy
+    status: warning
     type: newrelic
   nr-34459612:
     display: true
@@ -843,7 +843,7 @@ components:
     id: nr-34459612
     link: ''
     name: kuma-web-prod-portland
-    status: healthy
+    status: warning
     type: newrelic
   nr-34459625:
     display: true
