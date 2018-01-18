@@ -454,7 +454,7 @@ components:
     id: nr-13708399
     link: ''
     name: Kumascript Application
-    status: pending
+    status: warning
     type: newrelic
   nr-13708738:
     display: true
@@ -462,7 +462,7 @@ components:
     id: nr-13708738
     link: ''
     name: Application
-    status: pending
+    status: warning
     type: newrelic
   nr-13710560:
     display: true
@@ -488,7 +488,7 @@ components:
     link: ''
     name: Application
     order: 210
-    status: pending
+    status: warning
     type: newrelic
   nr-13786029:
     display: false
@@ -497,7 +497,7 @@ components:
     link: ''
     name: Kumascript Application
     order: 210
-    status: pending
+    status: warning
     type: newrelic
   nr-13792729:
     display: false
@@ -523,7 +523,7 @@ components:
     id: nr-13851870
     link: ''
     name: developer-dev.allizom.org
-    status: pending
+    status: warning
     type: newrelic
   nr-16405643:
     display: false
