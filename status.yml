@@ -1141,7 +1141,7 @@ components:
     id: synthetics-44cd9ed6-29a6-4efd-a89e-1ff461b2991e
     link: ''
     name: Bedrock Prod Frankfurt
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-51f2ccb1-ac06-46df-b0ec-c4435c7f6124:
     display: false
@@ -1184,7 +1184,7 @@ components:
     link: ''
     name: Website US-West
     order: 500
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-636e6f27-1e1b-4430-9ad2-c368c868b3a9:
     display: true
@@ -1208,7 +1208,7 @@ components:
     id: synthetics-6ad3a20a-d95a-401a-9f54-23b9f9c96370
     link: ''
     name: irlpodcast prod
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
     display: false
@@ -1268,7 +1268,7 @@ components:
     link: ''
     name: Website US-west
     order: 100
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-9340449f-adc3-4e14-bbb4-20c20caff847:
     display: false
@@ -1302,7 +1302,7 @@ components:
     link: ''
     name: Admin Website
     order: 301
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8:
     display: false
@@ -1311,7 +1311,7 @@ components:
     link: ''
     name: Website
     order: 200
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3:
     display: false
@@ -1320,7 +1320,7 @@ components:
     link: ''
     name: Website US-West
     order: 300
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-c522e6af-3fa1-4aa4-9382-943ddf79c46d:
     display: true
@@ -1337,7 +1337,7 @@ components:
     link: ''
     name: Website
     order: 400
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-c8c2dd43-5f4f-40da-a012-c450d42fc32e:
     display: false
