@@ -5,7 +5,7 @@ components:
     id: dms-00391e6f00
     link: ''
     name: (testing) MDN Prod S3 backup cron
-    status: failed
+    status: paused
     type: deadmanssnitch
   dms-033e342441:
     display: true
