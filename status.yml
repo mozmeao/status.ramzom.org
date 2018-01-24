@@ -1107,7 +1107,7 @@ components:
     id: nr-41854835
     link: ''
     name: basket-prod-oregon-b
-    status: pending
+    status: healthy
     type: newrelic
   nr-42432147:
     display: true
