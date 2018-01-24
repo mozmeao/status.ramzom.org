@@ -1067,7 +1067,7 @@ components:
     id: nr-41843395
     link: ''
     name: bedrock-stage-oregon-b
-    status: pending
+    status: healthy
     type: newrelic
   nr-42432147:
     display: true
