@@ -1061,6 +1061,14 @@ components:
     name: cca-agent
     status: warning
     type: newrelic
+  nr-41843395:
+    display: true
+    group: null
+    id: nr-41843395
+    link: ''
+    name: bedrock-stage-oregon-b
+    status: pending
+    type: newrelic
   nr-42432147:
     display: true
     group: null
