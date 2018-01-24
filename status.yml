@@ -1101,6 +1101,14 @@ components:
     name: basket-admin-stage-oregon-b
     status: healthy
     type: newrelic
+  nr-41854835:
+    display: true
+    group: null
+    id: nr-41854835
+    link: ''
+    name: basket-prod-oregon-b
+    status: pending
+    type: newrelic
   nr-42432147:
     display: true
     group: null
