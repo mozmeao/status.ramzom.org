@@ -1093,6 +1093,14 @@ components:
     name: basket-stage-oregon-b
     status: healthy
     type: newrelic
+  nr-41854181:
+    display: true
+    group: null
+    id: nr-41854181
+    link: ''
+    name: basket-admin-stage-oregon-b
+    status: healthy
+    type: newrelic
   nr-42432147:
     display: true
     group: null
