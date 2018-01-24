@@ -1077,6 +1077,14 @@ components:
     name: bedrock-prod-oregon-b
     status: healthy
     type: newrelic
+  nr-41848799:
+    display: true
+    group: null
+    id: nr-41848799
+    link: ''
+    name: basket-dev-oregon-b
+    status: pending
+    type: newrelic
   nr-42432147:
     display: true
     group: null
