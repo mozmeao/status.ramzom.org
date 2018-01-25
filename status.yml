@@ -1155,7 +1155,7 @@ components:
     id: nr-41872252
     link: ''
     name: snippets-admin-oregon-b
-    status: pending
+    status: healthy
     type: newrelic
   nr-42432147:
     display: true
