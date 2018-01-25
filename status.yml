@@ -1099,7 +1099,7 @@ components:
     id: nr-41854181
     link: ''
     name: basket-admin-stage-oregon-b
-    status: healthy
+    status: pending
     type: newrelic
   nr-41854835:
     display: true
