@@ -1141,6 +1141,14 @@ components:
     name: snippets-stage-oregon-b
     status: healthy
     type: newrelic
+  nr-41872171:
+    display: true
+    group: null
+    id: nr-41872171
+    link: ''
+    name: snippets-prod-oregon-b
+    status: healthy
+    type: newrelic
   nr-42432147:
     display: true
     group: null
