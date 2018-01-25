@@ -1139,7 +1139,7 @@ components:
     id: nr-41872008
     link: ''
     name: snippets-stage-oregon-b
-    status: pending
+    status: healthy
     type: newrelic
   nr-41872171:
     display: true
