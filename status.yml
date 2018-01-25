@@ -1125,6 +1125,14 @@ components:
     name: careers-stage-oregon-b
     status: healthy
     type: newrelic
+  nr-41870686:
+    display: true
+    group: null
+    id: nr-41870686
+    link: ''
+    name: careers-prod-oregon-b
+    status: healthy
+    type: newrelic
   nr-42432147:
     display: true
     group: null
