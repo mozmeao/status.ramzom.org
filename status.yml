@@ -1109,6 +1109,14 @@ components:
     name: basket-prod-oregon-b
     status: healthy
     type: newrelic
+  nr-41856975:
+    display: true
+    group: null
+    id: nr-41856975
+    link: ''
+    name: basket-admin-oregon-b
+    status: healthy
+    type: newrelic
   nr-42432147:
     display: true
     group: null
