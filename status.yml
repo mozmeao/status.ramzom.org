@@ -194,7 +194,7 @@ components:
     id: dms-954702c307
     link: ''
     name: MDN Frankfurt sync from S3
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-a4b6a2c25f:
     display: true
