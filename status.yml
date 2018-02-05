@@ -53,7 +53,7 @@ components:
     id: dms-11e5a9968f
     link: ''
     name: '[dev] SUMO Update Product Details'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-132c442ac1:
     display: true
@@ -238,7 +238,7 @@ components:
     id: dms-57d1b7a8db
     link: ''
     name: '[dev] SUMO Enqueue Lag Monitor Task'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-58ad70705a:
     display: true
@@ -410,7 +410,7 @@ components:
     id: dms-967339e3dc
     link: ''
     name: '[dev] SUMO Process Exit Surveys'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-a4b6a2c25f:
     display: true
