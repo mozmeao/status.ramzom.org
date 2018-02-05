@@ -246,7 +246,7 @@ components:
     id: dms-58ad70705a
     link: ''
     name: '[dev] SUMO Update Search Ctr Metric'
-    status: pending
+    status: warning
     type: deadmanssnitch
   dms-5eced34560:
     display: true
