@@ -110,7 +110,7 @@ components:
     id: dms-1b3359d2fa
     link: ''
     name: '[dev] SUMO Cohort Analysis'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-205affd0f2:
     display: true
