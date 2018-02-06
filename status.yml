@@ -474,7 +474,7 @@ components:
     id: dms-e4e83cea12
     link: ''
     name: '[dev] SUMO Update L10n Coverage Metrics'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-e7b32a3078:
     display: false
