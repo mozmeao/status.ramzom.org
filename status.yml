@@ -254,7 +254,7 @@ components:
     id: dms-5eced34560
     link: ''
     name: '[dev] SUMO Reindex Users That Contributed Yesterday'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-5f1982f38a:
     display: true
