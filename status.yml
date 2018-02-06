@@ -270,7 +270,7 @@ components:
     id: dms-6110b5c642
     link: ''
     name: '[dev] SUMO Reindex Kb'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-69c940066d:
     display: true
