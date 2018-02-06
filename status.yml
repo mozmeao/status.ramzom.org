@@ -328,7 +328,7 @@ components:
     id: dms-7a0e516aa5
     link: ''
     name: '[dev] SUMO Update Contributor Metrics'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-7f5ad9df19:
     display: true
