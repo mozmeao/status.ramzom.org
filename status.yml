@@ -102,7 +102,7 @@ components:
     id: dms-1979cf068b
     link: ''
     name: '[dev] SUMO Calculate Csat Metrics'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-1b3359d2fa:
     display: true
