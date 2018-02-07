@@ -238,7 +238,7 @@ components:
     id: dms-57d1b7a8db
     link: ''
     name: '[dev] SUMO Enqueue Lag Monitor Task'
-    status: failed
+    status: paused
     type: deadmanssnitch
   dms-58ad70705a:
     display: true
@@ -434,7 +434,7 @@ components:
     id: dms-af5e333a31
     link: ''
     name: '[dev] SUMO Send Welcome Emails'
-    status: failed
+    status: paused
     type: deadmanssnitch
   dms-b6a8280917:
     display: false
@@ -450,7 +450,7 @@ components:
     id: dms-ca28534747
     link: ''
     name: '[dev] SUMO Escalate Questions'
-    status: failed
+    status: paused
     type: deadmanssnitch
   dms-d46cd45930:
     display: true
@@ -1760,5 +1760,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
