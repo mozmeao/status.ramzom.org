@@ -238,7 +238,7 @@ components:
     id: dms-57d1b7a8db
     link: ''
     name: '[dev] SUMO Enqueue Lag Monitor Task'
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-58ad70705a:
     display: true
