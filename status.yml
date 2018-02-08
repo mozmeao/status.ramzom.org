@@ -1444,7 +1444,7 @@ components:
     link: ''
     name: Website CDN
     order: 300
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-153f9c3a-7cad-47eb-9388-e771b8bd27e3:
     display: true
@@ -1486,7 +1486,7 @@ components:
     link: https://snippets-stats.us-west.moz.works
     name: Website Snippets Stats US-West
     order: 305
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-556986df-78ac-42cf-9edc-8890a21176db:
     display: true
@@ -1494,7 +1494,7 @@ components:
     id: synthetics-556986df-78ac-42cf-9edc-8890a21176db
     link: ''
     name: Snippets Stats Frankfurt
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-5bbf26e7-79cd-45c0-9a91-50b71ad14b0d:
     display: true
@@ -1520,7 +1520,7 @@ components:
     link: ''
     name: Website US-West
     order: 500
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-636e6f27-1e1b-4430-9ad2-c368c868b3a9:
     display: true
@@ -1536,7 +1536,7 @@ components:
     id: synthetics-69a2b577-62e0-4c82-8aaa-8c0c19bca209
     link: ''
     name: Snippets Prod Tokyo
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-6ad3a20a-d95a-401a-9f54-23b9f9c96370:
     display: true
@@ -1544,7 +1544,7 @@ components:
     id: synthetics-6ad3a20a-d95a-401a-9f54-23b9f9c96370
     link: ''
     name: irlpodcast prod
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
     display: false
@@ -1579,7 +1579,7 @@ components:
     link: ''
     name: Website CDN
     order: 100
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-84a8a110-0fb6-48b2-bd0c-caf07ba65dfe:
     display: true
@@ -1621,7 +1621,7 @@ components:
     link: ''
     name: MozMar Status Board
     order: 1500
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-9bdfee59-5c8a-4e90-9644-1f03e2a0b5b4:
     display: true
@@ -1656,7 +1656,7 @@ components:
     link: ''
     name: Website US-West
     order: 300
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-c522e6af-3fa1-4aa4-9382-943ddf79c46d:
     display: true
