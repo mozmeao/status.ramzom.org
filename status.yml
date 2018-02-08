@@ -53,7 +53,7 @@ components:
     id: dms-11e5a9968f
     link: ''
     name: '[dev] SUMO Update Product Details'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-132c442ac1:
     display: true
@@ -126,7 +126,7 @@ components:
     id: dms-22746fd103
     link: ''
     name: '[dev] SUMO Reload Wiki Traffic Stats'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-243ce92a4e:
     display: true
@@ -198,7 +198,7 @@ components:
     id: dms-3c73097af7
     link: ''
     name: '[dev] SUMO Remove Expired Registration Profiles'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-3ea402d1d7:
     display: true
@@ -270,7 +270,7 @@ components:
     id: dms-6110b5c642
     link: ''
     name: '[dev] SUMO Reindex Kb'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-69c940066d:
     display: true
@@ -320,7 +320,7 @@ components:
     id: dms-779d6209c8
     link: ''
     name: '[dev] SUMO Update Weekly Votes'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-7a0e516aa5:
     display: true
@@ -328,7 +328,7 @@ components:
     id: dms-7a0e516aa5
     link: ''
     name: '[dev] SUMO Update Contributor Metrics'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-7f5ad9df19:
     display: true
@@ -353,7 +353,7 @@ components:
     id: dms-8b45c1cb72
     link: ''
     name: '[dev] SUMO Reload Question Traffic Stats'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-8bf805acc6:
     display: true
@@ -369,7 +369,7 @@ components:
     id: dms-91f9d424aa
     link: ''
     name: '[dev] SUMO Send Postatus Errors'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-9330ed39fb:
     display: true
@@ -377,7 +377,7 @@ components:
     id: dms-9330ed39fb
     link: ''
     name: '[dev] SUMO Report Employee Answers'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-943d73ab83:
     display: false
@@ -394,7 +394,7 @@ components:
     id: dms-94977220c7
     link: ''
     name: '[dev] SUMO Survey Recent Askers'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-954702c307:
     display: true
@@ -474,7 +474,7 @@ components:
     id: dms-e4e83cea12
     link: ''
     name: '[dev] SUMO Update L10n Coverage Metrics'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-e7b32a3078:
     display: false
