@@ -434,7 +434,7 @@ components:
     id: dms-af5e333a31
     link: ''
     name: '[dev] SUMO Send Welcome Emails'
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-b6a8280917:
     display: false
