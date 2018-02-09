@@ -230,7 +230,7 @@ components:
     id: dms-4606310016
     link: ''
     name: '[dev] SUMO Update Top Contributors'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-57d1b7a8db:
     display: true
