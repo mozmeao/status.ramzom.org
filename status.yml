@@ -1740,7 +1740,7 @@ components:
     id: synthetics-f2be7279-1d21-481d-b747-e33f4c13b539
     link: ''
     name: SUMO
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-f339b62e-8e17-4674-8027-0b3019f8a788:
     display: false
@@ -1760,5 +1760,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
