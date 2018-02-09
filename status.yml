@@ -278,7 +278,7 @@ components:
     id: dms-69c940066d
     link: ''
     name: '[dev] SUMO Rebuild Kb'
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-6b7c1eb19f:
     display: true
