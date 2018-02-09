@@ -369,7 +369,7 @@ components:
     id: dms-91f9d424aa
     link: ''
     name: '[dev] SUMO Send Postatus Errors'
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-9330ed39fb:
     display: true
