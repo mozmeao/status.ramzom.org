@@ -312,7 +312,7 @@ components:
     id: dms-772d461d2f
     link: ''
     name: '[dev] SUMO Cache Most Unhelpful Kb Articles'
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-779d6209c8:
     display: true
