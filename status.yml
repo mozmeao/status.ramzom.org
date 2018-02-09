@@ -410,7 +410,7 @@ components:
     id: dms-967339e3dc
     link: ''
     name: '[dev] SUMO Process Exit Surveys'
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-a4b6a2c25f:
     display: true
