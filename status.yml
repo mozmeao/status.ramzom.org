@@ -377,7 +377,7 @@ components:
     id: dms-9330ed39fb
     link: ''
     name: '[dev] SUMO Report Employee Answers'
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-943d73ab83:
     display: false
