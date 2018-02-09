@@ -53,7 +53,7 @@ components:
     id: dms-11e5a9968f
     link: ''
     name: '[dev] SUMO Update Product Details'
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-132c442ac1:
     display: true
