@@ -336,7 +336,7 @@ components:
     id: dms-7f5ad9df19
     link: ''
     name: '[dev] SUMO Send Weekly Ready For Review Digest'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-8166cac951:
     display: false
