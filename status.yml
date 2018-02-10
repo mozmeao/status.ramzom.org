@@ -636,7 +636,7 @@ components:
     link: ''
     name: Application US-West
     order: 410
-    status: healthy
+    status: failed
     type: newrelic
   nr-13688073:
     display: false
