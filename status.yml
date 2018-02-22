@@ -494,6 +494,14 @@ components:
     order: 120
     status: healthy
     type: deadmanssnitch
+  dms-fac9921184:
+    display: true
+    group: null
+    id: dms-fac9921184
+    link: ''
+    name: '[prod] SUMO Enqueue Lag Monitor Task'
+    status: pending
+    type: deadmanssnitch
   nr-13674646:
     display: false
     group: null
