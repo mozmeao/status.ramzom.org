@@ -322,6 +322,14 @@ components:
     name: '[dev] SUMO Update Weekly Votes'
     status: healthy
     type: deadmanssnitch
+  dms-785af47724:
+    display: true
+    group: null
+    id: dms-785af47724
+    link: ''
+    name: '[prod] SUMO Enqueue Lag Monitor Task'
+    status: pending
+    type: deadmanssnitch
   dms-7a0e516aa5:
     display: true
     group: null
