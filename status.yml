@@ -47,6 +47,22 @@ components:
     name: Basket Prod FxA Activity
     status: healthy
     type: deadmanssnitch
+  dms-0d54931602:
+    display: true
+    group: null
+    id: dms-0d54931602
+    link: ''
+    name: '[prod] SUMO Cache Most Unhelpful Kb Articles'
+    status: pending
+    type: deadmanssnitch
+  dms-0f533b6294:
+    display: true
+    group: null
+    id: dms-0f533b6294
+    link: ''
+    name: '[prod] SUMO Reload Question Traffic Stats'
+    status: pending
+    type: deadmanssnitch
   dms-11e5a9968f:
     display: true
     group: null
@@ -95,6 +111,22 @@ components:
     name: Queue EU-West
     order: 420
     status: warning
+    type: deadmanssnitch
+  dms-1812dcdba0:
+    display: true
+    group: null
+    id: dms-1812dcdba0
+    link: ''
+    name: '[prod] SUMO Update Top Contributors'
+    status: pending
+    type: deadmanssnitch
+  dms-18202edbff:
+    display: true
+    group: null
+    id: dms-18202edbff
+    link: ''
+    name: '[prod] SUMO Update Weekly Votes'
+    status: pending
     type: deadmanssnitch
   dms-1979cf068b:
     display: true
@@ -184,6 +216,14 @@ components:
     name: Docker Cleanup Service - EU-West
     status: warning
     type: deadmanssnitch
+  dms-2f6495cce0:
+    display: true
+    group: null
+    id: dms-2f6495cce0
+    link: ''
+    name: '[prod] SUMO Clear Expired Auth Tokens'
+    status: pending
+    type: deadmanssnitch
   dms-3026bce6d3:
     display: false
     group: Infrastructure
@@ -216,6 +256,14 @@ components:
     name: '[dev] SUMO Fix Current Revisions'
     status: pending
     type: deadmanssnitch
+  dms-42594bae2a:
+    display: true
+    group: null
+    id: dms-42594bae2a
+    link: ''
+    name: '[prod] SUMO Update Contributor Metrics'
+    status: pending
+    type: deadmanssnitch
   dms-43a9e8e050:
     display: true
     group: null
@@ -232,6 +280,14 @@ components:
     name: '[dev] SUMO Update Top Contributors'
     status: healthy
     type: deadmanssnitch
+  dms-544b948b1a:
+    display: true
+    group: null
+    id: dms-544b948b1a
+    link: ''
+    name: '[prod] SUMO Survey Recent Askers'
+    status: pending
+    type: deadmanssnitch
   dms-57d1b7a8db:
     display: true
     group: null
@@ -247,6 +303,14 @@ components:
     link: ''
     name: '[dev] SUMO Update Search Ctr Metric'
     status: warning
+    type: deadmanssnitch
+  dms-5da7fb8ec5:
+    display: true
+    group: null
+    id: dms-5da7fb8ec5
+    link: ''
+    name: '[prod] SUMO Fix Current Revisions'
+    status: pending
     type: deadmanssnitch
   dms-5eced34560:
     display: true
@@ -278,7 +342,7 @@ components:
     id: dms-6496677658
     link: ''
     name: '[prod] SUMO Enqueue Lag Monitor Task'
-    status: pending
+    status: warning
     type: deadmanssnitch
   dms-69c940066d:
     display: true
@@ -313,6 +377,22 @@ components:
     name: Queue EU-West
     order: 420
     status: warning
+    type: deadmanssnitch
+  dms-7313c5f936:
+    display: true
+    group: null
+    id: dms-7313c5f936
+    link: ''
+    name: '[prod] SUMO Rebuild Kb'
+    status: pending
+    type: deadmanssnitch
+  dms-75d16b697c:
+    display: true
+    group: null
+    id: dms-75d16b697c
+    link: ''
+    name: '[prod] SUMO Generate Missing Share Links'
+    status: pending
     type: deadmanssnitch
   dms-772d461d2f:
     display: true
@@ -354,6 +434,14 @@ components:
     name: '[dev] SUMO Send Weekly Ready For Review Digest'
     status: healthy
     type: deadmanssnitch
+  dms-80ef4613b1:
+    display: true
+    group: null
+    id: dms-80ef4613b1
+    link: ''
+    name: '[prod] SUMO Send Weekly Ready For Review Digest'
+    status: pending
+    type: deadmanssnitch
   dms-8166cac951:
     display: false
     group: Snippets Service
@@ -378,6 +466,14 @@ components:
     link: ''
     name: Basket Prod Queue - Tokyo
     status: healthy
+    type: deadmanssnitch
+  dms-8ca46d0999:
+    display: true
+    group: null
+    id: dms-8ca46d0999
+    link: ''
+    name: '[prod] SUMO Auto Archive Old Questions'
+    status: pending
     type: deadmanssnitch
   dms-91f9d424aa:
     display: true
@@ -428,6 +524,22 @@ components:
     name: '[dev] SUMO Process Exit Surveys'
     status: healthy
     type: deadmanssnitch
+  dms-9e6f86a7e9:
+    display: true
+    group: null
+    id: dms-9e6f86a7e9
+    link: ''
+    name: '[prod] SUMO Send Welcome Emails'
+    status: pending
+    type: deadmanssnitch
+  dms-a33b21e3ac:
+    display: true
+    group: null
+    id: dms-a33b21e3ac
+    link: ''
+    name: '[prod] SUMO Update Product Details'
+    status: pending
+    type: deadmanssnitch
   dms-a4b6a2c25f:
     display: true
     group: null
@@ -452,6 +564,14 @@ components:
     name: '[dev] SUMO Send Welcome Emails'
     status: healthy
     type: deadmanssnitch
+  dms-b2ae8bfb32:
+    display: true
+    group: null
+    id: dms-b2ae8bfb32
+    link: ''
+    name: '[prod] SUMO Enqueue Lag Monitor Task'
+    status: pending
+    type: deadmanssnitch
   dms-b6a8280917:
     display: false
     group: Infrastructure
@@ -459,6 +579,22 @@ components:
     link: ''
     name: Status Board Update
     status: healthy
+    type: deadmanssnitch
+  dms-c5f13bf739:
+    display: true
+    group: null
+    id: dms-c5f13bf739
+    link: ''
+    name: '[prod] SUMO Remove Expired Registration Profiles'
+    status: pending
+    type: deadmanssnitch
+  dms-c9f1cbe6fe:
+    display: true
+    group: null
+    id: dms-c9f1cbe6fe
+    link: ''
+    name: '[prod] SUMO Process Exit Surveys'
+    status: pending
     type: deadmanssnitch
   dms-ca28534747:
     display: true
@@ -468,6 +604,14 @@ components:
     name: '[dev] SUMO Escalate Questions'
     status: healthy
     type: deadmanssnitch
+  dms-ce51b0fb99:
+    display: true
+    group: null
+    id: dms-ce51b0fb99
+    link: ''
+    name: '[prod] SUMO Purge Hashes'
+    status: pending
+    type: deadmanssnitch
   dms-d46cd45930:
     display: true
     group: Basket
@@ -475,6 +619,22 @@ components:
     link: ''
     name: Queue US-West
     status: healthy
+    type: deadmanssnitch
+  dms-d6b21f96e4:
+    display: true
+    group: null
+    id: dms-d6b21f96e4
+    link: ''
+    name: '[prod] SUMO Cohort Analysis'
+    status: pending
+    type: deadmanssnitch
+  dms-d6b50d6694:
+    display: true
+    group: null
+    id: dms-d6b50d6694
+    link: ''
+    name: '[prod] SUMO Reload Wiki Traffic Stats'
+    status: pending
     type: deadmanssnitch
   dms-dd376aa03e:
     display: true
@@ -509,6 +669,14 @@ components:
     name: Periodic Tasks - US-West
     order: 120
     status: healthy
+    type: deadmanssnitch
+  dms-eda6e6a96f:
+    display: true
+    group: null
+    id: dms-eda6e6a96f
+    link: ''
+    name: '[prod] SUMO Report Employee Answers'
+    status: pending
     type: deadmanssnitch
   dms-fac9921184:
     display: true
