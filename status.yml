@@ -272,6 +272,14 @@ components:
     name: '[dev] SUMO Reindex Kb'
     status: healthy
     type: deadmanssnitch
+  dms-6496677658:
+    display: true
+    group: null
+    id: dms-6496677658
+    link: ''
+    name: '[prod] SUMO Enqueue Lag Monitor Task'
+    status: pending
+    type: deadmanssnitch
   dms-69c940066d:
     display: true
     group: null
@@ -328,7 +336,7 @@ components:
     id: dms-785af47724
     link: ''
     name: '[prod] SUMO Enqueue Lag Monitor Task'
-    status: pending
+    status: warning
     type: deadmanssnitch
   dms-7a0e516aa5:
     display: true
