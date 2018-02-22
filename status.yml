@@ -168,6 +168,14 @@ components:
     name: SUMO Collect Tweets
     status: warning
     type: deadmanssnitch
+  dms-25b91e11d4:
+    display: true
+    group: null
+    id: dms-25b91e11d4
+    link: ''
+    name: '[prod] SUMO Reindex Users That Contributed Yesterday'
+    status: pending
+    type: deadmanssnitch
   dms-2b20aff8d3:
     display: true
     group: Mozilla Careers
@@ -280,12 +288,28 @@ components:
     name: '[dev] SUMO Update Top Contributors'
     status: healthy
     type: deadmanssnitch
+  dms-4a7ddc7f8f:
+    display: true
+    group: null
+    id: dms-4a7ddc7f8f
+    link: ''
+    name: '[prod] SUMO Calculate Csat Metrics'
+    status: pending
+    type: deadmanssnitch
   dms-544b948b1a:
     display: true
     group: null
     id: dms-544b948b1a
     link: ''
     name: '[prod] SUMO Survey Recent Askers'
+    status: pending
+    type: deadmanssnitch
+  dms-575b9cfc74:
+    display: true
+    group: null
+    id: dms-575b9cfc74
+    link: ''
+    name: '[prod] SUMO Reindex Kb'
     status: pending
     type: deadmanssnitch
   dms-57d1b7a8db:
@@ -475,6 +499,14 @@ components:
     name: '[prod] SUMO Auto Archive Old Questions'
     status: pending
     type: deadmanssnitch
+  dms-8f9bdbcab9:
+    display: true
+    group: null
+    id: dms-8f9bdbcab9
+    link: ''
+    name: '[prod] SUMO Update L10n Metric'
+    status: pending
+    type: deadmanssnitch
   dms-91f9d424aa:
     display: true
     group: null
@@ -524,6 +556,14 @@ components:
     name: '[dev] SUMO Process Exit Surveys'
     status: healthy
     type: deadmanssnitch
+  dms-9776f0e37a:
+    display: true
+    group: null
+    id: dms-9776f0e37a
+    link: ''
+    name: '[prod] SUMO Send Postatus Errors'
+    status: pending
+    type: deadmanssnitch
   dms-9e6f86a7e9:
     display: true
     group: null
@@ -555,6 +595,14 @@ components:
     link: ''
     name: ci.usw
     status: healthy
+    type: deadmanssnitch
+  dms-abe7b0665c:
+    display: true
+    group: null
+    id: dms-abe7b0665c
+    link: ''
+    name: '[prod] SUMO Escalate Questions'
+    status: pending
     type: deadmanssnitch
   dms-af5e333a31:
     display: true
@@ -619,6 +667,14 @@ components:
     link: ''
     name: Queue US-West
     status: healthy
+    type: deadmanssnitch
+  dms-d58186084b:
+    display: true
+    group: null
+    id: dms-d58186084b
+    link: ''
+    name: '[prod] SUMO Update L10n Contributor Metrics'
+    status: pending
     type: deadmanssnitch
   dms-d6b21f96e4:
     display: true
@@ -685,6 +741,14 @@ components:
     link: ''
     name: '[prod] SUMO Enqueue Lag Monitor Task'
     status: warning
+    type: deadmanssnitch
+  dms-fdf4797a51:
+    display: true
+    group: null
+    id: dms-fdf4797a51
+    link: ''
+    name: '[prod] SUMO Update L10n Coverage Metrics'
+    status: pending
     type: deadmanssnitch
   nr-13674646:
     display: false
