@@ -500,7 +500,7 @@ components:
     id: dms-fac9921184
     link: ''
     name: '[prod] SUMO Enqueue Lag Monitor Task'
-    status: pending
+    status: warning
     type: deadmanssnitch
   nr-13674646:
     display: false
