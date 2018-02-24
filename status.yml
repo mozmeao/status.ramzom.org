@@ -374,7 +374,7 @@ components:
     id: dms-69c940066d
     link: ''
     name: '[dev] SUMO Rebuild Kb'
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-6b7c1eb19f:
     display: true
@@ -2024,5 +2024,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are experiencing issues
-  status: warning
+  message: Some systems are in trouble
+  status: failed
