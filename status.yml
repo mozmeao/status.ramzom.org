@@ -29,7 +29,7 @@ components:
     id: dms-075d47bee8
     link: ''
     name: '[dev] SUMO Clear Expired Auth Tokens'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-078f7f5a2f:
     display: false
@@ -69,7 +69,7 @@ components:
     id: dms-11e5a9968f
     link: ''
     name: '[dev] SUMO Update Product Details'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-132c442ac1:
     display: true
@@ -85,7 +85,7 @@ components:
     id: dms-14f45cb42a
     link: ''
     name: '[dev] SUMO Generate Missing Share Links'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-165904c8c5:
     display: true
@@ -93,7 +93,7 @@ components:
     id: dms-165904c8c5
     link: ''
     name: '[dev] SUMO Auto Archive Old Questions'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-16868e094e:
     display: true
@@ -134,7 +134,7 @@ components:
     id: dms-1979cf068b
     link: ''
     name: '[dev] SUMO Calculate Csat Metrics'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-1b3359d2fa:
     display: true
@@ -142,7 +142,7 @@ components:
     id: dms-1b3359d2fa
     link: ''
     name: '[dev] SUMO Cohort Analysis'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-205affd0f2:
     display: true
@@ -286,7 +286,7 @@ components:
     id: dms-4606310016
     link: ''
     name: '[dev] SUMO Update Top Contributors'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-4a7ddc7f8f:
     display: true
@@ -374,7 +374,7 @@ components:
     id: dms-69c940066d
     link: ''
     name: '[dev] SUMO Rebuild Kb'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-6b7c1eb19f:
     display: true
@@ -424,7 +424,7 @@ components:
     id: dms-772d461d2f
     link: ''
     name: '[dev] SUMO Cache Most Unhelpful Kb Articles'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-779d6209c8:
     display: true
@@ -554,7 +554,7 @@ components:
     id: dms-967339e3dc
     link: ''
     name: '[dev] SUMO Process Exit Surveys'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-9776f0e37a:
     display: true
@@ -706,7 +706,7 @@ components:
     id: dms-e4e83cea12
     link: ''
     name: '[dev] SUMO Update L10n Coverage Metrics'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-e7b32a3078:
     display: false
