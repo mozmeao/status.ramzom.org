@@ -246,7 +246,7 @@ components:
     id: dms-3c73097af7
     link: ''
     name: '[dev] SUMO Remove Expired Registration Profiles'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-3ea402d1d7:
     display: true
@@ -342,7 +342,7 @@ components:
     id: dms-5eced34560
     link: ''
     name: '[dev] SUMO Reindex Users That Contributed Yesterday'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-5f1982f38a:
     display: true
@@ -358,7 +358,7 @@ components:
     id: dms-6110b5c642
     link: ''
     name: '[dev] SUMO Reindex Kb'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-6496677658:
     display: true
@@ -432,7 +432,7 @@ components:
     id: dms-779d6209c8
     link: ''
     name: '[dev] SUMO Update Weekly Votes'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-785af47724:
     display: true
@@ -448,7 +448,7 @@ components:
     id: dms-7a0e516aa5
     link: ''
     name: '[dev] SUMO Update Contributor Metrics'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-7f5ad9df19:
     display: true
@@ -456,7 +456,7 @@ components:
     id: dms-7f5ad9df19
     link: ''
     name: '[dev] SUMO Send Weekly Ready For Review Digest'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-80ef4613b1:
     display: true
@@ -513,7 +513,7 @@ components:
     id: dms-91f9d424aa
     link: ''
     name: '[dev] SUMO Send Postatus Errors'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-9330ed39fb:
     display: true
@@ -521,7 +521,7 @@ components:
     id: dms-9330ed39fb
     link: ''
     name: '[dev] SUMO Report Employee Answers'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-943d73ab83:
     display: false
@@ -538,7 +538,7 @@ components:
     id: dms-94977220c7
     link: ''
     name: '[dev] SUMO Survey Recent Askers'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-954702c307:
     display: true
