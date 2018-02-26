@@ -318,7 +318,7 @@ components:
     id: dms-57d1b7a8db
     link: ''
     name: '[dev] SUMO Enqueue Lag Monitor Task'
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-58ad70705a:
     display: true
@@ -650,7 +650,7 @@ components:
     id: dms-ca28534747
     link: ''
     name: '[dev] SUMO Escalate Questions'
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-ce51b0fb99:
     display: true
@@ -2024,5 +2024,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are experiencing issues
-  status: warning
+  message: Some systems are in trouble
+  status: failed
