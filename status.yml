@@ -1227,7 +1227,7 @@ components:
     id: nr-30227071
     link: ''
     name: snippets-prod-frankfurt
-    status: pending
+    status: healthy
     type: newrelic
   nr-30264751:
     display: true
@@ -1251,7 +1251,7 @@ components:
     id: nr-30335118
     link: ''
     name: careers-prod-frankfurt
-    status: healthy
+    status: pending
     type: newrelic
   nr-30862774:
     display: true
