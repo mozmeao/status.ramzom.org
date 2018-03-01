@@ -1227,7 +1227,7 @@ components:
     id: nr-30227071
     link: ''
     name: snippets-prod-frankfurt
-    status: healthy
+    status: pending
     type: newrelic
   nr-30264751:
     display: true
@@ -1675,7 +1675,7 @@ components:
     id: nr-44068384
     link: ''
     name: sumo-dev-frankfurt
-    status: healthy
+    status: pending
     type: newrelic
   nr-52327821:
     display: true
