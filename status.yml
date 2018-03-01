@@ -1750,7 +1750,7 @@ components:
     link: https://snippets-stats.us-west.moz.works
     name: Website Snippets Stats US-West
     order: 305
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-556986df-78ac-42cf-9edc-8890a21176db:
     display: true
@@ -1920,7 +1920,7 @@ components:
     link: ''
     name: Website US-West
     order: 300
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-c522e6af-3fa1-4aa4-9382-943ddf79c46d:
     display: true
