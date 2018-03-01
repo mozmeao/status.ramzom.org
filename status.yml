@@ -1996,7 +1996,7 @@ components:
     id: synthetics-e7dd1e11-8753-446e-ac45-8405ae0763ad
     link: ''
     name: Careers Frankfurt
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-f2be7279-1d21-481d-b747-e33f4c13b539:
     display: true
