@@ -1251,7 +1251,7 @@ components:
     id: nr-30335118
     link: ''
     name: careers-prod-frankfurt
-    status: pending
+    status: healthy
     type: newrelic
   nr-30862774:
     display: true
