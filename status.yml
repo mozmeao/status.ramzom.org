@@ -69,7 +69,7 @@ components:
     id: dms-11e5a9968f
     link: ''
     name: '[dev] SUMO Update Product Details'
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-132c442ac1:
     display: true
@@ -554,7 +554,7 @@ components:
     id: dms-967339e3dc
     link: ''
     name: '[dev] SUMO Process Exit Surveys'
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-9776f0e37a:
     display: true
