@@ -1988,7 +1988,7 @@ components:
     link: https://snippets-stats.mozilla.org
     name: Website Snippets Stats
     order: 305
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-e7dd1e11-8753-446e-ac45-8405ae0763ad:
     display: true
