@@ -1859,7 +1859,7 @@ components:
     id: synthetics-8710f802-1e22-47c0-84b6-61db403ce7e0
     link: ''
     name: Snippets Stats Traffic Policy
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762:
     display: false
@@ -1911,7 +1911,7 @@ components:
     link: ''
     name: Website
     order: 200
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3:
     display: false
@@ -1937,7 +1937,7 @@ components:
     link: ''
     name: Website
     order: 400
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-c8c2dd43-5f4f-40da-a012-c450d42fc32e:
     display: false
