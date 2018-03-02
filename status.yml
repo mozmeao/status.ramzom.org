@@ -1758,7 +1758,7 @@ components:
     id: synthetics-556986df-78ac-42cf-9edc-8890a21176db
     link: ''
     name: Snippets Stats Frankfurt
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-5bbf26e7-79cd-45c0-9a91-50b71ad14b0d:
     display: true
