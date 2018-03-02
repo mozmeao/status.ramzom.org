@@ -513,7 +513,7 @@ components:
     id: dms-91f9d424aa
     link: ''
     name: '[dev] SUMO Send Postatus Errors'
-    status: paused
+    status: warning
     type: deadmanssnitch
   dms-9330ed39fb:
     display: true
@@ -562,7 +562,7 @@ components:
     id: dms-9776f0e37a
     link: ''
     name: '[prod] SUMO Send Postatus Errors'
-    status: pending
+    status: warning
     type: deadmanssnitch
   dms-9e6f86a7e9:
     display: true
