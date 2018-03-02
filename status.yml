@@ -650,7 +650,7 @@ components:
     id: dms-ca28534747
     link: ''
     name: '[dev] SUMO Escalate Questions'
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-ce51b0fb99:
     display: true
