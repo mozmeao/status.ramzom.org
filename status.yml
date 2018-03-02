@@ -1741,7 +1741,7 @@ components:
     id: synthetics-44cd9ed6-29a6-4efd-a89e-1ff461b2991e
     link: ''
     name: Bedrock Prod Frankfurt
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-51f2ccb1-ac06-46df-b0ec-c4435c7f6124:
     display: false
@@ -1851,7 +1851,7 @@ components:
     id: synthetics-84a8a110-0fb6-48b2-bd0c-caf07ba65dfe
     link: ''
     name: Snippets Stats Tokyo
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-8710f802-1e22-47c0-84b6-61db403ce7e0:
     display: true
