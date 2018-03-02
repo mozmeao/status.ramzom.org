@@ -93,7 +93,7 @@ components:
     id: dms-165904c8c5
     link: ''
     name: '[dev] SUMO Auto Archive Old Questions'
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-16868e094e:
     display: true
@@ -318,7 +318,7 @@ components:
     id: dms-57d1b7a8db
     link: ''
     name: '[dev] SUMO Enqueue Lag Monitor Task'
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-58ad70705a:
     display: true
