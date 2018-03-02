@@ -358,7 +358,7 @@ components:
     id: dms-6110b5c642
     link: ''
     name: '[dev] SUMO Reindex Kb'
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-6496677658:
     display: true
