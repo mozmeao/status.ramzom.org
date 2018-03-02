@@ -538,7 +538,7 @@ components:
     id: dms-94977220c7
     link: ''
     name: '[dev] SUMO Survey Recent Askers'
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-954702c307:
     display: true
