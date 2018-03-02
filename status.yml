@@ -29,7 +29,7 @@ components:
     id: dms-075d47bee8
     link: ''
     name: '[dev] SUMO Clear Expired Auth Tokens'
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-078f7f5a2f:
     display: false
@@ -2013,7 +2013,7 @@ components:
     link: ''
     name: Admin Website US-West
     order: 400
-    status: warning
+    status: failed
     type: synthetics
   synthetics-f6f327d9-daed-4330-b459-3cc50b58c41c:
     display: true
