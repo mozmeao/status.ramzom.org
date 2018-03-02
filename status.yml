@@ -1571,7 +1571,7 @@ components:
     id: nr-41846435
     link: ''
     name: bedrock-prod-oregon-b
-    status: healthy
+    status: pending
     type: newrelic
   nr-41848799:
     display: true
@@ -1587,7 +1587,7 @@ components:
     id: nr-41849034
     link: ''
     name: basket-stage-oregon-b
-    status: healthy
+    status: pending
     type: newrelic
   nr-41854181:
     display: true
@@ -1627,7 +1627,7 @@ components:
     id: nr-41870686
     link: ''
     name: careers-prod-oregon-b
-    status: healthy
+    status: pending
     type: newrelic
   nr-41872008:
     display: true
