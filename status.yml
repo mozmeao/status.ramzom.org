@@ -246,7 +246,7 @@ components:
     id: dms-3c73097af7
     link: ''
     name: '[dev] SUMO Remove Expired Registration Profiles'
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-3ea402d1d7:
     display: true
