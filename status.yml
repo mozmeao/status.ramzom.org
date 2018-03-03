@@ -481,7 +481,7 @@ components:
     id: dms-8b45c1cb72
     link: ''
     name: '[dev] SUMO Reload Question Traffic Stats'
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-8bf805acc6:
     display: true
