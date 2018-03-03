@@ -432,7 +432,7 @@ components:
     id: dms-779d6209c8
     link: ''
     name: '[dev] SUMO Update Weekly Votes'
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-785af47724:
     display: true
