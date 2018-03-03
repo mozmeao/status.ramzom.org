@@ -158,7 +158,7 @@ components:
     id: dms-22746fd103
     link: ''
     name: '[dev] SUMO Reload Wiki Traffic Stats'
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-243ce92a4e:
     display: true
