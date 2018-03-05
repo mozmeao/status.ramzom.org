@@ -1715,7 +1715,7 @@ components:
     id: nr-45103239
     link: ''
     name: sumo-stage-frankfurt
-    status: pending
+    status: healthy
     type: newrelic
   nr-52327821:
     display: true
