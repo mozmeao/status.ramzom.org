@@ -1693,6 +1693,14 @@ components:
     name: sumo-prod-oregon-b
     status: healthy
     type: newrelic
+  nr-45097944:
+    display: true
+    group: null
+    id: nr-45097944
+    link: ''
+    name: sumo-stage-oregon-a
+    status: healthy
+    type: newrelic
   nr-52327821:
     display: true
     group: null
