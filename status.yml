@@ -602,7 +602,7 @@ components:
     id: dms-abe7b0665c
     link: ''
     name: '[prod] SUMO Escalate Questions'
-    status: pending
+    status: warning
     type: deadmanssnitch
   dms-af5e333a31:
     display: true
@@ -650,7 +650,7 @@ components:
     id: dms-ca28534747
     link: ''
     name: '[dev] SUMO Escalate Questions'
-    status: healthy
+    status: warning
     type: deadmanssnitch
   dms-ce51b0fb99:
     display: true
