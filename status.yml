@@ -278,7 +278,7 @@ components:
     id: dms-43a9e8e050
     link: ''
     name: '[dev] SUMO Update L10n Metric'
-    status: failed
+    status: paused
     type: deadmanssnitch
   dms-4606310016:
     display: true
@@ -2072,5 +2072,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
