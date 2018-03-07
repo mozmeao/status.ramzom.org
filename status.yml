@@ -1725,6 +1725,14 @@ components:
     name: sumo-prod-frankfurt
     status: healthy
     type: newrelic
+  nr-45305772:
+    display: true
+    group: null
+    id: nr-45305772
+    link: ''
+    name: basket-dev-oregon-a
+    status: healthy
+    type: newrelic
   nr-52327821:
     display: true
     group: null
