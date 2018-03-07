@@ -1571,7 +1571,7 @@ components:
     id: nr-41846435
     link: ''
     name: bedrock-prod-oregon-b
-    status: pending
+    status: healthy
     type: newrelic
   nr-41848799:
     display: true
