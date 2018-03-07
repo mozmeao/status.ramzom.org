@@ -278,7 +278,7 @@ components:
     id: dms-43a9e8e050
     link: ''
     name: '[dev] SUMO Update L10n Metric'
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-4606310016:
     display: true
@@ -481,7 +481,7 @@ components:
     id: dms-8b45c1cb72
     link: ''
     name: '[dev] SUMO Reload Question Traffic Stats'
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-8bf805acc6:
     display: true
@@ -538,7 +538,7 @@ components:
     id: dms-94977220c7
     link: ''
     name: '[dev] SUMO Survey Recent Askers'
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-954702c307:
     display: true
@@ -2072,5 +2072,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are experiencing issues
-  status: warning
+  message: Some systems are in trouble
+  status: failed
