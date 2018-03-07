@@ -538,7 +538,7 @@ components:
     id: dms-94977220c7
     link: ''
     name: '[dev] SUMO Survey Recent Askers'
-    status: failed
+    status: paused
     type: deadmanssnitch
   dms-954702c307:
     display: true
@@ -554,7 +554,7 @@ components:
     id: dms-967339e3dc
     link: ''
     name: '[dev] SUMO Process Exit Surveys'
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-9776f0e37a:
     display: true
