@@ -77,7 +77,7 @@ components:
     id: dms-132c442ac1
     link: ''
     name: '[dev] SUMO Purge Hashes'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-14f45cb42a:
     display: true
