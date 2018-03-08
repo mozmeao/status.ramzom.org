@@ -1905,7 +1905,7 @@ components:
     id: synthetics-7daf4668-8346-496e-9ad7-0de6ffcf2831
     link: ''
     name: Viewsourceconf prod
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
     display: false
