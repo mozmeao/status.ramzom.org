@@ -618,7 +618,7 @@ components:
     id: dms-b2ae8bfb32
     link: ''
     name: '[prod] SUMO Enqueue Lag Monitor Task'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-b6a8280917:
     display: false
