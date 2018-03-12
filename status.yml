@@ -1691,7 +1691,7 @@ components:
     id: nr-45097089
     link: ''
     name: sumo-prod-oregon-b
-    status: healthy
+    status: pending
     type: newrelic
   nr-45097944:
     display: true
