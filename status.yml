@@ -286,7 +286,7 @@ components:
     id: dms-4606310016
     link: ''
     name: '[dev] SUMO Update Top Contributors'
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-4a7ddc7f8f:
     display: true
@@ -2104,5 +2104,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
