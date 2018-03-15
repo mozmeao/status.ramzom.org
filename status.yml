@@ -1866,6 +1866,14 @@ components:
     order: 500
     status: healthy
     type: synthetics
+  synthetics-61883db2-7b64-4fcc-adb3-9494150ef700:
+    display: true
+    group: null
+    id: synthetics-61883db2-7b64-4fcc-adb3-9494150ef700
+    link: ''
+    name: SUMO Prod Frankfurt
+    status: healthy
+    type: synthetics
   synthetics-636e6f27-1e1b-4430-9ad2-c368c868b3a9:
     display: true
     group: null
@@ -1888,6 +1896,14 @@ components:
     id: synthetics-6ad3a20a-d95a-401a-9f54-23b9f9c96370
     link: ''
     name: irlpodcast prod
+    status: healthy
+    type: synthetics
+  synthetics-7cb7b242-624e-491d-b795-f764b51a8559:
+    display: true
+    group: null
+    id: synthetics-7cb7b242-624e-491d-b795-f764b51a8559
+    link: ''
+    name: SUMO Prod Oregon A
     status: healthy
     type: synthetics
   synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
@@ -2043,6 +2059,14 @@ components:
     link: ''
     name: Snippets Prod Frankfurt
     status: warning
+    type: synthetics
+  synthetics-e0c35791-63f2-49d0-adcd-e47e5793b860:
+    display: true
+    group: null
+    id: synthetics-e0c35791-63f2-49d0-adcd-e47e5793b860
+    link: ''
+    name: SUMO Prod Oregon B
+    status: healthy
     type: synthetics
   synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
     display: false
