@@ -134,7 +134,7 @@ components:
     id: dms-1979cf068b
     link: ''
     name: '[dev] SUMO Calculate Csat Metrics'
-    status: failed
+    status: paused
     type: deadmanssnitch
   dms-1b3359d2fa:
     display: true
@@ -2104,5 +2104,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
