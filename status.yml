@@ -692,6 +692,14 @@ components:
     name: '[prod] SUMO Reload Wiki Traffic Stats'
     status: pending
     type: deadmanssnitch
+  dms-d9432996fd:
+    display: true
+    group: null
+    id: dms-d9432996fd
+    link: ''
+    name: '[prod frankfurt] SUMO Enqueue Lag Monitor Task'
+    status: pending
+    type: deadmanssnitch
   dms-dd376aa03e:
     display: true
     group: null
