@@ -296,6 +296,14 @@ components:
     name: '[prod] SUMO Calculate Csat Metrics'
     status: pending
     type: deadmanssnitch
+  dms-541413b170:
+    display: true
+    group: null
+    id: dms-541413b170
+    link: ''
+    name: '[prod frankfurt] SUMO Reindex Users That Contributed Yesterday'
+    status: pending
+    type: deadmanssnitch
   dms-544b948b1a:
     display: true
     group: null
