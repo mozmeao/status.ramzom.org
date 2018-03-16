@@ -158,7 +158,7 @@ components:
     id: dms-22746fd103
     link: ''
     name: '[dev] SUMO Reload Wiki Traffic Stats'
-    status: paused
+    status: warning
     type: deadmanssnitch
   dms-243ce92a4e:
     display: true
@@ -278,7 +278,7 @@ components:
     id: dms-43a9e8e050
     link: ''
     name: '[dev] SUMO Update L10n Metric'
-    status: paused
+    status: warning
     type: deadmanssnitch
   dms-4606310016:
     display: true
@@ -342,7 +342,7 @@ components:
     id: dms-5eced34560
     link: ''
     name: '[dev] SUMO Reindex Users That Contributed Yesterday'
-    status: paused
+    status: warning
     type: deadmanssnitch
   dms-5f1982f38a:
     display: true
@@ -448,7 +448,7 @@ components:
     id: dms-7a0e516aa5
     link: ''
     name: '[dev] SUMO Update Contributor Metrics'
-    status: paused
+    status: warning
     type: deadmanssnitch
   dms-7f5ad9df19:
     display: true
@@ -538,7 +538,7 @@ components:
     id: dms-94977220c7
     link: ''
     name: '[dev] SUMO Survey Recent Askers'
-    status: paused
+    status: warning
     type: deadmanssnitch
   dms-954702c307:
     display: true
@@ -554,7 +554,7 @@ components:
     id: dms-967339e3dc
     link: ''
     name: '[dev] SUMO Process Exit Surveys'
-    status: paused
+    status: warning
     type: deadmanssnitch
   dms-9776f0e37a:
     display: true
