@@ -456,7 +456,7 @@ components:
     id: dms-7f5ad9df19
     link: ''
     name: '[dev] SUMO Send Weekly Ready For Review Digest'
-    status: paused
+    status: warning
     type: deadmanssnitch
   dms-80ef4613b1:
     display: true
@@ -481,7 +481,7 @@ components:
     id: dms-8b45c1cb72
     link: ''
     name: '[dev] SUMO Reload Question Traffic Stats'
-    status: paused
+    status: warning
     type: deadmanssnitch
   dms-8bf805acc6:
     display: true
