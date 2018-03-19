@@ -288,6 +288,14 @@ components:
     name: '[dev] SUMO Update Top Contributors'
     status: healthy
     type: deadmanssnitch
+  dms-47b420b6f4:
+    display: true
+    group: null
+    id: dms-47b420b6f4
+    link: ''
+    name: SUMO replication error cron
+    status: healthy
+    type: deadmanssnitch
   dms-4a7ddc7f8f:
     display: true
     group: null
