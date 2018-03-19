@@ -714,7 +714,7 @@ components:
     id: dms-d9432996fd
     link: ''
     name: '[prod frankfurt] SUMO Enqueue Lag Monitor Task'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-dd376aa03e:
     display: true
