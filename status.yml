@@ -537,7 +537,7 @@ components:
     id: dms-9343f66581
     link: ''
     name: '[prod frankfurt] SUMO Rebuild KB'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-943d73ab83:
     display: false
