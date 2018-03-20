@@ -1811,7 +1811,7 @@ components:
     id: synthetics-0bc5585c-c952-4526-97d9-542663b1f075
     link: ''
     name: Snippets Prod Frankfurt
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
     display: false
@@ -1820,7 +1820,7 @@ components:
     link: ''
     name: Website CDN
     order: 300
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-153f9c3a-7cad-47eb-9388-e771b8bd27e3:
     display: true
@@ -1853,7 +1853,7 @@ components:
     id: synthetics-44cd9ed6-29a6-4efd-a89e-1ff461b2991e
     link: ''
     name: Bedrock Prod Frankfurt
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-51f2ccb1-ac06-46df-b0ec-c4435c7f6124:
     display: false
@@ -1912,7 +1912,7 @@ components:
     id: synthetics-636e6f27-1e1b-4430-9ad2-c368c868b3a9
     link: ''
     name: Bedrock Prod Tokyo
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-69a2b577-62e0-4c82-8aaa-8c0c19bca209:
     display: true
@@ -1920,7 +1920,7 @@ components:
     id: synthetics-69a2b577-62e0-4c82-8aaa-8c0c19bca209
     link: ''
     name: Snippets Prod Tokyo
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-6ad3a20a-d95a-401a-9f54-23b9f9c96370:
     display: true
@@ -1979,7 +1979,7 @@ components:
     id: synthetics-84a8a110-0fb6-48b2-bd0c-caf07ba65dfe
     link: ''
     name: Snippets Stats Tokyo
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-8710f802-1e22-47c0-84b6-61db403ce7e0:
     display: true
@@ -1987,7 +1987,7 @@ components:
     id: synthetics-8710f802-1e22-47c0-84b6-61db403ce7e0
     link: ''
     name: Snippets Stats Traffic Policy
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762:
     display: false
@@ -2039,7 +2039,7 @@ components:
     link: ''
     name: Website
     order: 200
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3:
     display: false
