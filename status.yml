@@ -1904,7 +1904,7 @@ components:
     id: synthetics-61883db2-7b64-4fcc-adb3-9494150ef700
     link: ''
     name: SUMO Prod Frankfurt
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-636e6f27-1e1b-4430-9ad2-c368c868b3a9:
     display: true
@@ -1928,7 +1928,7 @@ components:
     id: synthetics-6ad3a20a-d95a-401a-9f54-23b9f9c96370
     link: ''
     name: irlpodcast prod
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-7cb7b242-624e-491d-b795-f764b51a8559:
     display: true
