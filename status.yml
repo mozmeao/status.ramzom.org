@@ -294,7 +294,7 @@ components:
     id: dms-47b420b6f4
     link: ''
     name: SUMO replication error cron
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-4a7ddc7f8f:
     display: true
