@@ -294,7 +294,7 @@ components:
     id: dms-47b420b6f4
     link: ''
     name: SUMO replication error cron
-    status: failed
+    status: paused
     type: deadmanssnitch
   dms-4a7ddc7f8f:
     display: true
@@ -2160,5 +2160,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
