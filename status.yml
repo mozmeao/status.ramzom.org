@@ -642,7 +642,7 @@ components:
     id: dms-afd1833ae1
     link: ''
     name: metadave_snapshots
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-b2ae8bfb32:
     display: true
