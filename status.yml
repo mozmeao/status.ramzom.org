@@ -636,6 +636,14 @@ components:
     name: '[dev] SUMO Send Welcome Emails'
     status: healthy
     type: deadmanssnitch
+  dms-afd1833ae1:
+    display: true
+    group: null
+    id: dms-afd1833ae1
+    link: ''
+    name: metadave_snapshots
+    status: pending
+    type: deadmanssnitch
   dms-b2ae8bfb32:
     display: true
     group: null
