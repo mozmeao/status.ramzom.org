@@ -521,7 +521,7 @@ components:
     id: dms-8f9bdbcab9
     link: ''
     name: '[prod] SUMO Update L10n Metric'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-91f9d424aa:
     display: true
