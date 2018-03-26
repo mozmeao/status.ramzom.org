@@ -602,7 +602,7 @@ components:
     id: dms-a33b21e3ac
     link: ''
     name: '[prod] SUMO Update Product Details'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-a4b6a2c25f:
     display: true
