@@ -1739,7 +1739,7 @@ components:
     id: nr-45097944
     link: ''
     name: sumo-stage-oregon-a
-    status: healthy
+    status: failed
     type: newrelic
   nr-45098028:
     display: true
@@ -2168,5 +2168,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are experiencing issues
-  status: warning
+  message: Some systems are in trouble
+  status: failed
