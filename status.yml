@@ -432,7 +432,7 @@ components:
     id: dms-75d16b697c
     link: ''
     name: '[prod] SUMO Generate Missing Share Links'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-772d461d2f:
     display: true
