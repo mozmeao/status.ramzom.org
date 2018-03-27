@@ -666,7 +666,7 @@ components:
     id: dms-c5f13bf739
     link: ''
     name: '[prod] SUMO Remove Expired Registration Profiles'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-c9f1cbe6fe:
     display: true
