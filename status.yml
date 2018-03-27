@@ -722,7 +722,7 @@ components:
     id: dms-d6b50d6694
     link: ''
     name: '[prod] SUMO Reload Wiki Traffic Stats'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-d9432996fd:
     display: true
