@@ -53,7 +53,7 @@ components:
     id: dms-0d54931602
     link: ''
     name: '[prod] SUMO Cache Most Unhelpful Kb Articles'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-0f533b6294:
     display: true
