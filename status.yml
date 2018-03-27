@@ -714,7 +714,7 @@ components:
     id: dms-d6b21f96e4
     link: ''
     name: '[prod] SUMO Cohort Analysis'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-d6b50d6694:
     display: true
