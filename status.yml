@@ -270,7 +270,7 @@ components:
     id: dms-42594bae2a
     link: ''
     name: '[prod] SUMO Update Contributor Metrics'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-43a9e8e050:
     display: true
