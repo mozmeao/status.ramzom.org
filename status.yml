@@ -126,7 +126,7 @@ components:
     id: dms-18202edbff
     link: ''
     name: '[prod] SUMO Update Weekly Votes'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-1979cf068b:
     display: true
