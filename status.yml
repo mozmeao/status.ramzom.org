@@ -230,7 +230,7 @@ components:
     id: dms-2f6495cce0
     link: ''
     name: '[prod] SUMO Clear Expired Auth Tokens'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-3026bce6d3:
     display: false
