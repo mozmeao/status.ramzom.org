@@ -772,7 +772,7 @@ components:
     id: dms-eda6e6a96f
     link: ''
     name: '[prod] SUMO Report Employee Answers'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-fac9921184:
     display: true
