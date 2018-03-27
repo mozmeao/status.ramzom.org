@@ -118,7 +118,7 @@ components:
     id: dms-1812dcdba0
     link: ''
     name: '[prod] SUMO Update Top Contributors'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-18202edbff:
     display: true
