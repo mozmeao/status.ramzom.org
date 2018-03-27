@@ -318,7 +318,7 @@ components:
     id: dms-544b948b1a
     link: ''
     name: '[prod] SUMO Survey Recent Askers'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-575b9cfc74:
     display: true
