@@ -513,7 +513,7 @@ components:
     id: dms-8ca46d0999
     link: ''
     name: '[prod] SUMO Auto Archive Old Questions'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-8f9bdbcab9:
     display: true
