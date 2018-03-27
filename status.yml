@@ -424,7 +424,7 @@ components:
     id: dms-7313c5f936
     link: ''
     name: '[prod] SUMO Rebuild Kb'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-75d16b697c:
     display: true
