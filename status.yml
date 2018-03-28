@@ -1443,7 +1443,7 @@ components:
     id: nr-34476941
     link: ''
     name: kuma-web-stage-portland
-    status: healthy
+    status: pending
     type: newrelic
   nr-34476949:
     display: true
@@ -1627,7 +1627,7 @@ components:
     id: nr-41849034
     link: ''
     name: basket-stage-oregon-b
-    status: healthy
+    status: pending
     type: newrelic
   nr-41854181:
     display: true
@@ -1659,7 +1659,7 @@ components:
     id: nr-41870173
     link: ''
     name: careers-stage-oregon-b
-    status: healthy
+    status: pending
     type: newrelic
   nr-41870686:
     display: true
@@ -1771,7 +1771,7 @@ components:
     id: nr-45305772
     link: ''
     name: basket-dev-oregon-a
-    status: healthy
+    status: pending
     type: newrelic
   nr-45314266:
     display: true
