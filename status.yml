@@ -1091,7 +1091,7 @@ components:
     id: nr-18380313
     link: ''
     name: standup-prod
-    status: pending
+    status: healthy
     type: newrelic
   nr-20955446:
     display: true
@@ -1099,7 +1099,7 @@ components:
     id: nr-20955446
     link: ''
     name: nucleus-stage-us-west
-    status: pending
+    status: healthy
     type: newrelic
   nr-23656273:
     display: true
@@ -1259,7 +1259,7 @@ components:
     id: nr-30140034
     link: ''
     name: bedrock-stage-frankfurt
-    status: pending
+    status: healthy
     type: newrelic
   nr-30227071:
     display: true
@@ -1627,7 +1627,7 @@ components:
     id: nr-41849034
     link: ''
     name: basket-stage-oregon-b
-    status: pending
+    status: healthy
     type: newrelic
   nr-41854181:
     display: true
@@ -1659,7 +1659,7 @@ components:
     id: nr-41870173
     link: ''
     name: careers-stage-oregon-b
-    status: pending
+    status: healthy
     type: newrelic
   nr-41870686:
     display: true
@@ -1771,7 +1771,7 @@ components:
     id: nr-45305772
     link: ''
     name: basket-dev-oregon-a
-    status: pending
+    status: healthy
     type: newrelic
   nr-45314266:
     display: true
@@ -1787,7 +1787,7 @@ components:
     id: nr-45315305
     link: ''
     name: basket-prod-oregon-a
-    status: pending
+    status: healthy
     type: newrelic
   nr-45315583:
     display: true
