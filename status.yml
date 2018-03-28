@@ -915,7 +915,7 @@ components:
     link: ''
     name: Admin Application US-West
     order: 310
-    status: healthy
+    status: pending
     type: newrelic
   nr-13688024:
     display: false
@@ -1091,7 +1091,7 @@ components:
     id: nr-18380313
     link: ''
     name: standup-prod
-    status: healthy
+    status: pending
     type: newrelic
   nr-20955446:
     display: true
@@ -1099,7 +1099,7 @@ components:
     id: nr-20955446
     link: ''
     name: nucleus-stage-us-west
-    status: healthy
+    status: pending
     type: newrelic
   nr-23656273:
     display: true
@@ -1259,7 +1259,7 @@ components:
     id: nr-30140034
     link: ''
     name: bedrock-stage-frankfurt
-    status: healthy
+    status: pending
     type: newrelic
   nr-30227071:
     display: true
@@ -1307,7 +1307,7 @@ components:
     id: nr-32344104
     link: ''
     name: bedrock-dev-frankfurt
-    status: healthy
+    status: pending
     type: newrelic
   nr-34026072:
     display: true
@@ -1787,7 +1787,7 @@ components:
     id: nr-45315305
     link: ''
     name: basket-prod-oregon-a
-    status: healthy
+    status: pending
     type: newrelic
   nr-45315583:
     display: true
