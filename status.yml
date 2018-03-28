@@ -949,7 +949,7 @@ components:
     id: nr-13688101
     link: ''
     name: Application US-West
-    status: pending
+    status: healthy
     type: newrelic
   nr-13688108:
     display: false
@@ -1723,7 +1723,7 @@ components:
     id: nr-44876743
     link: ''
     name: sumo-stage-oregon-b
-    status: healthy
+    status: pending
     type: newrelic
   nr-45097089:
     display: true
