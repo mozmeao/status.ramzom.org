@@ -690,7 +690,7 @@ components:
     id: dms-ce51b0fb99
     link: ''
     name: '[prod] SUMO Purge Hashes'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-d46cd45930:
     display: true
