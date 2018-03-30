@@ -650,7 +650,7 @@ components:
     id: dms-b2ae8bfb32
     link: ''
     name: '[prod] SUMO Enqueue Lag Monitor Task'
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-b6a8280917:
     display: false
@@ -2168,5 +2168,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are experiencing issues
-  status: warning
+  message: Some systems are in trouble
+  status: failed
