@@ -722,7 +722,7 @@ components:
     id: dms-d6b50d6694
     link: ''
     name: '[prod] SUMO Reload Wiki Traffic Stats'
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-d9432996fd:
     display: true
@@ -2168,5 +2168,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are experiencing issues
-  status: warning
+  message: Some systems are in trouble
+  status: failed
