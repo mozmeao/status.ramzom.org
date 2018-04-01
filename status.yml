@@ -206,7 +206,7 @@ components:
     id: dms-2dd6966eca
     link: ''
     name: '[dev] SUMO Update L10n Contributor Metrics'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-2ef7bb15d6:
     display: true
@@ -706,7 +706,7 @@ components:
     id: dms-d58186084b
     link: ''
     name: '[prod] SUMO Update L10n Contributor Metrics'
-    status: pending
+    status: healthy
     type: deadmanssnitch
   dms-d6b21f96e4:
     display: true
