@@ -738,7 +738,7 @@ components:
     id: dms-dd376aa03e
     link: ''
     name: Release Notes Git Update
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-e4e83cea12:
     display: true
