@@ -796,7 +796,7 @@ components:
     id: nr-13674646
     link: ''
     name: support-dev.allizom.org
-    status: healthy
+    status: pending
     type: newrelic
   nr-13687503:
     display: true
@@ -889,7 +889,7 @@ components:
     id: nr-13687969
     link: ''
     name: Application US-West
-    status: healthy
+    status: pending
     type: newrelic
   nr-13687975:
     display: true
@@ -932,7 +932,7 @@ components:
     link: ''
     name: Application US-West
     order: 410
-    status: healthy
+    status: pending
     type: newrelic
   nr-13688073:
     display: false
@@ -941,7 +941,7 @@ components:
     link: ''
     name: Application US-West
     order: 110
-    status: healthy
+    status: pending
     type: newrelic
   nr-13688101:
     display: true
@@ -949,7 +949,7 @@ components:
     id: nr-13688101
     link: ''
     name: Application US-West
-    status: healthy
+    status: pending
     type: newrelic
   nr-13688108:
     display: false
@@ -1251,7 +1251,7 @@ components:
     id: nr-29313714
     link: ''
     name: bedrock-prod-frankfurt
-    status: healthy
+    status: pending
     type: newrelic
   nr-30140034:
     display: true
@@ -1419,7 +1419,7 @@ components:
     id: nr-34476932
     link: ''
     name: kuma-stage-portland
-    status: healthy
+    status: pending
     type: newrelic
   nr-34476937:
     display: true
@@ -1475,7 +1475,7 @@ components:
     id: nr-34601198
     link: ''
     name: kuma-backend-prod-portland
-    status: healthy
+    status: pending
     type: newrelic
   nr-34601215:
     display: true
