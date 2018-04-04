@@ -897,7 +897,7 @@ components:
     id: nr-13687975
     link: ''
     name: Application US-West
-    status: pending
+    status: healthy
     type: newrelic
   nr-13687987:
     display: false
@@ -1371,7 +1371,7 @@ components:
     id: nr-34419452
     link: ''
     name: kuma-prod-portland
-    status: pending
+    status: healthy
     type: newrelic
   nr-34459612:
     display: true
@@ -1659,7 +1659,7 @@ components:
     id: nr-41870173
     link: ''
     name: careers-stage-oregon-b
-    status: pending
+    status: healthy
     type: newrelic
   nr-41870686:
     display: true
