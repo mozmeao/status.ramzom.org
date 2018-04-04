@@ -1006,7 +1006,7 @@ components:
     id: nr-13710560
     link: ''
     name: Application
-    status: pending
+    status: healthy
     type: newrelic
   nr-13778280:
     display: false
@@ -1139,7 +1139,7 @@ components:
     id: nr-25359551
     link: ''
     name: careers-prod-tokyo
-    status: healthy
+    status: pending
     type: newrelic
   nr-27934018:
     display: true
@@ -1187,7 +1187,7 @@ components:
     id: nr-27945762
     link: ''
     name: bedrock-stage-tokyo
-    status: pending
+    status: healthy
     type: newrelic
   nr-28424813:
     display: true
