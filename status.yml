@@ -1139,7 +1139,7 @@ components:
     id: nr-25359551
     link: ''
     name: careers-prod-tokyo
-    status: pending
+    status: healthy
     type: newrelic
   nr-27934018:
     display: true
@@ -1683,7 +1683,7 @@ components:
     id: nr-41872171
     link: ''
     name: snippets-prod-oregon-b
-    status: pending
+    status: healthy
     type: newrelic
   nr-41872252:
     display: true
