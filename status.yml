@@ -897,7 +897,7 @@ components:
     id: nr-13687975
     link: ''
     name: Application US-West
-    status: pending
+    status: healthy
     type: newrelic
   nr-13687987:
     display: false
@@ -1275,7 +1275,7 @@ components:
     id: nr-30264751
     link: ''
     name: basket-prod-frankfurt
-    status: pending
+    status: healthy
     type: newrelic
   nr-30264760:
     display: true
@@ -1371,7 +1371,7 @@ components:
     id: nr-34419452
     link: ''
     name: kuma-prod-portland
-    status: healthy
+    status: pending
     type: newrelic
   nr-34459612:
     display: true
@@ -1659,7 +1659,7 @@ components:
     id: nr-41870173
     link: ''
     name: careers-stage-oregon-b
-    status: healthy
+    status: pending
     type: newrelic
   nr-41870686:
     display: true
@@ -1675,7 +1675,7 @@ components:
     id: nr-41872008
     link: ''
     name: snippets-stage-oregon-b
-    status: healthy
+    status: pending
     type: newrelic
   nr-41872171:
     display: true
@@ -1723,7 +1723,7 @@ components:
     id: nr-44876743
     link: ''
     name: sumo-stage-oregon-b
-    status: pending
+    status: healthy
     type: newrelic
   nr-45097089:
     display: true
