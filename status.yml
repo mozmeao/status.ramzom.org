@@ -1291,7 +1291,7 @@ components:
     id: nr-30335118
     link: ''
     name: careers-prod-frankfurt
-    status: pending
+    status: healthy
     type: newrelic
   nr-30862774:
     display: true
@@ -1307,7 +1307,7 @@ components:
     id: nr-32344104
     link: ''
     name: bedrock-dev-frankfurt
-    status: pending
+    status: healthy
     type: newrelic
   nr-34026072:
     display: true
@@ -1603,7 +1603,7 @@ components:
     id: nr-41843395
     link: ''
     name: bedrock-stage-oregon-b
-    status: healthy
+    status: pending
     type: newrelic
   nr-41846435:
     display: true
@@ -1667,7 +1667,7 @@ components:
     id: nr-41870686
     link: ''
     name: careers-prod-oregon-b
-    status: pending
+    status: healthy
     type: newrelic
   nr-41872008:
     display: true
