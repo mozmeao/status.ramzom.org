@@ -1091,7 +1091,7 @@ components:
     id: nr-18380313
     link: ''
     name: standup-prod
-    status: pending
+    status: healthy
     type: newrelic
   nr-20955446:
     display: true
@@ -1259,7 +1259,7 @@ components:
     id: nr-30140034
     link: ''
     name: bedrock-stage-frankfurt
-    status: pending
+    status: healthy
     type: newrelic
   nr-30227071:
     display: true
@@ -1499,7 +1499,7 @@ components:
     id: nr-35339380
     link: ''
     name: kumascript-prod-frankfurt
-    status: pending
+    status: healthy
     type: newrelic
   nr-35339383:
     display: true
@@ -1731,7 +1731,7 @@ components:
     id: nr-45097089
     link: ''
     name: sumo-prod-oregon-b
-    status: healthy
+    status: pending
     type: newrelic
   nr-45097944:
     display: true
