@@ -1731,7 +1731,7 @@ components:
     id: nr-45097089
     link: ''
     name: sumo-prod-oregon-b
-    status: failed
+    status: healthy
     type: newrelic
   nr-45097944:
     display: true
@@ -1747,7 +1747,7 @@ components:
     id: nr-45098028
     link: ''
     name: sumo-prod-oregon-a
-    status: failed
+    status: healthy
     type: newrelic
   nr-45103239:
     display: true
@@ -2184,5 +2184,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
