@@ -1419,7 +1419,7 @@ components:
     id: nr-34476932
     link: ''
     name: kuma-stage-portland
-    status: failed
+    status: warning
     type: newrelic
   nr-34476937:
     display: true
@@ -1443,7 +1443,7 @@ components:
     id: nr-34476941
     link: ''
     name: kuma-web-stage-portland
-    status: failed
+    status: warning
     type: newrelic
   nr-34476949:
     display: true
@@ -2184,5 +2184,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
