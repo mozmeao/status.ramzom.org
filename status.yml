@@ -1747,7 +1747,7 @@ components:
     id: nr-45098028
     link: ''
     name: sumo-prod-oregon-a
-    status: failed
+    status: healthy
     type: newrelic
   nr-45103239:
     display: true
