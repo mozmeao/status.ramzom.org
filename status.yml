@@ -1419,7 +1419,7 @@ components:
     id: nr-34476932
     link: ''
     name: kuma-stage-portland
-    status: warning
+    status: failed
     type: newrelic
   nr-34476937:
     display: true
