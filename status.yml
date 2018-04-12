@@ -2114,7 +2114,7 @@ components:
     id: synthetics-e0c35791-63f2-49d0-adcd-e47e5793b860
     link: ''
     name: SUMO Prod Oregon B
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
     display: false
@@ -2184,5 +2184,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are experiencing issues
-  status: warning
+  message: Some systems are in trouble
+  status: failed
