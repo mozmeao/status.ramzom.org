@@ -1667,7 +1667,7 @@ components:
     id: nr-41870686
     link: ''
     name: careers-prod-oregon-b
-    status: healthy
+    status: pending
     type: newrelic
   nr-41872008:
     display: true
