@@ -1827,7 +1827,7 @@ components:
     id: synthetics-0bc5585c-c952-4526-97d9-542663b1f075
     link: ''
     name: Snippets Prod Frankfurt
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
     display: false
@@ -1869,7 +1869,7 @@ components:
     id: synthetics-44cd9ed6-29a6-4efd-a89e-1ff461b2991e
     link: ''
     name: Bedrock Prod Frankfurt
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-51f2ccb1-ac06-46df-b0ec-c4435c7f6124:
     display: false
@@ -1878,7 +1878,7 @@ components:
     link: https://snippets-stats.us-west.moz.works
     name: Website Snippets Stats US-West
     order: 305
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-556986df-78ac-42cf-9edc-8890a21176db:
     display: true
@@ -1886,7 +1886,7 @@ components:
     id: synthetics-556986df-78ac-42cf-9edc-8890a21176db
     link: ''
     name: Snippets Stats Frankfurt
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-5bbf26e7-79cd-45c0-9a91-50b71ad14b0d:
     display: true
@@ -1920,7 +1920,7 @@ components:
     id: synthetics-61883db2-7b64-4fcc-adb3-9494150ef700
     link: ''
     name: SUMO Prod Frankfurt
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-636e6f27-1e1b-4430-9ad2-c368c868b3a9:
     display: true
@@ -1969,7 +1969,7 @@ components:
     id: synthetics-7daf4668-8346-496e-9ad7-0de6ffcf2831
     link: ''
     name: Viewsourceconf prod
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
     display: false
@@ -2055,7 +2055,7 @@ components:
     link: ''
     name: Website
     order: 200
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3:
     display: false
@@ -2114,7 +2114,7 @@ components:
     id: synthetics-e0c35791-63f2-49d0-adcd-e47e5793b860
     link: ''
     name: SUMO Prod Oregon B
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
     display: false
@@ -2148,7 +2148,7 @@ components:
     id: synthetics-e7dd1e11-8753-446e-ac45-8405ae0763ad
     link: ''
     name: Careers Frankfurt
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-f1073f99-871f-4657-a8c2-df0df3df3e9f:
     display: true
@@ -2156,7 +2156,7 @@ components:
     id: synthetics-f1073f99-871f-4657-a8c2-df0df3df3e9f
     link: ''
     name: Bedrock Prod oregon-b healthz-cron
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-f2be7279-1d21-481d-b747-e33f4c13b539:
     display: true
