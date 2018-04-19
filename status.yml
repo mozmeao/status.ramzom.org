@@ -1912,7 +1912,7 @@ components:
     link: ''
     name: Website US-West
     order: 500
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-61883db2-7b64-4fcc-adb3-9494150ef700:
     display: true
@@ -1969,7 +1969,7 @@ components:
     id: synthetics-7daf4668-8346-496e-9ad7-0de6ffcf2831
     link: ''
     name: Viewsourceconf prod
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
     display: false
@@ -2156,7 +2156,7 @@ components:
     id: synthetics-f1073f99-871f-4657-a8c2-df0df3df3e9f
     link: ''
     name: Bedrock Prod oregon-b healthz-cron
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-f2be7279-1d21-481d-b747-e33f4c13b539:
     display: true
