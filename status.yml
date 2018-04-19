@@ -1635,7 +1635,7 @@ components:
     id: nr-41854181
     link: ''
     name: basket-admin-stage-oregon-b
-    status: pending
+    status: healthy
     type: newrelic
   nr-41854835:
     display: true
@@ -1651,7 +1651,7 @@ components:
     id: nr-41856975
     link: ''
     name: basket-admin-oregon-b
-    status: pending
+    status: healthy
     type: newrelic
   nr-41870173:
     display: true
