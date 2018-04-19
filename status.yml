@@ -1827,7 +1827,7 @@ components:
     id: synthetics-0bc5585c-c952-4526-97d9-542663b1f075
     link: ''
     name: Snippets Prod Frankfurt
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
     display: false
@@ -1861,7 +1861,7 @@ components:
     id: synthetics-2d3b85bd-2d3b-439b-bf0f-9d0390008add
     link: ''
     name: Careers Tokyo
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-44cd9ed6-29a6-4efd-a89e-1ff461b2991e:
     display: true
@@ -1912,7 +1912,7 @@ components:
     link: ''
     name: Website US-West
     order: 500
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-61883db2-7b64-4fcc-adb3-9494150ef700:
     display: true
@@ -1952,7 +1952,7 @@ components:
     id: synthetics-7cb7b242-624e-491d-b795-f764b51a8559
     link: ''
     name: SUMO Prod Oregon A
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
     display: false
@@ -2012,7 +2012,7 @@ components:
     link: ''
     name: Website US-west
     order: 100
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-9340449f-adc3-4e14-bbb4-20c20caff847:
     display: false
@@ -2046,7 +2046,7 @@ components:
     link: ''
     name: Admin Website
     order: 301
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8:
     display: false
@@ -2064,7 +2064,7 @@ components:
     link: ''
     name: Website US-West
     order: 300
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-c522e6af-3fa1-4aa4-9382-943ddf79c46d:
     display: true
@@ -2173,7 +2173,7 @@ components:
     link: ''
     name: Admin Website US-West
     order: 400
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-f6f327d9-daed-4330-b459-3cc50b58c41c:
     display: true
