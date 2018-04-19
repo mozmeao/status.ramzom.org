@@ -1861,7 +1861,7 @@ components:
     id: synthetics-2d3b85bd-2d3b-439b-bf0f-9d0390008add
     link: ''
     name: Careers Tokyo
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-44cd9ed6-29a6-4efd-a89e-1ff461b2991e:
     display: true
