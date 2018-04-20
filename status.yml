@@ -101,7 +101,7 @@ components:
     id: dms-16868e094e
     link: ''
     name: Snippets Stage Disabled Past Publish Date
-    status: failed
+    status: paused
     type: deadmanssnitch
   dms-16e219cc55:
     display: false
