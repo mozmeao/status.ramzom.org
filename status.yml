@@ -1836,7 +1836,7 @@ components:
     link: ''
     name: Website CDN
     order: 300
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-153f9c3a-7cad-47eb-9388-e771b8bd27e3:
     display: true
@@ -1878,7 +1878,7 @@ components:
     link: https://snippets-stats.us-west.moz.works
     name: Website Snippets Stats US-West
     order: 305
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-556986df-78ac-42cf-9edc-8890a21176db:
     display: true
@@ -1944,7 +1944,7 @@ components:
     id: synthetics-6ad3a20a-d95a-401a-9f54-23b9f9c96370
     link: ''
     name: irlpodcast prod
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-7cb7b242-624e-491d-b795-f764b51a8559:
     display: true
@@ -1952,7 +1952,7 @@ components:
     id: synthetics-7cb7b242-624e-491d-b795-f764b51a8559
     link: ''
     name: SUMO Prod Oregon A
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
     display: false
@@ -1969,7 +1969,7 @@ components:
     id: synthetics-7daf4668-8346-496e-9ad7-0de6ffcf2831
     link: ''
     name: Viewsourceconf prod
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
     display: false
@@ -2029,7 +2029,7 @@ components:
     link: ''
     name: MozMar Status Board
     order: 1500
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-9bdfee59-5c8a-4e90-9644-1f03e2a0b5b4:
     display: true
@@ -2164,7 +2164,7 @@ components:
     id: synthetics-f2be7279-1d21-481d-b747-e33f4c13b539
     link: ''
     name: SUMO
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-f339b62e-8e17-4674-8027-0b3019f8a788:
     display: false
