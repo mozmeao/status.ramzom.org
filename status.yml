@@ -2156,7 +2156,7 @@ components:
     id: synthetics-f1073f99-871f-4657-a8c2-df0df3df3e9f
     link: ''
     name: Bedrock Prod oregon-b healthz-cron
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-f2be7279-1d21-481d-b747-e33f4c13b539:
     display: true
