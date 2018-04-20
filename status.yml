@@ -1944,7 +1944,7 @@ components:
     id: synthetics-6ad3a20a-d95a-401a-9f54-23b9f9c96370
     link: ''
     name: irlpodcast prod
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-7cb7b242-624e-491d-b795-f764b51a8559:
     display: true
@@ -2173,7 +2173,7 @@ components:
     link: ''
     name: Admin Website US-West
     order: 400
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-f6f327d9-daed-4330-b459-3cc50b58c41c:
     display: true
