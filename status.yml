@@ -1861,7 +1861,7 @@ components:
     id: synthetics-2d3b85bd-2d3b-439b-bf0f-9d0390008add
     link: ''
     name: Careers Tokyo
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-44cd9ed6-29a6-4efd-a89e-1ff461b2991e:
     display: true
@@ -1928,7 +1928,7 @@ components:
     id: synthetics-636e6f27-1e1b-4430-9ad2-c368c868b3a9
     link: ''
     name: Bedrock Prod Tokyo
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-69a2b577-62e0-4c82-8aaa-8c0c19bca209:
     display: true
@@ -1969,7 +1969,7 @@ components:
     id: synthetics-7daf4668-8346-496e-9ad7-0de6ffcf2831
     link: ''
     name: Viewsourceconf prod
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
     display: false
@@ -2020,7 +2020,7 @@ components:
     id: synthetics-9340449f-adc3-4e14-bbb4-20c20caff847
     link: ''
     name: Nucleus Prod
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d:
     display: false
@@ -2046,7 +2046,7 @@ components:
     link: ''
     name: Admin Website
     order: 301
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8:
     display: false
@@ -2055,7 +2055,7 @@ components:
     link: ''
     name: Website
     order: 200
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3:
     display: false
@@ -2064,7 +2064,7 @@ components:
     link: ''
     name: Website US-West
     order: 300
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-c522e6af-3fa1-4aa4-9382-943ddf79c46d:
     display: true
@@ -2081,7 +2081,7 @@ components:
     link: ''
     name: Website
     order: 400
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-c8c2dd43-5f4f-40da-a012-c450d42fc32e:
     display: false
@@ -2114,7 +2114,7 @@ components:
     id: synthetics-e0c35791-63f2-49d0-adcd-e47e5793b860
     link: ''
     name: SUMO Prod Oregon B
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
     display: false
@@ -2140,7 +2140,7 @@ components:
     link: https://snippets-stats.mozilla.org
     name: Website Snippets Stats
     order: 305
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-e7dd1e11-8753-446e-ac45-8405ae0763ad:
     display: true
@@ -2164,7 +2164,7 @@ components:
     id: synthetics-f2be7279-1d21-481d-b747-e33f4c13b539
     link: ''
     name: SUMO
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-f339b62e-8e17-4674-8027-0b3019f8a788:
     display: false
