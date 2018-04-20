@@ -1779,7 +1779,7 @@ components:
     id: nr-45314266
     link: ''
     name: basket-stage-oregon-a
-    status: pending
+    status: healthy
     type: newrelic
   nr-45315305:
     display: true
