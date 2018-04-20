@@ -1836,7 +1836,7 @@ components:
     link: ''
     name: Website CDN
     order: 300
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-153f9c3a-7cad-47eb-9388-e771b8bd27e3:
     display: true
@@ -1987,7 +1987,7 @@ components:
     link: ''
     name: Website CDN
     order: 100
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-84a8a110-0fb6-48b2-bd0c-caf07ba65dfe:
     display: true
@@ -2003,7 +2003,7 @@ components:
     id: synthetics-8710f802-1e22-47c0-84b6-61db403ce7e0
     link: ''
     name: Snippets Stats Traffic Policy
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762:
     display: false
@@ -2164,7 +2164,7 @@ components:
     id: synthetics-f2be7279-1d21-481d-b747-e33f4c13b539
     link: ''
     name: SUMO
-    status: warning
+    status: healthy
     type: synthetics
   synthetics-f339b62e-8e17-4674-8027-0b3019f8a788:
     display: false
