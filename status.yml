@@ -21,7 +21,7 @@ components:
     id: dms-04ba5fae00
     link: ''
     name: Basket Prod Queue - Frankfurt
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-075d47bee8:
     display: true
