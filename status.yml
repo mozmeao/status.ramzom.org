@@ -61,7 +61,7 @@ components:
     id: dms-0f533b6294
     link: ''
     name: '[prod] SUMO Reload Question Traffic Stats'
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-11e5a9968f:
     display: true
