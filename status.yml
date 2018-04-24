@@ -1920,7 +1920,7 @@ components:
     link: ''
     name: Website US-West
     order: 500
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-61883db2-7b64-4fcc-adb3-9494150ef700:
     display: true
