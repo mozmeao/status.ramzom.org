@@ -390,7 +390,7 @@ components:
     id: dms-63663093ca
     link: ''
     name: Block AWS Oregon-A
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-6496677658:
     display: true
