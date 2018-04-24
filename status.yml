@@ -376,6 +376,14 @@ components:
     name: '[dev] SUMO Reindex Kb'
     status: healthy
     type: deadmanssnitch
+  dms-63663093ca:
+    display: true
+    group: null
+    id: dms-63663093ca
+    link: ''
+    name: Block AWS Oregon-A
+    status: healthy
+    type: deadmanssnitch
   dms-6496677658:
     display: true
     group: null
