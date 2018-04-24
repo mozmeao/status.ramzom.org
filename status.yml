@@ -7,6 +7,14 @@ components:
     name: (testing) MDN Prod S3 backup cron
     status: healthy
     type: deadmanssnitch
+  dms-01cc7be826:
+    display: true
+    group: null
+    id: dms-01cc7be826
+    link: ''
+    name: Block AWS Oregon-b
+    status: pending
+    type: deadmanssnitch
   dms-033e342441:
     display: true
     group: Snippets Service
