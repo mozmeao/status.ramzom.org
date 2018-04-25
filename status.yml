@@ -13,7 +13,7 @@ components:
     id: dms-01cc7be826
     link: ''
     name: Block AWS Oregon-b
-    status: failed
+    status: paused
     type: deadmanssnitch
   dms-033e342441:
     display: true
@@ -390,7 +390,7 @@ components:
     id: dms-63663093ca
     link: ''
     name: Block AWS Oregon-A
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-6496677658:
     display: true
