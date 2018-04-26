@@ -109,7 +109,7 @@ components:
     id: dms-16868e094e
     link: ''
     name: Snippets Stage Disabled Past Publish Date
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-16e219cc55:
     display: false
