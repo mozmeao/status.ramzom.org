@@ -390,7 +390,7 @@ components:
     id: dms-63663093ca
     link: ''
     name: Block AWS Oregon-A
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-6496677658:
     display: true
@@ -2824,5 +2824,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are experiencing issues
-  status: warning
+  message: Some systems are in trouble
+  status: failed
