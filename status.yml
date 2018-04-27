@@ -1803,7 +1803,7 @@ components:
     id: nr-34026072
     link: ''
     name: nucleus-dev-frankfurt
-    status: pending
+    status: healthy
     type: newrelic
   nr-34256843:
     display: true
@@ -2307,7 +2307,7 @@ components:
     id: nr-45315305
     link: ''
     name: basket-prod-oregon-a
-    status: pending
+    status: healthy
     type: newrelic
   nr-45315583:
     display: true
@@ -2315,7 +2315,7 @@ components:
     id: nr-45315583
     link: ''
     name: basket-admin-oregon-a
-    status: pending
+    status: healthy
     type: newrelic
   nr-48273428:
     display: true
