@@ -650,7 +650,7 @@ components:
     id: dms-af5e333a31
     link: ''
     name: '[dev] SUMO Send Welcome Emails'
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-afd1833ae1:
     display: true
