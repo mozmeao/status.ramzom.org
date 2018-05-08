@@ -294,7 +294,7 @@ components:
     id: dms-4606310016
     link: ''
     name: '[dev] SUMO Update Top Contributors'
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-47b420b6f4:
     display: true
