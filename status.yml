@@ -69,7 +69,7 @@ components:
     id: dms-0f533b6294
     link: ''
     name: '[prod] SUMO Reload Question Traffic Stats'
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-11e5a9968f:
     display: true
@@ -2824,5 +2824,5 @@ components:
     status: warning
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
