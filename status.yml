@@ -2552,7 +2552,7 @@ components:
     link: ''
     name: Website US-West
     order: 500
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-61883db2-7b64-4fcc-adb3-9494150ef700:
     display: true
@@ -2568,7 +2568,7 @@ components:
     id: synthetics-636e6f27-1e1b-4430-9ad2-c368c868b3a9
     link: ''
     name: Bedrock Prod Tokyo
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-69a2b577-62e0-4c82-8aaa-8c0c19bca209:
     display: true
@@ -2796,7 +2796,7 @@ components:
     id: synthetics-f1073f99-871f-4657-a8c2-df0df3df3e9f
     link: ''
     name: Bedrock Prod oregon-b healthz-cron
-    status: healthy
+    status: warning
     type: synthetics
   synthetics-f2be7279-1d21-481d-b747-e33f4c13b539:
     display: true
