@@ -262,7 +262,7 @@ components:
     id: dms-3ea402d1d7
     link: ''
     name: Status Board Update
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-3eb7cf9fb8:
     display: true
@@ -674,7 +674,7 @@ components:
     id: dms-b6a8280917
     link: ''
     name: Status Board Update
-    status: paused
+    status: healthy
     type: deadmanssnitch
   dms-c5f13bf739:
     display: true
